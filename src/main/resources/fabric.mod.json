@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "destinycraft",
+  "version": "1.0.0",
+  "name": "DestinyCraft",
+  "authors": [
+    "AI_Vanilla, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.destinycraft.DestinycraftMod"
+    ],
+    "client": [
+      "net.destinycraft.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
