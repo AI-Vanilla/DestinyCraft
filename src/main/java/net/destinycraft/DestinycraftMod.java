@@ -19,6 +19,8 @@ import org.apache.logging.log4j.LogManager;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.destinycraft.init.DestinycraftModTabs;
+
 public class DestinycraftMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final String MODID = "destinycraft";
@@ -26,6 +28,7 @@ public class DestinycraftMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing DestinycraftMod");
+		DestinycraftModTabs.load();
 
 		GeckoLib.initialize();
 	}

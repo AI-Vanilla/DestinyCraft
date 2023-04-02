@@ -1,10 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "DestinyCraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {},
-    "ja_jp": {}
+    "en_us": {
+      "itemGroup.destinycraft.destiny_craft": "Destiny Craft"
+    },
+    "ja_jp": {
+      "itemGroup.destinycraft.destiny_craft": "Destiny Craft"
+    }
   },
   "foldersRoot": {
     "name": "~",
