@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Destiny Craft Weapons",
+    "icon": {
+      "value": "Items.IRON_SWORD"
+    },
+    "showSearch": false
+  }
+}

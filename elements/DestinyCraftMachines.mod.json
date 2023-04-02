@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Destiny Craft Machines",
+    "icon": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "showSearch": false
+  }
+}

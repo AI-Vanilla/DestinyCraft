@@ -1,3 +1,9 @@
 {
-  "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials"
+  "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+  "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
+  "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+  "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
+  "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+  "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+  "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
 }

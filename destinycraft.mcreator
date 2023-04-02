@@ -3,6 +3,7 @@
     {
       "name": "DestinyCraftMaterials",
       "type": "tab",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "destiny_craft_materials",
@@ -10,16 +11,100 @@
         "files": []
       },
       "path": "~/Materials"
+    },
+    {
+      "name": "DestinyCraftTools",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_tools",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DestinyCraftWeapons",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_weapons",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "DestinyCraftFoods",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_foods",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Foods"
+    },
+    {
+      "name": "DestinyCraftMachines",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_machines",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "DestinyCraftArmors",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_armors",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "DestinyCraftServerSide",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_server_side",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Enemys"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials"
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
     },
     "ja_jp": {
-      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials"
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
     }
   },
   "foldersRoot": {
@@ -27,6 +112,46 @@
     "children": [
       {
         "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Foods",
+        "children": []
+      },
+      {
+        "name": "Machines",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Enemys",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
         "children": []
       }
     ]

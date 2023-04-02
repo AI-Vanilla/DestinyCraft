@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Destiny Craft Tools",
+    "icon": {
+      "value": "Items.IRON_PICKAXE"
+    },
+    "showSearch": false
+  }
+}
