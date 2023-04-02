@@ -12,6 +12,8 @@
  */
 package net.destinycraft;
 
+import software.bernie.geckolib3.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -25,5 +27,6 @@ public class DestinycraftMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing DestinycraftMod");
 
+		GeckoLib.initialize();
 	}
 }

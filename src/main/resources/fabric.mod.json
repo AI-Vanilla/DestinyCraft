@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "name": "DestinyCraft",
   "authors": [
-    "AI_Vanilla, MCreator"
+    "AI_Vanilla"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://twitter.com/Vanilla_JP",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "main": [

@@ -13,16 +13,19 @@
     "modid": "destinycraft",
     "modName": "DestinyCraft",
     "version": "1.0.0",
-    "author": "AI_Vanilla, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "author": "AI_Vanilla",
+    "websiteURL": "https://twitter.com/Vanilla_JP",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "fabric-1.19.2",
+    "credits": "https://github.com/AI-Vanilla/DestinyCraft",
     "modElementsPackage": "net.destinycraft",
     "lockBaseModFiles": false
   },
