@@ -1,29 +1,35 @@
 {
   "mod_elements": [
     {
-      "name": "DestinyCraft",
+      "name": "DestinyCraftMaterials",
       "type": "tab",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "destiny_craft",
+      "registry_name": "destiny_craft_materials",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Materials"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.destinycraft.destiny_craft": "Destiny Craft"
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials"
     },
     "ja_jp": {
-      "itemGroup.destinycraft.destiny_craft": "Destiny Craft"
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Materials",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "destinycraft",

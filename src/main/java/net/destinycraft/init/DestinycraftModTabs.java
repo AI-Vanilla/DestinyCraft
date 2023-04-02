@@ -12,9 +12,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 
 public class DestinycraftModTabs {
-	public static CreativeModeTab TAB_DESTINY_CRAFT;
+	public static CreativeModeTab TAB_DESTINY_CRAFT_MATERIALS;
 
 	public static void load() {
-		TAB_DESTINY_CRAFT = FabricItemGroupBuilder.create(new ResourceLocation("destinycraft", "destiny_craft")).icon(() -> new ItemStack(Blocks.LARGE_AMETHYST_BUD)).build();
+		TAB_DESTINY_CRAFT_MATERIALS = FabricItemGroupBuilder.create(new ResourceLocation("destinycraft", "destiny_craft_materials")).icon(() -> new ItemStack(Blocks.LARGE_AMETHYST_BUD)).build();
 	}
 }
