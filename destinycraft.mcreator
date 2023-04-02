@@ -83,6 +83,18 @@
         "files": []
       },
       "path": "~/Enemys"
+    },
+    {
+      "name": "DestinyCraftMisc",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_misc",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
     }
   ],
   "variable_elements": [],
@@ -92,6 +104,7 @@
       "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
@@ -101,6 +114,7 @@
       "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
@@ -152,6 +166,10 @@
       },
       {
         "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Misc",
         "children": []
       }
     ]
