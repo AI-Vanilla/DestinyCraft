@@ -3,7 +3,8 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {},
+    "ja_jp": {}
   },
   "foldersRoot": {
     "name": "~",
