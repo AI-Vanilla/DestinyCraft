@@ -1,10 +1,14 @@
 {
-  "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
   "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
   "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
-  "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+  "block.destinycraft.weapon_core_ore": "WeaponCore Ore",
   "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
-  "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+  "block.destinycraft.weapon_core_block": "Block of WeaponCore",
   "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+  "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+  "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+  "item.destinycraft.weapon_core": "WeaponCore",
+  "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+  "item.destinycraft.enhanced_core": "Enhanced Core",
   "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
 }

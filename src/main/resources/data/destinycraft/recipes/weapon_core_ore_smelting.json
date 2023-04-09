@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 10,
+  "ingredient": {
+    "item": "destinycraft:weapon_core_ore"
+  },
+  "result": "destinycraft:weapon_core"
+}

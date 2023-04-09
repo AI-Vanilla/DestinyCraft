@@ -1,10 +1,14 @@
 {
-  "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
   "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
   "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
-  "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+  "block.destinycraft.weapon_core_ore": "武器のコアの原石",
   "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
-  "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+  "block.destinycraft.weapon_core_block": "武器のコアのブロック",
   "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+  "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+  "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+  "item.destinycraft.weapon_core": "武器のコア",
+  "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+  "item.destinycraft.enhanced_core": "強化のコア",
   "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
 }

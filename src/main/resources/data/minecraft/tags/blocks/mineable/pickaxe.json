@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "destinycraft:weapon_core_block",
+    "destinycraft:weapon_core_ore"
+  ]
+}

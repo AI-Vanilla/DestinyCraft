@@ -95,29 +95,158 @@
         "files": []
       },
       "path": "~/Misc"
+    },
+    {
+      "name": "WeaponCore",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft/models/item/weapon_core.json",
+          "src/main/java/net/destinycraft/item/WeaponCoreItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/block/WeaponCoreOreBlock.java",
+          "src/main/java/net/destinycraft/world/features/ores/WeaponCoreOreFeature.java",
+          "src/main/resources/assets/destinycraft/models/block/weapon_core_ore.json",
+          "src/main/resources/assets/destinycraft/models/item/weapon_core_ore.json",
+          "src/main/resources/assets/destinycraft/blockstates/weapon_core_ore.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/block/WeaponCoreBlockBlock.java",
+          "src/main/resources/assets/destinycraft/models/item/weapon_core_block.json",
+          "src/main/resources/assets/destinycraft/blockstates/weapon_core_block.json",
+          "src/main/resources/assets/destinycraft/models/block/weapon_core_block.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft/recipes/weapon_core_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft/recipes/weapon_core_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft/recipes/weapon_core_ore_smelting.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "EnhancedCore",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft/models/item/enhanced_core.json",
+          "src/main/java/net/destinycraft/item/EnhancedCoreItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "REnhancedCore",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_enhanced_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft/recipes/r_enhanced_core.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
-      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "block.destinycraft.weapon_core_ore": "WeaponCore Ore",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
-      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "block.destinycraft.weapon_core_block": "Block of WeaponCore",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "item.destinycraft.weapon_core": "WeaponCore",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft.enhanced_core": "Enhanced Core",
       "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
     },
     "ja_jp": {
-      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
-      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "block.destinycraft.weapon_core_ore": "武器のコアの原石",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
-      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "block.destinycraft.weapon_core_block": "武器のコアのブロック",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "item.destinycraft.weapon_core": "武器のコア",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft.enhanced_core": "強化のコア",
       "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
     }
   },
@@ -170,6 +299,14 @@
       },
       {
         "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Overlay",
+        "children": []
+      },
+      {
+        "name": "Procedure",
         "children": []
       }
     ]

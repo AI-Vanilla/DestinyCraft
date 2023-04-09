@@ -20,6 +20,9 @@ import org.apache.logging.log4j.LogManager;
 import net.fabricmc.api.ModInitializer;
 
 import net.destinycraft.init.DestinycraftModTabs;
+import net.destinycraft.init.DestinycraftModItems;
+import net.destinycraft.init.DestinycraftModFeatures;
+import net.destinycraft.init.DestinycraftModBlocks;
 
 public class DestinycraftMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
@@ -29,6 +32,11 @@ public class DestinycraftMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing DestinycraftMod");
 		DestinycraftModTabs.load();
+
+		DestinycraftModBlocks.load();
+		DestinycraftModItems.load();
+
+		DestinycraftModFeatures.load();
 
 		GeckoLib.initialize();
 	}
