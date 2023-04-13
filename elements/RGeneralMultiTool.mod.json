@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "CUSTOM:GeneralAxe"
+      },
+      {
+        "value": "CUSTOM:GeneralShovel"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "CUSTOM:GeneralSword"
+      },
+      {
+        "value": "CUSTOM:GeneralPickaxe"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "Items.STRING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GeneralMultiTool"
+    },
+    "name": "r_general_multi_tool",
+    "namespace": "mod"
+  }
+}

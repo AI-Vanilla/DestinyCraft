@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "general_shovel",
+    "customModelName": "Normal",
+    "name": "General Shovel",
+    "specialInfo": [
+      "これは掘削王になるための一歩だ。",
+      "-----",
+      "+汎用フレーム",
+      "程よい握り心地。安定した性能。"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftTools"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 286,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WeaponCore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

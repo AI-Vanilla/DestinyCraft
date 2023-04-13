@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "general_sword",
+    "customModelName": "Normal",
+    "name": "General Sword",
+    "specialInfo": [
+      "これは冒険王になるための一歩だ。",
+      "-----",
+      "+汎用フレーム",
+      "程よい握り心地。安定した威力。"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 15,
+    "damageVsEntity": 9.0,
+    "usageCount": 470,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WeaponCore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

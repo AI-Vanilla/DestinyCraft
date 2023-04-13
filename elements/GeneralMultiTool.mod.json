@@ -1,0 +1,32 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "general_multitool",
+    "customModelName": "Normal",
+    "name": "General Multi Tool",
+    "specialInfo": [
+      "組み合わせたら無敵になれるのか？",
+      "-----",
+      "+不安定な複合フレーム",
+      "性能は良いが、握りが悪い。"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftTools"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.1,
+    "enchantability": 2,
+    "damageVsEntity": 14.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

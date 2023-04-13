@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "general_hoe",
+    "customModelName": "Normal",
+    "name": "General Hoe",
+    "specialInfo": [
+      "これは農業王になるための一歩だ。",
+      "-----",
+      "+汎用フレーム",
+      "程よい握り心地。安定した性能。"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftTools"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 1.0,
+    "usageCount": 2980,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WeaponCore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
