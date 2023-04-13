@@ -8,7 +8,7 @@
     "name": "WeaponCore",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:DestinyCraftMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,
