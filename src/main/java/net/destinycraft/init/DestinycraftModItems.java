@@ -16,6 +16,7 @@ import net.destinycraft.item.GeneralPickaxeItem;
 import net.destinycraft.item.GeneralMultiToolItem;
 import net.destinycraft.item.GeneralHoeItem;
 import net.destinycraft.item.GeneralAxeItem;
+import net.destinycraft.item.EnhancedPrismItem;
 import net.destinycraft.item.EnhancedCoreItem;
 import net.destinycraft.DestinycraftMod;
 
@@ -30,6 +31,7 @@ public class DestinycraftModItems {
 	public static Item GENERAL_SHOVEL;
 	public static Item GENERAL_HOE;
 	public static Item GENERAL_MULTI_TOOL;
+	public static Item ENHANCED_PRISM;
 
 	public static void load() {
 		WEAPON_CORE_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DestinycraftMod.MODID, "weapon_core_block"),
@@ -44,5 +46,6 @@ public class DestinycraftModItems {
 		GENERAL_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DestinycraftMod.MODID, "general_shovel"), new GeneralShovelItem());
 		GENERAL_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DestinycraftMod.MODID, "general_hoe"), new GeneralHoeItem());
 		GENERAL_MULTI_TOOL = Registry.register(Registry.ITEM, new ResourceLocation(DestinycraftMod.MODID, "general_multi_tool"), new GeneralMultiToolItem());
+		ENHANCED_PRISM = Registry.register(Registry.ITEM, new ResourceLocation(DestinycraftMod.MODID, "enhanced_prism"), new EnhancedPrismItem());
 	}
 }
