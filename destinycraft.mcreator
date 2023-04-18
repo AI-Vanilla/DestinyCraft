@@ -390,6 +390,19 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Shardofpower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shardofpower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft/advancements/shardofpower.json"
+        ]
+      },
+      "path": "~/Achievement"
     }
   ],
   "variable_elements": [],
@@ -397,6 +410,7 @@
   "language_map": {
     "en_us": {
       "item.destinycraft.general_hoe": "General Hoe",
+      "advancements.shardofpower.title": "Shard of Power",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "item.destinycraft.general_multi_tool": "General Multi Tool",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
@@ -404,6 +418,7 @@
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "block.destinycraft.weapon_core_block": "Block of WeaponCore",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
       "item.destinycraft.general_axe": "General Axe",
       "item.destinycraft.general_pickaxe": "General Pickaxe",
       "item.destinycraft.general_shovel": "General Shovel",
@@ -417,6 +432,7 @@
     },
     "ja_jp": {
       "item.destinycraft.general_hoe": "汎用的なクワ",
+      "advancements.shardofpower.title": "力のかけら",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "item.destinycraft.general_multi_tool": "汎用ツール",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
@@ -424,6 +440,7 @@
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "block.destinycraft.weapon_core_block": "武器のコアのブロック",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。,-----,武器のコアは、強化のコアを作成したり,汎用ツールを作成するのに必要だ。",
       "item.destinycraft.general_axe": "汎用的なアックス",
       "item.destinycraft.general_pickaxe": "汎用的なピッケル",
       "item.destinycraft.general_shovel": "汎用的なシャベル",
