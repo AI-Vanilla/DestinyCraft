@@ -432,6 +432,21 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "AscendantShard",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascendant_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/AscendantShardItem.java",
+          "src/main/resources/assets/destinycraft/models/item/ascendant_shard.json"
+        ]
+      },
+      "path": "~/Materials"
     }
   ],
   "variable_elements": [],
@@ -439,6 +454,7 @@
   "language_map": {
     "en_us": {
       "item.destinycraft.general_hoe": "General Hoe",
+      "item.destinycraft.ascendant_shard": "Ascendant Shard",
       "item.destinycraft.enhanced_prism": "Enhanced Prism",
       "advancements.shardofpower.title": "Shard of Power",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
@@ -462,6 +478,7 @@
     },
     "ja_jp": {
       "item.destinycraft.general_hoe": "汎用的なクワ",
+      "item.destinycraft.ascendant_shard": "アセンダントの破片",
       "item.destinycraft.enhanced_prism": "強化プリズム",
       "advancements.shardofpower.title": "力のかけら",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
