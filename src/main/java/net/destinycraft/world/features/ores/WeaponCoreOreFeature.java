@@ -29,7 +29,7 @@ import net.minecraft.core.Holder;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
 
-import net.destinycraft.init.DestinycraftModBlocks;
+import net.destinycraft.init.Destinycraft2ModBlocks;
 
 import java.util.function.Predicate;
 import java.util.List;
@@ -41,8 +41,8 @@ public class WeaponCoreOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new WeaponCoreOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("destinycraft:weapon_core_ore", FEATURE, new OreConfiguration(WeaponCoreOreFeatureRuleTest.INSTANCE, DestinycraftModBlocks.WEAPON_CORE_ORE.defaultBlockState(), 9));
-		PLACED_FEATURE = PlacementUtils.register("destinycraft:weapon_core_ore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("destinycraft2:weapon_core_ore", FEATURE, new OreConfiguration(WeaponCoreOreFeatureRuleTest.INSTANCE, Destinycraft2ModBlocks.WEAPON_CORE_ORE.defaultBlockState(), 9));
+		PLACED_FEATURE = PlacementUtils.register("destinycraft2:weapon_core_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(86)), BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -67,7 +67,7 @@ public class WeaponCoreOreFeature extends OreFeature {
 	private static class WeaponCoreOreFeatureRuleTest extends RuleTest {
 		static final WeaponCoreOreFeatureRuleTest INSTANCE = new WeaponCoreOreFeatureRuleTest();
 		static final com.mojang.serialization.Codec<WeaponCoreOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<WeaponCoreOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("destinycraft:weapon_core_ore_match"), () -> codec);
+		static final RuleTestType<WeaponCoreOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("destinycraft2:weapon_core_ore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, RandomSource random) {
 			boolean blockCriteria = false;

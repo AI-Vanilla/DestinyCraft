@@ -1,0 +1,630 @@
+{
+  "mod_elements": [
+    {
+      "name": "DestinyCraftMaterials",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_materials",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "DestinyCraftTools",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_tools",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DestinyCraftWeapons",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_weapons",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "DestinyCraftFoods",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_foods",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Foods"
+    },
+    {
+      "name": "DestinyCraftMachines",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_machines",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "DestinyCraftArmors",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_armors",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "DestinyCraftServerSide",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_server_side",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Enemys"
+    },
+    {
+      "name": "DestinyCraftMisc",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_misc",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WeaponCore",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/WeaponCoreItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/weapon_core.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/block/WeaponCoreOreBlock.java",
+          "src/main/resources/assets/destinycraft2/models/block/weapon_core_ore.json",
+          "src/main/java/net/destinycraft/world/features/ores/WeaponCoreOreFeature.java",
+          "src/main/resources/assets/destinycraft2/blockstates/weapon_core_ore.json",
+          "src/main/resources/assets/destinycraft2/models/item/weapon_core_ore.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/weapon_core_block.json",
+          "src/main/resources/assets/destinycraft2/blockstates/weapon_core_block.json",
+          "src/main/java/net/destinycraft/block/WeaponCoreBlockBlock.java",
+          "src/main/resources/assets/destinycraft2/models/block/weapon_core_block.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/weapon_core_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/weapon_core_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/weapon_core_ore_smelting.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "EnhancedCore",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/enhanced_core.json",
+          "src/main/java/net/destinycraft/item/EnhancedCoreItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "REnhancedCore",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_enhanced_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_enhanced_core.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GeneralPickaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_pickaxe.json",
+          "src/main/java/net/destinycraft/item/GeneralPickaxeItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralAxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_axe.json",
+          "src/main/java/net/destinycraft/item/GeneralAxeItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralSword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/GeneralSwordItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/general_sword.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralShovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/GeneralShovelItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/general_shovel.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralHoe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_hoe.json",
+          "src/main/java/net/destinycraft/item/GeneralHoeItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralAxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_axe_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralSwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_sword_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralShovelRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralHoeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralMultiTool",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_multi_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_multi_tool.json",
+          "src/main/java/net/destinycraft/item/GeneralMultiToolItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "RGeneralMultiTool",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_general_multi_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_general_multi_tool.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Shardofpower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shardofpower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/shardofpower.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "EnhancedPrism",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_prism",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/EnhancedPrismItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/enhanced_prism.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "REnhancedPrism",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_enhanced_prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_enhanced_prism.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AscendantShard",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascendant_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/AscendantShardItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/ascendant_shard.json"
+        ]
+      },
+      "path": "~/Materials"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.destinycraft.ascendant_shard": "Ascendant Shard",
+      "item.destinycraft.enhanced_prism": "Enhanced Prism",
+      "advancements.shardofpower.title": "Shard of Power",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "block.destinycraft.weapon_core_ore": "WeaponCore Ore",
+      "block.destinycraft2.weapon_core_ore": "WeaponCore Ore",
+      "item.destinycraft2.ascendant_shard": "Ascendant Shard",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "item.destinycraft.general_pickaxe": "General Pickaxe",
+      "item.destinycraft.general_shovel": "General Shovel",
+      "item.destinycraft2.weapon_core": "WeaponCore",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
+      "item.destinycraft.weapon_core": "WeaponCore",
+      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
+      "block.destinycraft2.weapon_core_block": "Block of WeaponCore",
+      "item.destinycraft2.general_pickaxe": "General Pickaxe",
+      "item.destinycraft.enhanced_core": "Enhanced Core",
+      "item.destinycraft2.enhanced_core": "Enhanced Core",
+      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "item.destinycraft2.general_hoe": "General Hoe",
+      "item.destinycraft.general_hoe": "General Hoe",
+      "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
+      "item.destinycraft.general_multi_tool": "General Multi Tool",
+      "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
+      "block.destinycraft.weapon_core_block": "Block of WeaponCore",
+      "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft2.enhanced_prism": "Enhanced Prism",
+      "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
+      "item.destinycraft2.general_axe": "General Axe",
+      "item.destinycraft.general_axe": "General Axe",
+      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
+      "item.destinycraft2.general_multi_tool": "General Multi Tool",
+      "item.destinycraft2.general_sword": "General Sword",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft.general_sword": "General Sword",
+      "item.destinycraft2.general_shovel": "General Shovel",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
+    },
+    "ja_jp": {
+      "item.destinycraft.ascendant_shard": "アセンダントの破片",
+      "item.destinycraft.enhanced_prism": "強化プリズム",
+      "advancements.shardofpower.title": "力のかけら",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "block.destinycraft.weapon_core_ore": "武器のコアの原石",
+      "block.destinycraft2.weapon_core_ore": "WeaponCore Ore",
+      "item.destinycraft2.ascendant_shard": "Ascendant Shard",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "item.destinycraft.general_pickaxe": "汎用的なピッケル",
+      "item.destinycraft.general_shovel": "汎用的なシャベル",
+      "item.destinycraft2.weapon_core": "WeaponCore",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
+      "item.destinycraft.weapon_core": "武器のコア",
+      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
+      "block.destinycraft2.weapon_core_block": "Block of WeaponCore",
+      "item.destinycraft2.general_pickaxe": "General Pickaxe",
+      "item.destinycraft.enhanced_core": "強化のコア",
+      "item.destinycraft2.enhanced_core": "Enhanced Core",
+      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "item.destinycraft2.general_hoe": "General Hoe",
+      "item.destinycraft.general_hoe": "汎用的なクワ",
+      "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
+      "item.destinycraft.general_multi_tool": "汎用ツール",
+      "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
+      "block.destinycraft.weapon_core_block": "武器のコアのブロック",
+      "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft2.enhanced_prism": "Enhanced Prism",
+      "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
+      "item.destinycraft2.general_axe": "General Axe",
+      "item.destinycraft.general_axe": "汎用的なアックス",
+      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
+      "item.destinycraft2.general_multi_tool": "General Multi Tool",
+      "item.destinycraft2.general_sword": "General Sword",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft.general_sword": "汎用的なソード",
+      "item.destinycraft2.general_shovel": "General Shovel",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Foods",
+        "children": []
+      },
+      {
+        "name": "Machines",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Enemys",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Overlay",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      },
+      {
+        "name": "Achievement",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "destinycraft2",
+    "modName": "DestinyCraft2",
+    "version": "0.1",
+    "author": "AI_Vanilla",
+    "websiteURL": "https://twitter.com/Vanilla_JP",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "https://github.com/AI-Vanilla/DestinyCraft",
+    "modElementsPackage": "net.destinycraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

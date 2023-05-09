@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "destinycraft",
+  "id": "destinycraft2",
   "version": "0.1",
-  "name": "DestinyCraft",
+  "name": "DestinyCraft2",
   "authors": [
     "AI_Vanilla"
   ],
@@ -14,7 +14,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.destinycraft.DestinycraftMod"
+      "net.destinycraft.Destinycraft2Mod"
     ],
     "client": [
       "net.destinycraft.ClientInit"
@@ -27,6 +27,6 @@
     "java": ">=17"
   },
   "mixins": [
-    "destinycraft.mixins.json"
+    "destinycraft2.mixins.json"
   ]
 }

@@ -17,7 +17,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
-import net.destinycraft.init.DestinycraftModBlocks;
+import net.destinycraft.init.Destinycraft2ModBlocks;
 
 import java.util.List;
 import java.util.Collections;
@@ -44,6 +44,6 @@ public class WeaponCoreBlockBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(DestinycraftModBlocks.WEAPON_CORE_BLOCK, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(Destinycraft2ModBlocks.WEAPON_CORE_BLOCK, RenderType.solid());
 	}
 }

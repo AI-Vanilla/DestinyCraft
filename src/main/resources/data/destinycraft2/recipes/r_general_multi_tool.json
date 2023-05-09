@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "destinycraft2:general_axe"
+    },
+    "2": {
+      "item": "destinycraft2:general_shovel"
+    },
+    "3": {
+      "item": "destinycraft2:enhanced_core"
+    },
+    "4": {
+      "item": "destinycraft2:general_sword"
+    },
+    "5": {
+      "item": "destinycraft2:general_pickaxe"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "destinycraft2:enhanced_core"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:general_multi_tool",
+    "count": 1
+  }
+}
