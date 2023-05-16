@@ -394,6 +394,7 @@
     {
       "name": "Shardofpower",
       "type": "achievement",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shardofpower",
@@ -447,6 +448,34 @@
         ]
       },
       "path": "~/Materials"
+    },
+    {
+      "name": "GetThePrism",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_the_prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/get_the_prism.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "EZMasterwork",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ez_masterwork",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/ez_masterwork.json"
+        ]
+      },
+      "path": "~/Achievement"
     }
   ],
   "variable_elements": [],
@@ -461,6 +490,7 @@
       "block.destinycraft2.weapon_core_ore": "WeaponCore Ore",
       "item.destinycraft2.ascendant_shard": "Ascendant Shard",
       "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.get_the_prism.title": "Get The Prism",
       "item.destinycraft.general_pickaxe": "General Pickaxe",
       "item.destinycraft.general_shovel": "General Shovel",
       "item.destinycraft2.weapon_core": "WeaponCore",
@@ -476,10 +506,12 @@
       "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
       "item.destinycraft2.general_hoe": "General Hoe",
       "item.destinycraft.general_hoe": "General Hoe",
+      "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "item.destinycraft.general_multi_tool": "General Multi Tool",
       "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
       "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
+      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "block.destinycraft.weapon_core_block": "Block of WeaponCore",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
@@ -490,6 +522,7 @@
       "item.destinycraft.general_axe": "General Axe",
       "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
       "item.destinycraft2.general_multi_tool": "General Multi Tool",
+      "advancements.ez_masterwork.title": "EZ Masterwork",
       "item.destinycraft2.general_sword": "General Sword",
       "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
       "item.destinycraft.general_sword": "General Sword",
@@ -505,6 +538,7 @@
       "block.destinycraft2.weapon_core_ore": "武器のコアの原石",
       "item.destinycraft2.ascendant_shard": "アセンダントの破片",
       "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.get_the_prism.title": "プリズムストーン",
       "item.destinycraft.general_pickaxe": "汎用的なピッケル",
       "item.destinycraft.general_shovel": "汎用的なシャベル",
       "item.destinycraft2.weapon_core": "武器のコア",
@@ -520,10 +554,12 @@
       "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
       "item.destinycraft2.general_hoe": "汎用的なクワ",
       "item.destinycraft.general_hoe": "汎用的なクワ",
+      "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "item.destinycraft.general_multi_tool": "汎用マルチツール",
       "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
       "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
+      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "block.destinycraft.weapon_core_block": "武器のコアのブロック",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
@@ -534,6 +570,7 @@
       "item.destinycraft.general_axe": "汎用的なアックス",
       "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
       "item.destinycraft2.general_multi_tool": "汎用マルチツール",
+      "advancements.ez_masterwork.title": "マスターワークの近道",
       "item.destinycraft2.general_sword": "汎用的なソード",
       "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
       "item.destinycraft.general_sword": "汎用的なソード",
