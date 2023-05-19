@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:green_concrete"
+    },
+    "title": {
+      "translate": "advancements.public_event_2.title"
+    },
+    "description": {
+      "translate": "advancements.public_event_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "public_event_2": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "destinycraft2:public_event_1"
+}
