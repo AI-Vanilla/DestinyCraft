@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "公開行事",
-    "achievementDescription": "英雄公開イベントを完了しろ。",
+    "achievementDescription": "英雄公開イベントを完了しろ",
     "achievementIcon": {
       "value": "Blocks.CONCRETE#13"
     },
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:PublicEvent1"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"138\" y=\"142\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"55\" y=\"73\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }
