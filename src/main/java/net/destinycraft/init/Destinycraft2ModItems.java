@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
 import net.destinycraft.item.WeaponCoreItem;
+import net.destinycraft.item.MWIronSwordItem;
 import net.destinycraft.item.GeneralSwordItem;
 import net.destinycraft.item.GeneralShovelItem;
 import net.destinycraft.item.GeneralPickaxeItem;
@@ -34,6 +35,7 @@ public class Destinycraft2ModItems {
 	public static Item GENERAL_MULTI_TOOL;
 	public static Item ENHANCED_PRISM;
 	public static Item ASCENDANT_SHARD;
+	public static Item MW_IRON_SWORD;
 
 	public static void load() {
 		WEAPON_CORE_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "weapon_core_block"),
@@ -50,5 +52,6 @@ public class Destinycraft2ModItems {
 		GENERAL_MULTI_TOOL = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "general_multi_tool"), new GeneralMultiToolItem());
 		ENHANCED_PRISM = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "enhanced_prism"), new EnhancedPrismItem());
 		ASCENDANT_SHARD = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "ascendant_shard"), new AscendantShardItem());
+		MW_IRON_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "mw_iron_sword"), new MWIronSwordItem());
 	}
 }
