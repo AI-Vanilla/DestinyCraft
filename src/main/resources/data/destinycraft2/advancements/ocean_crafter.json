@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water"
+    },
+    "title": {
+      "translate": "advancements.ocean_crafter.title"
+    },
+    "description": {
+      "translate": "advancements.ocean_crafter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ocean_crafter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "ocean"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "destinycraft2:welcome_to_destiny_craft_2"
+}

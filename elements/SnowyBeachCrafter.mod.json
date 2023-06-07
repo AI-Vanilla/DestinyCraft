@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "輝く砂浜",
+    "achievementDescription": "雪の砂浜へ行け。",
+    "achievementIcon": {
+      "value": "Blocks.SNOW"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 50,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:WelcomeToDestinyCraft2"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"81\" y=\"116\"><field name=\"biome\">cold_beach</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

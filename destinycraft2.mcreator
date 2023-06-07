@@ -588,33 +588,225 @@
         ]
       },
       "path": "~/Achievement"
+    },
+    {
+      "name": "SnowyPlainsCrafter",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_plains_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/snowy_plains_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "IceSpikesCrafter",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_spikes_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/ice_spikes_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "PackedIceCrafter",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_ice_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/packed_ice_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "SnowyTaigaCrafter",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_taiga_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/snowy_taiga_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "FrozenRiverCrafter",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_river_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/frozen_river_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "SnowyBeachCrafter",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_beach_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/snowy_beach_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "FlowerForestCrafter",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_forest_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/flower_forest_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GetTheAllium",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_the_allium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/get_the_allium.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "MushroomFields",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/mushroom_fields.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "JaggedPeaksCrafter",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jagged_peaks_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/jagged_peaks_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "OceanCrafter",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocean_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/ocean_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GetTheSponge",
+      "type": "achievement",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_the_sponge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/get_the_sponge.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "DeepDarkCrafter",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_dark_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/deep_dark_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.ocean_crafter.descr": "海洋へ行け。",
+      "advancements.jagged_peaks_crafter.title": "山の頂",
+      "advancements.snowy_plains_crafter.title": "雪原のクラフター",
       "block.destinycraft.weapon_core_ore": "WeaponCore Ore",
       "block.destinycraft2.weapon_core_ore": "WeaponCore Ore",
       "item.destinycraft2.ascendant_shard": "Ascendant Shard",
       "advancements.get_the_prism.title": "Get The Prism",
-      "item.destinycraft.general_pickaxe": "General Pickaxe",
+      "advancements.snowy_beach_crafter.title": "輝く砂浜",
       "item.destinycraft.general_shovel": "General Shovel",
+      "item.destinycraft.general_pickaxe": "General Pickaxe",
       "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "advancements.public_event_3.title": "公開処刑",
+      "advancements.flower_forest_crafter.title": "久遠の花園",
       "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
       "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
       "block.destinycraft2.weapon_core_block": "Block of WeaponCore",
       "item.destinycraft2.enhanced_core": "Enhanced Core",
       "advancements.public_event_1.descr": "公開イベントを完了しろ。",
       "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "advancements.packed_ice_crafter.title": "永久凍土",
       "advancements.welcome_to_destiny_craft_2.descr": "ようこそ",
+      "advancements.snowy_taiga_crafter.title": "大河のクラフター",
+      "advancements.get_the_sponge.title": "海賊王",
       "advancements.public_event_1.title": "公開事業",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
+      "advancements.mushroom_fields.descr": "キノコ島へ行け。",
       "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
       "item.destinycraft2.enhanced_prism": "Enhanced Prism",
       "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.ocean_crafter.title": "海洋のクラフター",
       "item.destinycraft2.general_axe": "General Axe",
       "item.destinycraft.general_axe": "General Axe",
       "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
@@ -624,56 +816,82 @@
       "item.destinycraft.general_sword": "General Sword",
       "item.destinycraft2.general_shovel": "General Shovel",
       "item.destinycraft.ascendant_shard": "Ascendant Shard",
+      "advancements.frozen_river_crafter.title": "川も凍り付く",
       "item.destinycraft.enhanced_prism": "Enhanced Prism",
       "advancements.public_event_2.descr": "英雄公開イベントを完了しろ",
       "advancements.shardofpower.title": "Shard of Power",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
       "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.packed_ice_crafter.descr": "氷塊を手に入れろ。",
+      "advancements.deep_dark_crafter.descr": "古代都市へ行け。",
       "item.destinycraft2.weapon_core": "WeaponCore",
       "advancements.mwis.title": "初心マスター",
+      "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
+      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
       "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
       "item.destinycraft.weapon_core": "WeaponCore",
       "item.destinycraft2.general_pickaxe": "General Pickaxe",
       "item.destinycraft.enhanced_core": "Enhanced Core",
       "item.destinycraft2.general_hoe": "General Hoe",
       "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
+      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "advancements.flower_forest_crafter.descr": "花の森へ行け。",
       "item.destinycraft.general_hoe": "General Hoe",
       "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
       "item.destinycraft.general_multi_tool": "General Multi Tool",
+      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
       "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
       "advancements.mwis.descr": "鉄のソードをマスターワークしろ。アイテムをマスターワークすると、その性能が強化される。",
       "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
+      "advancements.get_the_allium.descr": "アリウムを入手しろ。",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
       "block.destinycraft.weapon_core_block": "Block of WeaponCore",
+      "advancements.jagged_peaks_crafter.descr": "尖った山頂へ行け。",
+      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
       "item.destinycraft2.mw_iron_sword": "Iron Sword [MASTERWORK]",
+      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
       "advancements.public_event_2.title": "公開行事",
+      "advancements.snowy_taiga_crafter.descr": "雪のタイガに行け。",
       "item.destinycraft2.general_sword": "General Sword",
+      "advancements.mushroom_fields.title": "キノコの楽園",
       "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
     },
     "ja_jp": {
+      "advancements.ocean_crafter.descr": "海洋へ行け。",
+      "advancements.jagged_peaks_crafter.title": "山の頂",
+      "advancements.snowy_plains_crafter.title": "雪原のクラフター",
       "block.destinycraft.weapon_core_ore": "武器のコアの原石",
       "block.destinycraft2.weapon_core_ore": "武器のコアの原石",
       "item.destinycraft2.ascendant_shard": "アセンダントの破片",
       "advancements.get_the_prism.title": "プリズムストーン",
-      "item.destinycraft.general_shovel": "汎用的なシャベル",
+      "advancements.snowy_beach_crafter.title": "輝く砂浜",
       "item.destinycraft.general_pickaxe": "汎用的なピッケル",
+      "item.destinycraft.general_shovel": "汎用的なシャベル",
       "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "advancements.public_event_3.title": "公開処刑",
+      "advancements.flower_forest_crafter.title": "久遠の花園",
       "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
       "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
       "block.destinycraft2.weapon_core_block": "武器のコアのブロック",
       "item.destinycraft2.enhanced_core": "強化のコア",
       "advancements.public_event_1.descr": "公開イベントを完了しろ。",
       "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "advancements.packed_ice_crafter.title": "永久凍土",
       "advancements.welcome_to_destiny_craft_2.descr": "ようこそ",
+      "advancements.snowy_taiga_crafter.title": "大河のクラフター",
+      "advancements.get_the_sponge.title": "海賊王",
       "advancements.public_event_1.title": "公開事業",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
+      "advancements.mushroom_fields.descr": "キノコ島へ行け。",
       "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
       "item.destinycraft2.enhanced_prism": "強化プリズム",
       "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.ocean_crafter.title": "海洋のクラフター",
       "item.destinycraft2.general_axe": "汎用的なアックス",
       "item.destinycraft.general_axe": "汎用的なアックス",
       "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
@@ -683,32 +901,48 @@
       "item.destinycraft.general_sword": "汎用的なソード",
       "item.destinycraft2.general_shovel": "汎用的なシャベル",
       "item.destinycraft.ascendant_shard": "アセンダントの破片",
+      "advancements.frozen_river_crafter.title": "川も凍り付く",
       "item.destinycraft.enhanced_prism": "強化プリズム",
       "advancements.public_event_2.descr": "英雄公開イベントを完了しろ",
       "advancements.shardofpower.title": "力のかけら",
       "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
       "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.packed_ice_crafter.descr": "氷塊を手に入れろ。",
+      "advancements.deep_dark_crafter.descr": "古代都市へ行け。",
       "item.destinycraft2.weapon_core": "武器のコア",
       "advancements.mwis.title": "初心マスター",
+      "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
+      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
       "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
       "item.destinycraft.weapon_core": "武器のコア",
       "item.destinycraft2.general_pickaxe": "汎用的なピッケル",
       "item.destinycraft.enhanced_core": "強化のコア",
       "item.destinycraft2.general_hoe": "汎用的なクワ",
       "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
+      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "advancements.flower_forest_crafter.descr": "花の森へ行け。",
       "item.destinycraft.general_hoe": "汎用的なクワ",
       "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
       "item.destinycraft.general_multi_tool": "汎用マルチツール",
+      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
       "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
       "advancements.mwis.descr": "鉄のソードをマスターワークしろ",
       "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
+      "advancements.get_the_allium.descr": "アリウムを入手しろ。",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
       "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
       "block.destinycraft.weapon_core_block": "武器のコアのブロック",
+      "advancements.jagged_peaks_crafter.descr": "尖った山頂へ行け。",
+      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
       "item.destinycraft2.mw_iron_sword": "鉄のソード[マスターワーク]",
+      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
       "advancements.public_event_2.title": "公開行事",
+      "advancements.snowy_taiga_crafter.descr": "雪のタイガに行け。",
       "item.destinycraft2.general_sword": "汎用的なソード",
+      "advancements.mushroom_fields.title": "キノコの楽園",
       "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
     }
   },

@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "ディープダークファンタジー",
+    "achievementDescription": "古代都市へ行け。",
+    "achievementIcon": {
+      "value": "Blocks.SCULK"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 150,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:WelcomeToDestinyCraft2"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"56\" y=\"135\"><field name=\"biome\">deep_dark</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}
