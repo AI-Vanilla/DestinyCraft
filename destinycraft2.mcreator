@@ -770,6 +770,48 @@
         ]
       },
       "path": "~/Achievement"
+    },
+    {
+      "name": "Legends",
+      "type": "achievement",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legends",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/legends.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Genei10",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genei_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/genei_10.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Genei20",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genei_20",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/genei_20.json"
+        ]
+      },
+      "path": "~/Achievement"
     }
   ],
   "variable_elements": [],
@@ -777,11 +819,14 @@
   "language_map": {
     "en_us": {
       "advancements.ocean_crafter.descr": "海洋へ行け。",
+      "advancements.genei_10.title": "幻影の入門者",
+      "advancements.genei_20.title": "幻影の投影者",
       "advancements.jagged_peaks_crafter.title": "山の頂",
       "advancements.snowy_plains_crafter.title": "雪原のクラフター",
       "block.destinycraft.weapon_core_ore": "WeaponCore Ore",
       "block.destinycraft2.weapon_core_ore": "WeaponCore Ore",
       "item.destinycraft2.ascendant_shard": "Ascendant Shard",
+      "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
       "advancements.get_the_prism.title": "Get The Prism",
       "advancements.snowy_beach_crafter.title": "輝く砂浜",
       "item.destinycraft.general_shovel": "General Shovel",
@@ -792,6 +837,7 @@
       "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
       "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
       "block.destinycraft2.weapon_core_block": "Block of WeaponCore",
+      "advancements.genei_20.descr": "幻影の間第20層を完了しろ。",
       "item.destinycraft2.enhanced_core": "Enhanced Core",
       "advancements.public_event_1.descr": "公開イベントを完了しろ。",
       "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
@@ -829,6 +875,7 @@
       "item.destinycraft2.weapon_core": "WeaponCore",
       "advancements.mwis.title": "初心マスター",
       "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
+      "advancements.legends.title": "伝説",
       "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
       "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
       "item.destinycraft.weapon_core": "WeaponCore",
@@ -837,6 +884,7 @@
       "item.destinycraft2.general_hoe": "General Hoe",
       "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
       "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "advancements.legends.descr": "栄光あれ。",
       "advancements.flower_forest_crafter.descr": "花の森へ行け。",
       "item.destinycraft.general_hoe": "General Hoe",
       "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
@@ -862,11 +910,14 @@
     },
     "ja_jp": {
       "advancements.ocean_crafter.descr": "海洋へ行け。",
+      "advancements.genei_10.title": "幻影の入門者",
+      "advancements.genei_20.title": "幻影の投影者",
       "advancements.jagged_peaks_crafter.title": "山の頂",
       "advancements.snowy_plains_crafter.title": "雪原のクラフター",
       "block.destinycraft.weapon_core_ore": "武器のコアの原石",
       "block.destinycraft2.weapon_core_ore": "武器のコアの原石",
       "item.destinycraft2.ascendant_shard": "アセンダントの破片",
+      "advancements.genei_10.descr": "幻影の間10階を完了しろ。",
       "advancements.get_the_prism.title": "プリズムストーン",
       "advancements.snowy_beach_crafter.title": "輝く砂浜",
       "item.destinycraft.general_pickaxe": "汎用的なピッケル",
@@ -877,6 +928,7 @@
       "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
       "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
       "block.destinycraft2.weapon_core_block": "武器のコアのブロック",
+      "advancements.genei_20.descr": "幻影の間第20層を完了しろ。",
       "item.destinycraft2.enhanced_core": "強化のコア",
       "advancements.public_event_1.descr": "公開イベントを完了しろ。",
       "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
@@ -914,6 +966,7 @@
       "item.destinycraft2.weapon_core": "武器のコア",
       "advancements.mwis.title": "初心マスター",
       "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
+      "advancements.legends.title": "伝説",
       "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
       "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
       "item.destinycraft.weapon_core": "武器のコア",
@@ -922,6 +975,7 @@
       "item.destinycraft2.general_hoe": "汎用的なクワ",
       "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
       "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "advancements.legends.descr": "栄光あれ。",
       "advancements.flower_forest_crafter.descr": "花の森へ行け。",
       "item.destinycraft.general_hoe": "汎用的なクワ",
       "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
