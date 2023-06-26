@@ -73,6 +73,12 @@ public class WeaponCoreOreFeature extends OreFeature {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 

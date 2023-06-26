@@ -1,20 +1,48 @@
 {
-  "_fv": 39,
+  "_fv": 43,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
-    "xpReward": 3.0,
-    "cookingTime": 10,
+    "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:WeaponCoreOre"
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WeaponCore"
+      },
+      {
+        "value": "CUSTOM:WeaponCore"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WeaponCore"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GeneralAxe"
     },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:WeaponCore"
-    },
-    "name": "weapon_core_ore_smelting",
+    "name": "general_axe_recipe",
     "namespace": "mod"
   }
 }

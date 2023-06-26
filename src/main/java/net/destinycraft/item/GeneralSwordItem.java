@@ -44,7 +44,7 @@ public class GeneralSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Destinycraft2ModItems.WEAPON_CORE));
 			}
-		}, 3, -2.5999999999999999f, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_WEAPONS));
+		}, 3, -2.6f, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_WEAPONS));
 	}
 
 	@Override

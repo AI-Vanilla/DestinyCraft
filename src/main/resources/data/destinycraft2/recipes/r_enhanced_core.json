@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "experience": 5,
-  "cookingtime": 20,
-  "ingredient": {
-    "item": "destinycraft2:weapon_core"
-  },
-  "result": "destinycraft2:enhanced_core"
-}

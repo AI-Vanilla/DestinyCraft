@@ -20,8 +20,10 @@ import org.apache.logging.log4j.LogManager;
 import net.fabricmc.api.ModInitializer;
 
 import net.destinycraft.init.Destinycraft2ModTabs;
+import net.destinycraft.init.Destinycraft2ModProcedures;
 import net.destinycraft.init.Destinycraft2ModItems;
 import net.destinycraft.init.Destinycraft2ModFeatures;
+import net.destinycraft.init.Destinycraft2ModEntities;
 import net.destinycraft.init.Destinycraft2ModBlocks;
 
 public class Destinycraft2Mod implements ModInitializer {
@@ -33,10 +35,13 @@ public class Destinycraft2Mod implements ModInitializer {
 		LOGGER.info("Initializing Destinycraft2Mod");
 		Destinycraft2ModTabs.load();
 
+		Destinycraft2ModEntities.load();
 		Destinycraft2ModBlocks.load();
 		Destinycraft2ModItems.load();
 
 		Destinycraft2ModFeatures.load();
+
+		Destinycraft2ModProcedures.load();
 
 		GeckoLib.initialize();
 	}

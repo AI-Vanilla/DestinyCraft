@@ -4,7 +4,9 @@
  */
 package net.destinycraft.init;
 
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
@@ -36,6 +38,11 @@ public class Destinycraft2ModItems {
 	public static Item ENHANCED_PRISM;
 	public static Item ASCENDANT_SHARD;
 	public static Item MW_IRON_SWORD;
+	public static Item CRAFTER_RANK_MANAGER;
+	public static Item CRAFTER_RANK_MANAGER_2;
+	public static Item CRAFTER_RANK_MANAGER_3;
+	public static Item CRAFTER_RANK_MANAGER_4;
+	public static Item SKEXIS_SPAWN_EGG;
 
 	public static void load() {
 		WEAPON_CORE_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "weapon_core_block"),
@@ -53,5 +60,14 @@ public class Destinycraft2ModItems {
 		ENHANCED_PRISM = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "enhanced_prism"), new EnhancedPrismItem());
 		ASCENDANT_SHARD = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "ascendant_shard"), new AscendantShardItem());
 		MW_IRON_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "mw_iron_sword"), new MWIronSwordItem());
+		CRAFTER_RANK_MANAGER = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager"),
+				new BlockItem(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_MACHINES)));
+		CRAFTER_RANK_MANAGER_2 = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_2"),
+				new BlockItem(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_2, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_MACHINES)));
+		CRAFTER_RANK_MANAGER_3 = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_3"),
+				new BlockItem(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_3, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_MACHINES)));
+		CRAFTER_RANK_MANAGER_4 = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_4"),
+				new BlockItem(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_4, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_MACHINES)));
+		SKEXIS_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "skexis_spawn_egg"), new SpawnEggItem(Destinycraft2ModEntities.SKEXIS, -16724788, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	}
 }

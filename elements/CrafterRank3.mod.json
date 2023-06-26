@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "クラフターランク3 偵察員",
+    "achievementDescription": "クラフターランク3の全ての進捗を完了しろ。",
+    "achievementIcon": {
+      "value": "CUSTOM:CrafterRankManager"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 500,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:CrafterRank2"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"85\" y=\"103\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

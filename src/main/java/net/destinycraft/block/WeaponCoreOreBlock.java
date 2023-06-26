@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class WeaponCoreOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(2.1f, 3.758793233250228f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(2.1f, 3.7587932333f).requiresCorrectToolForDrops();
 
 	public WeaponCoreOreBlock() {
 		super(PROPERTIES);
