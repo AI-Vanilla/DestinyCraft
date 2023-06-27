@@ -30,7 +30,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class CrafterRankManager2Block extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).sound(SoundType.METAL).strength(-1, 3600000);
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).sound(SoundType.METAL).strength(2f, 10f);
 
 	public CrafterRankManager2Block() {
 		super(PROPERTIES);
