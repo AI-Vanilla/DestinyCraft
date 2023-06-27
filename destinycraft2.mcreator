@@ -183,7 +183,7 @@
       "registry_name": "weapon_core_ore_smelting",
       "metadata": {
         "files": [
-          "src/main/resources/data/destinycraft2/recipes/r_general_multi_tool.json"
+          "src/main/resources/data/destinycraft2/recipes/general_axe_recipe.json"
         ]
       },
       "path": "~/Materials"
@@ -1424,8 +1424,8 @@
       "item.destinycraft2.ascendant_shard": "Ascendant Shard",
       "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
       "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
-      "advancements.cr_23.title": "公開イベント",
       "advancements.cr_13.title": "これは武器ではない",
+      "advancements.cr_23.title": "公開イベント",
       "item.destinycraft.general_pickaxe": "General Pickaxe",
       "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "advancements.flower_forest_crafter.title": "久遠の花園",
@@ -1573,8 +1573,8 @@
       "item.destinycraft2.ascendant_shard": "アセンダントの破片",
       "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
       "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
-      "advancements.cr_23.title": "公開イベント",
       "advancements.cr_13.title": "これは武器ではない",
+      "advancements.cr_23.title": "公開イベント",
       "item.destinycraft.general_pickaxe": "汎用的なピッケル",
       "advancements.flower_forest_crafter.title": "久遠の花園",
       "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",

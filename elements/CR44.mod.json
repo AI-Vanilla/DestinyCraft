@@ -5,7 +5,7 @@
     "achievementName": "英雄イベント",
     "achievementDescription": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
     "achievementIcon": {
-      "value": "Blocks.FIRE"
+      "value": "Items.IRON_SWORD"
     },
     "background": "Default",
     "disableDisplay": false,
