@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "destinycraft2:mw_iron_sword"
+    },
+    "title": {
+      "translate": "advancements.mwis.title"
+    },
+    "description": {
+      "translate": "advancements.mwis.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mwis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "destinycraft2:mw_iron_sword"
+            ],
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "destinycraft2:shardofpower"
+}

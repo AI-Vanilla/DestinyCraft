@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "advancements.get_the_sponge.title"
+    },
+    "description": {
+      "translate": "advancements.get_the_sponge.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_the_sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge"
+            ],
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "destinycraft2:ocean_crafter"
+}

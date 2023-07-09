@@ -8,13 +8,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.destinycraft.init.DestinycraftModTabs;
+import net.destinycraft.init.Destinycraft2ModTabs;
 
 import java.util.List;
 
 public class EnhancedCoreItem extends Item {
 	public EnhancedCoreItem() {
-		super(new Item.Properties().tab(DestinycraftModTabs.TAB_DESTINY_CRAFT_MATERIALS).stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_MATERIALS).stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

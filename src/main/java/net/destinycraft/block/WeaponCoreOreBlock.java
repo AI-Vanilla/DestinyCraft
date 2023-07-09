@@ -17,14 +17,14 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
-import net.destinycraft.init.DestinycraftModItems;
-import net.destinycraft.init.DestinycraftModBlocks;
+import net.destinycraft.init.Destinycraft2ModItems;
+import net.destinycraft.init.Destinycraft2ModBlocks;
 
 import java.util.List;
 import java.util.Collections;
 
 public class WeaponCoreOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(2.1f, 3.758793233250228f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(2.1f, 3.7587932333f).requiresCorrectToolForDrops();
 
 	public WeaponCoreOreBlock() {
 		super(PROPERTIES);
@@ -40,11 +40,11 @@ public class WeaponCoreOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(DestinycraftModItems.WEAPON_CORE));
+		return Collections.singletonList(new ItemStack(Destinycraft2ModItems.WEAPON_CORE));
 	}
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(DestinycraftModBlocks.WEAPON_CORE_ORE, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(Destinycraft2ModBlocks.WEAPON_CORE_ORE, RenderType.solid());
 	}
 }

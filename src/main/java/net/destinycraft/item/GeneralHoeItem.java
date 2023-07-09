@@ -13,8 +13,8 @@ import net.minecraft.network.chat.Component;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
-import net.destinycraft.init.DestinycraftModTabs;
-import net.destinycraft.init.DestinycraftModItems;
+import net.destinycraft.init.Destinycraft2ModTabs;
+import net.destinycraft.init.Destinycraft2ModItems;
 
 import java.util.List;
 
@@ -42,9 +42,9 @@ public class GeneralHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DestinycraftModItems.WEAPON_CORE));
+				return Ingredient.of(new ItemStack(Destinycraft2ModItems.WEAPON_CORE));
 			}
-		}, 0, -3f, new Item.Properties().tab(DestinycraftModTabs.TAB_DESTINY_CRAFT_TOOLS));
+		}, 0, -3f, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_TOOLS));
 	}
 
 	@Override

@@ -1,0 +1,1824 @@
+{
+  "mod_elements": [
+    {
+      "name": "DestinyCraftMaterials",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_materials",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "DestinyCraftTools",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_tools",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DestinyCraftWeapons",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_weapons",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "DestinyCraftFoods",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_foods",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Foods"
+    },
+    {
+      "name": "DestinyCraftMachines",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_machines",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "DestinyCraftArmors",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_armors",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "DestinyCraftServerSide",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_server_side",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Enemys"
+    },
+    {
+      "name": "DestinyCraftMisc",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destiny_craft_misc",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WeaponCore",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/WeaponCoreItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/weapon_core.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/block/WeaponCoreOreBlock.java",
+          "src/main/resources/assets/destinycraft2/models/block/weapon_core_ore.json",
+          "src/main/java/net/destinycraft/world/features/ores/WeaponCoreOreFeature.java",
+          "src/main/resources/assets/destinycraft2/blockstates/weapon_core_ore.json",
+          "src/main/resources/assets/destinycraft2/models/item/weapon_core_ore.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/weapon_core_block.json",
+          "src/main/resources/assets/destinycraft2/blockstates/weapon_core_block.json",
+          "src/main/java/net/destinycraft/block/WeaponCoreBlockBlock.java",
+          "src/main/resources/assets/destinycraft2/models/block/weapon_core_block.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/weapon_core_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/weapon_core_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "WeaponCoreOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_core_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_axe_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "EnhancedCore",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/enhanced_core.json",
+          "src/main/java/net/destinycraft/item/EnhancedCoreItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "REnhancedCore",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_enhanced_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_enhanced_core.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GeneralPickaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_pickaxe.json",
+          "src/main/java/net/destinycraft/item/GeneralPickaxeItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralAxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_axe.json",
+          "src/main/java/net/destinycraft/item/GeneralAxeItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralSword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/GeneralSwordItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/general_sword.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralShovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/GeneralShovelItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/general_shovel.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralHoe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_hoe.json",
+          "src/main/java/net/destinycraft/item/GeneralHoeItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralAxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_axe_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralSwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_sword_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralShovelRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralHoeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/general_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GeneralMultiTool",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general_multi_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/general_multi_tool.json",
+          "src/main/java/net/destinycraft/item/GeneralMultiToolItem.java"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "RGeneralMultiTool",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_general_multi_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/rmw_iron_sword.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Shardofpower",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shardofpower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/shardofpower.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "EnhancedPrism",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enhanced_prism",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/EnhancedPrismItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/enhanced_prism.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "REnhancedPrism",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_enhanced_prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_enhanced_prism.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AscendantShard",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascendant_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/item/AscendantShardItem.java",
+          "src/main/resources/assets/destinycraft2/models/item/ascendant_shard.json"
+        ]
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "GetThePrism",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_the_prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/get_the_prism.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "EZMasterwork",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ez_masterwork",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/ez_masterwork.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "WelcomeToDestinyCraft2",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_destiny_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/welcome_to_destiny_craft_2.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Wtdc2",
+      "type": "loottable",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wtdc_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/loot_tables/entities/wtdc_2.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "PublicEvent1",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "public_event_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/public_event_1.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "PublicEvent2",
+      "type": "achievement",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "public_event_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/public_event_2.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "PublicEvent3",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "public_event_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/public_event_3.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "MWIronSword",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mw_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/mw_iron_sword.json",
+          "src/main/java/net/destinycraft/item/MWIronSwordItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "RMWIronSword",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rmw_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/rmw_iron_sword.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MWIS",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mwis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/mwis.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "SnowyPlainsCrafter",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_plains_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/snowy_plains_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "IceSpikesCrafter",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_spikes_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/ice_spikes_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "PackedIceCrafter",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packed_ice_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/packed_ice_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "SnowyTaigaCrafter",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_taiga_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/snowy_taiga_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "FrozenRiverCrafter",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_river_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/frozen_river_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "SnowyBeachCrafter",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowy_beach_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/snowy_beach_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "FlowerForestCrafter",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_forest_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/flower_forest_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GetTheAllium",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_the_allium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/get_the_allium.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "MushroomFields",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/mushroom_fields.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "JaggedPeaksCrafter",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jagged_peaks_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/jagged_peaks_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "OceanCrafter",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocean_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/ocean_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GetTheSponge",
+      "type": "achievement",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_the_sponge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/get_the_sponge.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "DeepDarkCrafter",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_dark_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/deep_dark_crafter.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Legends",
+      "type": "achievement",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legends",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/legends.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Genei10",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genei_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/genei_10.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Genei20",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "genei_20",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/genei_20.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CrafterRank1",
+      "type": "achievement",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/crafter_rank_1.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR11",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_11.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR12",
+      "type": "achievement",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_12.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR13",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_13.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR14",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_14.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR15",
+      "type": "achievement",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_15.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR1",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/procedures/CR1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "CrafterRankManager",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_manager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/blockstates/crafter_rank_manager.json",
+          "src/main/java/net/destinycraft/block/CrafterRankManagerBlock.java",
+          "src/main/resources/assets/destinycraft2/models/block/crafter_rank_manager.json",
+          "src/main/resources/assets/destinycraft2/models/item/crafter_rank_manager.json"
+        ]
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "CrafterRank2",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/crafter_rank_2.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR21",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_21",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_21.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR22",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_22",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_22.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR23",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_23",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_23.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CrafterRank3",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/crafter_rank_3.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR31",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_31",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_31.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR2",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/procedures/CR2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "CrafterRankManager2",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_manager_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/block/CrafterRankManager2Block.java",
+          "src/main/resources/assets/destinycraft2/models/block/crafter_rank_manager_2.json",
+          "src/main/resources/assets/destinycraft2/models/item/crafter_rank_manager_2.json",
+          "src/main/resources/assets/destinycraft2/blockstates/crafter_rank_manager_2.json"
+        ]
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "RCrafterRankManager",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_crafter_rank_manager",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_crafter_rank_manager.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RCrafterRankManager2",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_crafter_rank_manager_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_crafter_rank_manager_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CR32",
+      "type": "achievement",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_32",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_32.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR33",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_33",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_33.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR34",
+      "type": "achievement",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_34",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_34.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CrafterRank4",
+      "type": "achievement",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/crafter_rank_4.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR41",
+      "type": "achievement",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_41",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_41.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR3",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/procedures/CR3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "CrafterRankManager3",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_manager_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/crafter_rank_manager_3.json",
+          "src/main/java/net/destinycraft/block/CrafterRankManager3Block.java",
+          "src/main/resources/assets/destinycraft2/blockstates/crafter_rank_manager_3.json",
+          "src/main/resources/assets/destinycraft2/models/block/crafter_rank_manager_3.json"
+        ]
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "RCrafterRankManager3",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_crafter_rank_manager_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_crafter_rank_manager_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CR42",
+      "type": "achievement",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_42",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_42.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR43",
+      "type": "achievement",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_43",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_43.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR44",
+      "type": "achievement",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_44",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_44.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CrafterRank5",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/crafter_rank_5.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR51",
+      "type": "achievement",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_51",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/cr_51.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "CR4",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cr_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/procedures/CR4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "CrafterRankManager4",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_rank_manager_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/blockstates/crafter_rank_manager_4.json",
+          "src/main/resources/assets/destinycraft2/models/block/crafter_rank_manager_4.json",
+          "src/main/resources/assets/destinycraft2/models/item/crafter_rank_manager_4.json",
+          "src/main/java/net/destinycraft/block/CrafterRankManager4Block.java"
+        ]
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "RCrafterRankManager4",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_crafter_rank_manager_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/recipes/r_crafter_rank_manager_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetherStarRootTable",
+      "type": "loottable",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_root_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/loot_tables/blocks/nether_star_root_table.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "RAIDDeepStoneCryptClear",
+      "type": "achievement",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_deep_stone_crypt_clear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/raid_deep_stone_crypt_clear.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "RAIDDeepStoneCryptNoDamage",
+      "type": "achievement",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_deep_stone_crypt_no_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/raid_deep_stone_crypt_no_damage.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "RAIDDeepStoneCryptSecuritydown",
+      "type": "achievement",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_deep_stone_crypt_securitydown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/raid_deep_stone_crypt_securitydown.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "RAIDDeepStoneCryptReady",
+      "type": "achievement",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_deep_stone_crypt_ready",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/raid_deep_stone_crypt_ready.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Skexis",
+      "type": "livingentity",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skexis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/destinycraft/client/renderer/SkexisRenderer.java",
+          "src/main/java/net/destinycraft/entity/SkexisEntity.java",
+          "src/main/resources/assets/destinycraft2/models/item/skexis_spawn_egg.json"
+        ]
+      },
+      "path": "~/Enemys"
+    },
+    {
+      "name": "GorezSandEater",
+      "type": "livingentity",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorez_sand_eater",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/destinycraft2/models/item/gorez_sand_eater_spawn_egg.json",
+          "src/main/java/net/destinycraft/client/renderer/GorezSandEaterRenderer.java",
+          "src/main/java/net/destinycraft/entity/GorezSandEaterEntity.java"
+        ]
+      },
+      "path": "~/Enemys"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.ocean_crafter.descr": "海洋へ行け。",
+      "advancements.crafter_rank_2.descr": "クラフターランク2の全ての進捗を完了しろ。",
+      "block.destinycraft.weapon_core_ore": "WeaponCore Ore",
+      "block.destinycraft2.weapon_core_ore": "WeaponCore Ore",
+      "item.destinycraft2.ascendant_shard": "Ascendant Shard",
+      "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
+      "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
+      "advancements.cr_23.title": "公開イベント",
+      "advancements.cr_13.title": "これは武器ではない",
+      "item.destinycraft.general_pickaxe": "General Pickaxe",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.flower_forest_crafter.title": "久遠の花園",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.raid_deep_stone_crypt_securitydown.title": "資源競争",
+      "block.destinycraft2.weapon_core_block": "Block of WeaponCore",
+      "advancements.genei_20.descr": "幻影の間第20層を完了しろ。",
+      "advancements.raid_deep_stone_crypt_ready.title": "用意、始め！",
+      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "advancements.packed_ice_crafter.title": "永久凍土",
+      "advancements.welcome_to_destiny_craft_2.descr": "ようこそ",
+      "advancements.snowy_taiga_crafter.title": "大河のクラフター",
+      "advancements.public_event_1.title": "公開事業",
+      "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
+      "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
+      "advancements.cr_43.title": "手配犯 オープンワールド",
+      "advancements.crafter_rank_1.title": "クラフターランク1 探検者",
+      "advancements.cr_12.descr": "土を手に入れろ。",
+      "advancements.cr_32.descr": "武器の欠片を手に入れろ。",
+      "advancements.crafter_rank_5.descr": "クラフターランク5の全ての進捗を完了しろ。",
+      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
+      "advancements.crafter_rank_4.title": "クラフターランク4 冒険家",
+      "advancements.cr_51.title": "クラフターランク5の道",
+      "advancements.raid_deep_stone_crypt_clear.descr": "「ディープストーン・クリプト」を完了しろ。",
+      "item.destinycraft2.general_multi_tool": "General Multi Tool",
+      "advancements.cr_31.title": "クラフターランク3の道",
+      "advancements.cr_11.title": "クラフターランク1の道",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft.general_sword": "General Sword",
+      "advancements.cr_44.descr": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
+      "advancements.cr_51.descr": "全ての進捗を終えたら、クラフターランクマネージャー5を叩け。",
+      "advancements.raid_deep_stone_crypt_no_damage.title": "無傷",
+      "advancements.frozen_river_crafter.title": "川も凍り付く",
+      "item.destinycraft2.gorez_sand_eater_spawn_egg": "[英雄]ゴレス・サンドイーター Spawn Egg",
+      "advancements.cr_21.descr": "全ての進捗を終えたら、クラフターランクマネージャー2を叩け。",
+      "advancements.cr_44.title": "英雄イベント",
+      "advancements.cr_11.descr": "全ての進捗を終えたら、クラフターランクマネージャーを叩け。",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
+      "advancements.legends.title": "伝説",
+      "item.destinycraft.weapon_core": "WeaponCore",
+      "item.destinycraft.enhanced_core": "Enhanced Core",
+      "advancements.cr_15.title": "食事は疎かにできない",
+      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "item.destinycraft2.general_hoe": "General Hoe",
+      "advancements.raid_deep_stone_crypt_clear.title": "ディープストーン・クリプト",
+      "advancements.flower_forest_crafter.descr": "花の森へ行け。",
+      "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
+      "entity.destinycraft2.skexis": "スケクシス",
+      "item.destinycraft.general_multi_tool": "General Multi Tool",
+      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
+      "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
+      "advancements.crafter_rank_1.descr": "クラフターランク1の全ての進捗を完了しろ。",
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
+      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
+      "advancements.cr_33.title": "強化のコア",
+      "advancements.cr_22.descr": "鉄ブロックをクラフトしろ。",
+      "advancements.jagged_peaks_crafter.descr": "尖った山頂へ行け。",
+      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
+      "item.destinycraft2.mw_iron_sword": "Iron Sword [MASTERWORK]",
+      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
+      "advancements.snowy_taiga_crafter.descr": "雪のタイガに行け。",
+      "item.destinycraft2.general_sword": "General Sword",
+      "advancements.cr_21.title": "クラフターランク2の道",
+      "advancements.mushroom_fields.title": "キノコの楽園",
+      "advancements.cr_34.descr": "鉄のソードをマスターワークしろ。一部の装備はマスターワークすることで潜在能力を開放したり、装備そのものが強化される。",
+      "block.destinycraft2.crafter_rank_manager_3": "Crafter Rank Manager 3",
+      "block.destinycraft2.crafter_rank_manager_2": "Crafter Rank Manager 2",
+      "advancements.raid_deep_stone_crypt_ready.descr": "それぞれの起動スイッチを5秒以内の間隔で起動させながら、深遠のバニラ・アボミネーションを倒せ。",
+      "advancements.genei_10.title": "幻影の入門者",
+      "advancements.genei_20.title": "幻影の投影者",
+      "advancements.jagged_peaks_crafter.title": "山の頂",
+      "advancements.cr_23.descr": "公開イベントを完了しろ。公開イベントは各プレイヤーランダムで周囲のどこかに発生する。公開イベントを完了すると、報酬の入ったクレートが出現する。",
+      "advancements.snowy_plains_crafter.title": "雪原のクラフター",
+      "advancements.cr_13.descr": "木の棒をクラフトしろ。",
+      "advancements.cr_33.descr": "武器の欠片から強化のコアをクラフトしろ。",
+      "block.destinycraft2.crafter_rank_manager_4": "Crafter Rank Manager 4",
+      "advancements.crafter_rank_2.title": "クラフターランク2 イニシエイト",
+      "advancements.crafter_rank_5.title": "クラフターランク5 ベテラン",
+      "advancements.cr_42.title": "強化用材料",
+      "advancements.raid_deep_stone_crypt_securitydown.descr": "1度のセキュリティコアアクセスで、クリプト・セキュリティをシャットダウンしろ。",
+      "advancements.get_the_prism.title": "Get The Prism",
+      "advancements.cr_32.title": "武器のかけら",
+      "advancements.snowy_beach_crafter.title": "輝く砂浜",
+      "item.destinycraft.general_shovel": "General Shovel",
+      "advancements.cr_22.title": "余裕が見える",
+      "advancements.public_event_3.title": "公開処刑",
+      "advancements.cr_43.descr": "いずれかの手配犯を倒せ。赤色ネームの敵はボスだ。",
+      "entity.destinycraft2.gorez_sand_eater": "[英雄]ゴレス・サンドイーター",
+      "item.destinycraft2.enhanced_core": "Enhanced Core",
+      "advancements.public_event_1.descr": "公開イベントを完了しろ。",
+      "advancements.get_the_sponge.title": "海賊王",
+      "block.destinycraft2.crafter_rank_manager": "Crafter Rank Manager 1",
+      "advancements.mushroom_fields.descr": "キノコ島へ行け。",
+      "item.destinycraft2.enhanced_prism": "Enhanced Prism",
+      "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.ocean_crafter.title": "海洋のクラフター",
+      "item.destinycraft2.general_axe": "General Axe",
+      "item.destinycraft.general_axe": "General Axe",
+      "advancements.cr_14.title": "効率を求めて",
+      "advancements.cr_34.title": "マスターアップ",
+      "advancements.ez_masterwork.title": "EZ Masterwork",
+      "item.destinycraft2.general_shovel": "General Shovel",
+      "item.destinycraft.ascendant_shard": "Ascendant Shard",
+      "item.destinycraft.enhanced_prism": "Enhanced Prism",
+      "advancements.public_event_2.descr": "英雄公開イベントを完了しろ",
+      "advancements.cr_31.descr": "全ての進捗を終えたら、クラフターランクマネージャー3を叩け。",
+      "advancements.shardofpower.title": "Shard of Power",
+      "advancements.crafter_rank_4.descr": "クラフターランク4の全ての進捗を完了しろ。",
+      "advancements.cr_41.descr": "全ての進捗を終えたら、クラフターランクマネージャー4を叩け。",
+      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.packed_ice_crafter.descr": "氷塊を手に入れろ。",
+      "advancements.deep_dark_crafter.descr": "古代都市へ行け。",
+      "advancements.crafter_rank_3.title": "クラフターランク3 偵察員",
+      "advancements.raid_deep_stone_crypt_no_damage.descr": "ファイアチームのメンバーが1人も死なずに研究所へ到達しろ。",
+      "advancements.mwis.title": "初心マスター",
+      "item.destinycraft2.weapon_core": "WeaponCore",
+      "advancements.cr_15.descr": "焼き豚を手に入れろ。",
+      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
+      "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
+      "item.destinycraft2.general_pickaxe": "General Pickaxe",
+      "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
+      "advancements.legends.descr": "栄光あれ。",
+      "advancements.crafter_rank_3.descr": "クラフターランク3の全ての進捗を完了しろ。",
+      "item.destinycraft.general_hoe": "General Hoe",
+      "advancements.mwis.descr": "鉄のソードをマスターワークしろ。アイテムをマスターワークすると、その性能が強化される。",
+      "advancements.cr_12.title": "これならできる",
+      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
+      "advancements.get_the_allium.descr": "アリウムを入手しろ。",
+      "advancements.cr_42.descr": "強化プリズムを入手しろ。強化プリズムは防具のマスターワーク素材となる。",
+      "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "block.destinycraft.weapon_core_block": "Block of WeaponCore",
+      "advancements.public_event_2.title": "公開行事",
+      "advancements.cr_14.descr": "木の斧をクラフトしろ。",
+      "advancements.cr_41.title": "クラフターランク4の道",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
+    },
+    "ja_jp": {
+      "advancements.ocean_crafter.descr": "海洋へ行け。",
+      "advancements.crafter_rank_2.descr": "クラフターランク2の全ての進捗を完了しろ。",
+      "block.destinycraft.weapon_core_ore": "武器のコアの原石",
+      "block.destinycraft2.weapon_core_ore": "武器のコアの原石",
+      "item.destinycraft2.ascendant_shard": "アセンダントの破片",
+      "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
+      "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
+      "advancements.cr_23.title": "公開イベント",
+      "advancements.cr_13.title": "これは武器ではない",
+      "item.destinycraft.general_pickaxe": "汎用的なピッケル",
+      "advancements.flower_forest_crafter.title": "久遠の花園",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.raid_deep_stone_crypt_securitydown.title": "資源競争",
+      "block.destinycraft2.weapon_core_block": "武器のコアのブロック",
+      "advancements.genei_20.descr": "幻影の間第20層を完了しろ。",
+      "advancements.raid_deep_stone_crypt_ready.title": "用意、始め！",
+      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "advancements.packed_ice_crafter.title": "永久凍土",
+      "advancements.snowy_taiga_crafter.title": "大河のクラフター",
+      "advancements.welcome_to_destiny_craft_2.descr": "ようこそ",
+      "advancements.public_event_1.title": "公開事業",
+      "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
+      "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
+      "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
+      "advancements.cr_43.title": "手配犯 オープンワールド",
+      "advancements.crafter_rank_1.title": "クラフターランク1 探検者",
+      "advancements.cr_12.descr": "土を手に入れろ。",
+      "advancements.cr_32.descr": "武器の欠片を手に入れろ。",
+      "advancements.crafter_rank_5.descr": "クラフターランク5の全ての進捗を完了しろ。",
+      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
+      "advancements.crafter_rank_4.title": "クラフターランク4 冒険家",
+      "advancements.cr_51.title": "クラフターランク5の道",
+      "advancements.raid_deep_stone_crypt_clear.descr": "レイド「ディープストーン・クリプト」を完了しろ。",
+      "item.destinycraft2.general_multi_tool": "汎用マルチツール",
+      "advancements.cr_31.title": "クラフターランク3の道",
+      "advancements.cr_11.title": "クラフターランク1の道",
+      "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
+      "item.destinycraft.general_sword": "汎用的なソード",
+      "advancements.cr_44.descr": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
+      "advancements.cr_51.descr": "全ての進捗を終えたら、クラフターランクマネージャー5を叩け。",
+      "advancements.raid_deep_stone_crypt_no_damage.title": "無傷",
+      "advancements.frozen_river_crafter.title": "川も凍り付く",
+      "item.destinycraft2.gorez_sand_eater_spawn_egg": "[英雄]ゴレス・サンドイーター Spawn Egg",
+      "advancements.cr_21.descr": "全ての進捗を終えたら、クラフターランクマネージャー2を叩け。",
+      "advancements.cr_44.title": "英雄イベント",
+      "advancements.cr_11.descr": "ようこそDestinyCraft2へ。ここから君の新たな冒険が始まる。全ての進捗を終えたら、クラフターランクマネージャーをクラフトして叩け。",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
+      "advancements.legends.title": "伝説",
+      "item.destinycraft.weapon_core": "武器のコア",
+      "item.destinycraft.enhanced_core": "強化のコア",
+      "advancements.cr_15.title": "食事は疎かにできない",
+      "item.destinycraft2.general_hoe": "汎用的なクワ",
+      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "advancements.raid_deep_stone_crypt_clear.title": "ディープストーン・クリプト",
+      "advancements.flower_forest_crafter.descr": "花の森へ行け。",
+      "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
+      "entity.destinycraft2.skexis": "スケクシス",
+      "item.destinycraft.general_multi_tool": "汎用マルチツール",
+      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
+      "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
+      "advancements.crafter_rank_1.descr": "クラフターランク1の全ての進捗を完了しろ。",
+      "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
+      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
+      "advancements.cr_33.title": "強化のコア",
+      "advancements.cr_22.descr": "鉄ブロックをクラフトしろ。",
+      "advancements.jagged_peaks_crafter.descr": "尖った山頂へ行け。",
+      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
+      "item.destinycraft2.mw_iron_sword": "鉄のソード[マスターワーク]",
+      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
+      "advancements.snowy_taiga_crafter.descr": "雪のタイガに行け。",
+      "item.destinycraft2.general_sword": "汎用的なソード",
+      "advancements.cr_21.title": "クラフターランク2の道",
+      "advancements.mushroom_fields.title": "キノコの楽園",
+      "advancements.cr_34.descr": "鉄のソードをマスターワークしろ。",
+      "block.destinycraft2.crafter_rank_manager_3": "Crafter Rank Manager 3",
+      "block.destinycraft2.crafter_rank_manager_2": "Crafter Rank Manager 2",
+      "advancements.raid_deep_stone_crypt_ready.descr": "それぞれの起動スイッチを5秒以内の間隔で起動させながら、深遠のバニラ・アボミネーションを倒せ。",
+      "advancements.genei_10.title": "幻影の入門者",
+      "advancements.genei_20.title": "幻影の投影者",
+      "advancements.jagged_peaks_crafter.title": "山の頂",
+      "advancements.cr_23.descr": "公開イベントを完了しろ。公開イベントは各プレイヤーランダムで周囲のどこかに発生する。",
+      "advancements.snowy_plains_crafter.title": "雪原のクラフター",
+      "advancements.cr_13.descr": "木の棒をクラフトしろ。",
+      "advancements.cr_33.descr": "武器の欠片から強化のコアをクラフトしろ。",
+      "block.destinycraft2.crafter_rank_manager_4": "Crafter Rank Manager 4",
+      "advancements.crafter_rank_2.title": "クラフターランク2 イニシエイト",
+      "advancements.crafter_rank_5.title": "クラフターランク5 ベテラン",
+      "advancements.cr_42.title": "強化用材料",
+      "advancements.raid_deep_stone_crypt_securitydown.descr": "1度のコアアクセスで、クリプト・セキュリティをシャットダウンしろ。",
+      "advancements.get_the_prism.title": "プリズムストーン",
+      "advancements.cr_32.title": "武器のかけら",
+      "advancements.snowy_beach_crafter.title": "輝く砂浜",
+      "item.destinycraft.general_shovel": "汎用的なシャベル",
+      "advancements.cr_22.title": "余裕が見える",
+      "advancements.public_event_3.title": "公開処刑",
+      "advancements.cr_43.descr": "いずれかの手配犯を倒せ。赤色ネームの敵はボスだ。",
+      "entity.destinycraft2.gorez_sand_eater": "[英雄]ゴレス・サンドイーター",
+      "item.destinycraft2.enhanced_core": "強化のコア",
+      "advancements.public_event_1.descr": "公開イベントを完了しろ。",
+      "advancements.get_the_sponge.title": "海賊王",
+      "block.destinycraft2.crafter_rank_manager": "Crafter Rank Manager",
+      "advancements.mushroom_fields.descr": "キノコ島へ行け。",
+      "item.destinycraft2.enhanced_prism": "強化プリズム",
+      "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.ocean_crafter.title": "海洋のクラフター",
+      "item.destinycraft2.general_axe": "汎用的なアックス",
+      "item.destinycraft.general_axe": "汎用的なアックス",
+      "advancements.cr_14.title": "効率を求めて",
+      "advancements.cr_34.title": "マスターアップ",
+      "advancements.ez_masterwork.title": "マスターワークの近道",
+      "item.destinycraft2.general_shovel": "汎用的なシャベル",
+      "item.destinycraft.ascendant_shard": "アセンダントの破片",
+      "item.destinycraft.enhanced_prism": "強化プリズム",
+      "advancements.public_event_2.descr": "英雄公開イベントを完了しろ",
+      "advancements.cr_31.descr": "全ての進捗を終えたら、クラフターランクマネージャー3を叩け。",
+      "advancements.shardofpower.title": "力のかけら",
+      "advancements.crafter_rank_4.descr": "クラフターランク4の全ての進捗を完了しろ。",
+      "advancements.cr_41.descr": "全ての進捗を終えたら、クラフターランクマネージャー4を叩け。",
+      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.packed_ice_crafter.descr": "氷塊を手に入れろ。",
+      "advancements.deep_dark_crafter.descr": "古代都市へ行け。",
+      "advancements.crafter_rank_3.title": "クラフターランク3 偵察員",
+      "advancements.raid_deep_stone_crypt_no_damage.descr": "ファイアチームのメンバーが1人も死なずに研究所へ到達しろ。",
+      "advancements.mwis.title": "初心マスター",
+      "item.destinycraft2.weapon_core": "武器のコア",
+      "advancements.cr_15.descr": "焼き豚を手に入れろ。",
+      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
+      "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
+      "item.destinycraft2.general_pickaxe": "汎用的なピッケル",
+      "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
+      "advancements.legends.descr": "栄光あれ。",
+      "advancements.crafter_rank_3.descr": "クラフターランク3の全ての進捗を完了しろ。",
+      "item.destinycraft.general_hoe": "汎用的なクワ",
+      "advancements.mwis.descr": "鉄のソードをマスターワークしろ",
+      "advancements.cr_12.title": "これならできる",
+      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
+      "advancements.get_the_allium.descr": "アリウムを入手しろ。",
+      "advancements.cr_42.descr": "強化プリズムを入手しろ。強化プリズムは防具のマスターワーク素材となる。",
+      "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
+      "block.destinycraft.weapon_core_block": "武器のコアのブロック",
+      "advancements.public_event_2.title": "公開行事",
+      "advancements.cr_14.descr": "木の斧をクラフトしろ。",
+      "advancements.cr_41.title": "クラフターランク4の道",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Foods",
+        "children": []
+      },
+      {
+        "name": "Machines",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Enemys",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Overlay",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      },
+      {
+        "name": "Achievement",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "destinycraft2",
+    "modName": "DestinyCraft2",
+    "version": "0.1_beta80",
+    "author": "AI_Vanilla",
+    "websiteURL": "https://twitter.com/Vanilla_JP",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "https://github.com/AI-Vanilla/DestinyCraft",
+    "modElementsPackage": "net.destinycraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

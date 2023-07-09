@@ -21,7 +21,7 @@ import net.minecraft.core.BlockPos;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
-import net.destinycraft.init.DestinycraftModTabs;
+import net.destinycraft.init.Destinycraft2ModTabs;
 
 import java.util.List;
 
@@ -54,7 +54,7 @@ public class GeneralMultiToolItem extends TieredItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, new Item.Properties().tab(DestinycraftModTabs.TAB_DESTINY_CRAFT_TOOLS));
+		}, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_TOOLS));
 	}
 
 	@Override

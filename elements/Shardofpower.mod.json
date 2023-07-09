@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 43,
   "_type": "achievement",
   "definition": {
     "achievementName": "Shard of Power",
@@ -18,7 +18,7 @@
     "rewardXP": 500,
     "achievementType": "task",
     "parent": {
-      "value": "No parent: root"
+      "value": "CUSTOM:WelcomeToDestinyCraft2"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"-28\" y=\"35\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:WeaponCore</field></block></value><next><block type=\"advancement_trigger\"></block></next></block></xml>"
   }

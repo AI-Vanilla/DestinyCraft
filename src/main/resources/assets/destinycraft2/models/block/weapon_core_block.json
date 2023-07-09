@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "destinycraft2:blocks/weaponcore_ore_block",
+    "particle": "destinycraft2:blocks/weaponcore_ore_block"
+  }
+}
