@@ -4,6 +4,7 @@
  */
 package net.destinycraft.init;
 
+import net.destinycraft.procedures.WasteProcedure;
 import net.destinycraft.procedures.CR4Procedure;
 import net.destinycraft.procedures.CR3Procedure;
 import net.destinycraft.procedures.CR2Procedure;
@@ -16,5 +17,6 @@ public class Destinycraft2ModProcedures {
 		new CR1Procedure();
 		new CR3Procedure();
 		new CR4Procedure();
+		new WasteProcedure();
 	}
 }
