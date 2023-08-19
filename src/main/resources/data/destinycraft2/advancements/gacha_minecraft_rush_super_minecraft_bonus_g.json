@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.gacha_minecraft_rush_super_minecraft_bonus_g.title"
+    },
+    "description": {
+      "translate": "advancements.gacha_minecraft_rush_super_minecraft_bonus_g.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gacha_minecraft_rush_super_minecraft_bonus_g": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "loot": [
+      "destinycraft2:blocks/nether_star_root_table"
+    ]
+  },
+  "parent": "destinycraft2:gacha_minecraft_rush"
+}

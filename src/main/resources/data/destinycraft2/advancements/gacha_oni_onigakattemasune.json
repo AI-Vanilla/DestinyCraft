@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.gacha_oni_onigakattemasune.title"
+    },
+    "description": {
+      "translate": "advancements.gacha_oni_onigakattemasune.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gacha_oni_onigakattemasune": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "loot": [
+      "destinycraft2:blocks/nether_star_root_table"
+    ]
+  },
+  "parent": "destinycraft2:gacha_oni_onigakari_bonus"
+}

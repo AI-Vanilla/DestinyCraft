@@ -1502,6 +1502,496 @@
         ]
       },
       "path": "~/Buff"
+    },
+    {
+      "name": "Gacha",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Gachabonus",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gachabonus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gachabonus.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaMinecraftRush",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_minecraft_rush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_minecraft_rush.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaMinecraftRushMinecraftBonus",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_minecraft_rush_minecraft_bonus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_minecraft_rush_minecraft_bonus.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaMinecraftRushSuperMinecraftBonusG",
+      "type": "achievement",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_minecraft_rush_super_minecraft_bonus_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_minecraft_rush_super_minecraft_bonus_g.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaMinecraftRushSuperMinecraftBonus",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_minecraft_rush_super_minecraft_bonus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_minecraft_rush_super_minecraft_bonus.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaMinecraftRush25000",
+      "type": "achievement",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_minecraft_rush_25000",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_minecraft_rush_25000.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaHadesRoad",
+      "type": "achievement",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_hades_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_hades_road.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaHadesRoadRestart",
+      "type": "achievement",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_hades_road_restart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_hades_road_restart.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaHadesRoadPremiumHadesBonus",
+      "type": "achievement",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_hades_road_premium_hades_bonus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_hades_road_premium_hades_bonus.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaHadesRoad50000",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_hades_road_50000",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_hades_road_50000.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaOni",
+      "type": "achievement",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_oni",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_oni.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaOniOnigakariBonus",
+      "type": "achievement",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_oni_onigakari_bonus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_oni_onigakari_bonus.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaOniOnigakattemasune",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_oni_onigakattemasune",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_oni_onigakattemasune.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaOniBigBonus",
+      "type": "achievement",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_oni_big_bonus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_oni_big_bonus.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaOni50000",
+      "type": "achievement",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_oni_50000",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_oni_50000.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaUC",
+      "type": "achievement",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_uc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_uc.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaUC3000",
+      "type": "achievement",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_uc_3000",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_uc_3000.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaUCHYPER",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_uchyper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_uchyper.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaUCrestart",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_u_crestart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_u_crestart.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAME",
+      "type": "achievement",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgame.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEZeusBonus",
+      "type": "achievement",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgame_zeus_bonus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgame_zeus_bonus.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEKERBEROS",
+      "type": "achievement",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamekerberos",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamekerberos.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEKERBEROS100G",
+      "type": "achievement",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamekerberos_100_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamekerberos_100_g.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEPERSEPHONE",
+      "type": "achievement",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamepersephone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamepersephone.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEPERSEPHONE150G",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamepersephone_150_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamepersephone_150_g.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEPERSEPHONECOMBO",
+      "type": "achievement",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamepersephonecombo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamepersephonecombo.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEHADES",
+      "type": "achievement",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamehades",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamehades.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEHADES300G",
+      "type": "achievement",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamehades_300_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamehades_300_g.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEHADESCOMBO",
+      "type": "achievement",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamehadescombo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamehadescombo.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEANOTHERLEGEND",
+      "type": "achievement",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgameanotherlegend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgameanotherlegend.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEANOTHERLEGEND510G",
+      "type": "achievement",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgameanotherlegend_510_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgameanotherlegend_510_g.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMEGOD",
+      "type": "achievement",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamegod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamegod.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAMECRASH",
+      "type": "achievement",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgamecrash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgamecrash.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "GachaGODGAME100G",
+      "type": "achievement",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_godgame_100_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinycraft2/advancements/gacha_godgame_100_g.json"
+        ]
+      },
+      "path": "~/Achievement"
     }
   ],
   "variable_elements": [],
@@ -1509,319 +1999,459 @@
   "language_map": {
     "en_us": {
       "advancements.ocean_crafter.descr": "海洋へ行け。",
-      "advancements.crafter_rank_2.descr": "クラフターランク2の全ての進捗を完了しろ。",
+      "advancements.gacha_minecraft_rush_minecraft_bonus.descr": "マイクラッシュ中にマイクラボーナスに当選しろ。",
       "block.destinycraft.weapon_core_ore": "WeaponCore Ore",
+      "advancements.gacha_godgamehades_300_g.descr": "HADES BONUSで300G以上獲得しろ。",
       "block.destinycraft2.weapon_core_ore": "WeaponCore Ore",
       "item.destinycraft2.ascendant_shard": "Ascendant Shard",
-      "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
-      "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
       "advancements.cr_13.title": "これは武器ではない",
-      "advancements.cr_23.title": "公開イベント",
+      "advancements.gacha_minecraft_rush_25000.title": "マイクラッシュの覇者",
       "item.destinycraft.general_pickaxe": "General Pickaxe",
-      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
       "advancements.flower_forest_crafter.title": "久遠の花園",
+      "advancements.gacha_godgame_100_g.descr": "GOD GAME中に100G以上上乗せしろ。",
       "advancements.genei_40.descr": "幻影の間第30層を完了しろ。",
-      "advancements.genei_50.descr": "幻影の間第50層を完了しろ。",
-      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
-      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
       "advancements.raid_deep_stone_crypt_securitydown.title": "資源競争",
+      "advancements.gacha_godgamepersephonecombo.title": "女神の一撃",
       "block.destinycraft2.weapon_core_block": "Block of WeaponCore",
       "advancements.genei_20.descr": "幻影の間第20層を完了しろ。",
       "advancements.raid_deep_stone_crypt_ready.title": "用意、始め！",
-      "advancements.genei_30.descr": "幻影の間第30層を完了しろ。",
-      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
-      "advancements.packed_ice_crafter.title": "永久凍土",
+      "advancements.gacha_oni_50000.descr": "1度の鬼がかりRUSHで合計50000expを獲得しろ。",
+      "advancements.gacha_u_crestart.title": "それでも！！",
       "advancements.welcome_to_destiny_craft_2.descr": "ようこそ",
       "advancements.snowy_taiga_crafter.title": "大河のクラフター",
+      "advancements.gacha_oni_onigakattemasune.title": "鬼がかってますね",
+      "advancements.gacha_hades_road_restart.title": "神の引き止め",
+      "advancements.crafter_rank_1.title": "クラフターランク1 探検者",
+      "advancements.cr_12.descr": "土を手に入れろ。",
+      "advancements.cr_32.descr": "武器の欠片を手に入れろ。",
+      "advancements.crafter_rank_5.descr": "クラフターランク5の全ての進捗を完了しろ。",
+      "advancements.raid_deep_stone_crypt_clear.descr": "「ディープストーン・クリプト」を完了しろ。",
+      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
+      "advancements.gacha_godgamehades.title": "PREMIUM OF HADES",
+      "item.destinycraft2.general_multi_tool": "General Multi Tool",
+      "advancements.cr_44.descr": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
+      "advancements.gacha_oni.title": "ゼロから始め...いや、当たったの",
+      "advancements.cr_51.descr": "全ての進捗を終えたら、クラフターランクマネージャー5を叩け。",
+      "advancements.frozen_river_crafter.title": "川も凍り付く",
+      "item.destinycraft2.gorez_sand_eater_spawn_egg": "[英雄]ゴレス・サンドイーター Spawn Egg",
+      "advancements.gacha_oni_onigakari_bonus.descr": "鬼がかりRUSH中に鬼がかり3000BONUSに当選しろ。",
+      "advancements.cr_11.descr": "全ての進捗を終えたら、クラフターランクマネージャーを叩け。",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
+      "advancements.gacha_godgamegod.descr": "PREMIUM GOD GAMEに当選しろ。",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus_g.descr": "GOLDEN TIME中にスーパーマイクラボーナスに当選しろ。",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.gacha_godgamekerberos_100_g.title": "できるいぬ",
+      "effect.destinycraft2.syoumou": "消耗",
+      "item.destinycraft.weapon_core": "WeaponCore",
+      "item.destinycraft.enhanced_core": "Enhanced Core",
+      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "advancements.gacha_godgamehades.descr": "JUDGEMENTでHADES BONUSに当選しろ。",
+      "entity.destinycraft2.skexis": "スケクシス",
+      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
+      "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
+      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
+      "advancements.cr_33.title": "強化のコア",
+      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
+      "item.destinycraft2.mw_iron_sword": "Iron Sword [MASTERWORK]",
+      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus_g.title": "金メッキされたスティーブ像",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus.title": "収穫アリ",
+      "item.destinycraft2.general_sword": "General Sword",
+      "advancements.cr_21.title": "クラフターランク2の道",
+      "advancements.gacha_godgamecrash.title": "1/65536の奇跡",
+      "block.destinycraft2.crafter_rank_manager_3": "Crafter Rank Manager 3",
+      "block.destinycraft2.crafter_rank_manager_2": "Crafter Rank Manager 2",
+      "advancements.raid_deep_stone_crypt_ready.descr": "それぞれの起動スイッチを5秒以内の間隔で起動させながら、深遠のバニラ・アボミネーションを倒せ。",
+      "advancements.genei_40.title": "幻影の習慣者",
+      "advancements.genei_20.title": "幻影の投影者",
+      "advancements.cr_23.descr": "公開イベントを完了しろ。公開イベントは各プレイヤーランダムで周囲のどこかに発生する。公開イベントを完了すると、報酬の入ったクレートが出現する。",
+      "advancements.cr_33.descr": "武器の欠片から強化のコアをクラフトしろ。",
+      "block.destinycraft2.crafter_rank_manager_4": "Crafter Rank Manager 4",
+      "advancements.cr_42.title": "強化用材料",
+      "advancements.snowy_beach_crafter.title": "輝く砂浜",
+      "item.destinycraft.general_shovel": "General Shovel",
+      "advancements.public_event_3.title": "公開処刑",
+      "advancements.gacha_u_crestart.descr": "復活しろ",
+      "advancements.gacha_godgamepersephonecombo.descr": "PERSEPHONE BONUS中にコンボフリーズ発生",
+      "advancements.gacha_hades_road.descr": "確変「HADES ROAD」に突入しろ。",
+      "entity.destinycraft2.gorez_sand_eater": "[英雄]ゴレス・サンドイーター",
+      "advancements.genei_50.title": "幻影への登壇者",
+      "advancements.gacha_uc.title": "ユニコーンガンダム、行きます！",
+      "advancements.gacha_godgameanotherlegend.descr": "JUDGEMENTでANOTHER LEGEND BONUSに当選しろ。",
+      "advancements.gachabonus.descr": "5%のボーナスに当選しろ。",
+      "item.destinycraft.general_axe": "General Axe",
+      "advancements.cr_14.title": "効率を求めて",
+      "advancements.gacha_uc_3000.title": "可能性の獣",
+      "advancements.cr_34.title": "マスターアップ",
+      "advancements.gacha_godgamepersephone.descr": "JUDGEMENTでPERSEPHONE BONUSに当選しろ。",
+      "advancements.ez_masterwork.title": "EZ Masterwork",
+      "advancements.gacha_godgamepersephone_150_g.descr": "PERSEPHONE BONUSで150G以上獲得しろ。",
+      "item.destinycraft.ascendant_shard": "Ascendant Shard",
+      "advancements.cr_31.descr": "全ての進捗を終えたら、クラフターランクマネージャー3を叩け。",
+      "advancements.crafter_rank_4.descr": "クラフターランク4の全ての進捗を完了しろ。",
+      "advancements.shardofpower.title": "Shard of Power",
+      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.raid_deep_stone_crypt_no_damage.descr": "ファイアチームのメンバーが1人も死なずに研究所へ到達しろ。",
+      "advancements.gacha_hades_road_restart.descr": "JUDGEMENTで再びPREMIUM HADES BONUSに当選しろ。",
+      "item.destinycraft2.weapon_core": "WeaponCore",
+      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
+      "advancements.gacha_godgameanotherlegend_510_g.descr": "ANOTHER LEGEND BONUSで510G以上獲得しろ。",
+      "advancements.crafter_rank_3.descr": "クラフターランク3の全ての進捗を完了しろ。",
+      "advancements.mwis.descr": "鉄のソードをマスターワークしろ。アイテムをマスターワークすると、その性能が強化される。",
+      "advancements.cr_12.title": "これならできる",
+      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
+      "advancements.gacha_oni_big_bonus.title": "アナタ...強欲デスね",
+      "advancements.gacha_godgamehadescombo.descr": "HADES BONUS中にコンボフリーズ発生",
+      "advancements.gacha_minecraft_rush.title": "マイクラッシュ",
+      "advancements.public_event_2.title": "公開行事",
+      "advancements.cr_41.title": "クラフターランク4の道",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors",
+      "advancements.gacha.title": "運命を勝ち取れ",
+      "advancements.gacha_hades_road.title": "HADES ROAD",
+      "advancements.crafter_rank_2.descr": "クラフターランク2の全ての進捗を完了しろ。",
+      "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
+      "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
+      "advancements.cr_23.title": "公開イベント",
+      "advancements.gacha_uc.descr": "デストロイRUSHに突入しろ。",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.genei_50.descr": "幻影の間第50層を完了しろ。",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.gacha_hades_road_premium_hades_bonus.descr": "PREMIUM HADES BONUSに当選しろ。",
+      "advancements.gacha_godgame_zeus_bonus.title": "ゼウス降臨",
+      "advancements.genei_30.descr": "幻影の間第30層を完了しろ。",
+      "advancements.gacha_uchyper.descr": "覚醒HYPERに突入しろ。",
+      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "advancements.gacha_godgame.descr": "確変「GOD GAME」に突入しろ。",
+      "advancements.packed_ice_crafter.title": "永久凍土",
       "advancements.public_event_1.title": "公開事業",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
       "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
       "advancements.cr_43.title": "手配犯 オープンワールド",
-      "advancements.crafter_rank_1.title": "クラフターランク1 探検者",
-      "advancements.cr_12.descr": "土を手に入れろ。",
-      "advancements.cr_32.descr": "武器の欠片を手に入れろ。",
-      "advancements.crafter_rank_5.descr": "クラフターランク5の全ての進捗を完了しろ。",
-      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
-      "advancements.crafter_rank_4.title": "クラフターランク4 冒険家",
+      "advancements.gacha_godgamekerberos.descr": "JUDGEMENTからKERBEROS BONUSに当選しろ。",
       "advancements.cr_51.title": "クラフターランク5の道",
-      "advancements.raid_deep_stone_crypt_clear.descr": "「ディープストーン・クリプト」を完了しろ。",
-      "item.destinycraft2.general_multi_tool": "General Multi Tool",
+      "advancements.crafter_rank_4.title": "クラフターランク4 冒険家",
       "advancements.cr_31.title": "クラフターランク3の道",
+      "advancements.gacha_godgamecrash.descr": "フリーズしろ",
       "advancements.cr_11.title": "クラフターランク1の道",
       "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
       "item.destinycraft.general_sword": "General Sword",
-      "advancements.cr_44.descr": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
-      "advancements.cr_51.descr": "全ての進捗を終えたら、クラフターランクマネージャー5を叩け。",
       "advancements.raid_deep_stone_crypt_no_damage.title": "無傷",
-      "advancements.frozen_river_crafter.title": "川も凍り付く",
-      "item.destinycraft2.gorez_sand_eater_spawn_egg": "[英雄]ゴレス・サンドイーター Spawn Egg",
+      "advancements.gacha_hades_road_50000.descr": "1度のHADES ROADで合計50000expを獲得しろ。",
       "advancements.cr_21.descr": "全ての進捗を終えたら、クラフターランクマネージャー2を叩け。",
       "advancements.cr_44.title": "英雄イベント",
-      "advancements.cr_11.descr": "全ての進捗を終えたら、クラフターランクマネージャーを叩け。",
-      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
-      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
-      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
-      "effect.destinycraft2.syoumou": "消耗",
       "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
       "advancements.legends.title": "伝説",
-      "item.destinycraft.weapon_core": "WeaponCore",
-      "item.destinycraft.enhanced_core": "Enhanced Core",
+      "advancements.gacha_godgamekerberos_100_g.descr": "KERBEROS BONUSで100G以上獲得しろ。",
+      "advancements.gacha_oni_onigakari_bonus.title": "流石あなた様ですね",
       "advancements.cr_15.title": "食事は疎かにできない",
-      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
       "item.destinycraft2.general_hoe": "General Hoe",
       "advancements.raid_deep_stone_crypt_clear.title": "ディープストーン・クリプト",
       "advancements.flower_forest_crafter.descr": "花の森へ行け。",
       "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
-      "entity.destinycraft2.skexis": "スケクシス",
       "item.destinycraft.general_multi_tool": "General Multi Tool",
-      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
-      "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
       "advancements.crafter_rank_1.descr": "クラフターランク1の全ての進捗を完了しろ。",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
-      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
-      "advancements.cr_33.title": "強化のコア",
+      "advancements.gacha_godgame.title": "神々の遊び",
       "advancements.cr_22.descr": "鉄ブロックをクラフトしろ。",
       "advancements.jagged_peaks_crafter.descr": "尖った山頂へ行け。",
-      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
-      "item.destinycraft2.mw_iron_sword": "Iron Sword [MASTERWORK]",
-      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
+      "advancements.gacha_godgamepersephone_150_g.title": "受け取りなさい",
+      "advancements.gacha_hades_road_50000.title": "HADES ROADの覇者",
       "advancements.snowy_taiga_crafter.descr": "雪のタイガに行け。",
-      "item.destinycraft2.general_sword": "General Sword",
-      "advancements.cr_21.title": "クラフターランク2の道",
+      "advancements.gacha_oni.descr": "確変「鬼がかりRUSH」に突入しろ。",
       "advancements.mushroom_fields.title": "キノコの楽園",
       "advancements.cr_34.descr": "鉄のソードをマスターワークしろ。一部の装備はマスターワークすることで潜在能力を開放したり、装備そのものが強化される。",
-      "block.destinycraft2.crafter_rank_manager_3": "Crafter Rank Manager 3",
-      "block.destinycraft2.crafter_rank_manager_2": "Crafter Rank Manager 2",
-      "advancements.raid_deep_stone_crypt_ready.descr": "それぞれの起動スイッチを5秒以内の間隔で起動させながら、深遠のバニラ・アボミネーションを倒せ。",
-      "advancements.genei_10.title": "幻影の入門者",
-      "advancements.genei_20.title": "幻影の投影者",
       "advancements.genei_30.title": "幻影の関係者",
-      "advancements.genei_40.title": "幻影の習慣者",
+      "advancements.genei_10.title": "幻影の入門者",
       "advancements.jagged_peaks_crafter.title": "山の頂",
-      "advancements.cr_23.descr": "公開イベントを完了しろ。公開イベントは各プレイヤーランダムで周囲のどこかに発生する。公開イベントを完了すると、報酬の入ったクレートが出現する。",
       "advancements.snowy_plains_crafter.title": "雪原のクラフター",
       "advancements.cr_13.descr": "木の棒をクラフトしろ。",
-      "advancements.cr_33.descr": "武器の欠片から強化のコアをクラフトしろ。",
-      "block.destinycraft2.crafter_rank_manager_4": "Crafter Rank Manager 4",
       "advancements.crafter_rank_2.title": "クラフターランク2 イニシエイト",
       "advancements.crafter_rank_5.title": "クラフターランク5 ベテラン",
-      "advancements.cr_42.title": "強化用材料",
+      "advancements.gacha.descr": "ガチャを1回行え。オーダーから行うことができる。ここから先の進捗はライトガチャでは獲得できない。",
       "advancements.raid_deep_stone_crypt_securitydown.descr": "1度のセキュリティコアアクセスで、クリプト・セキュリティをシャットダウンしろ。",
       "advancements.get_the_prism.title": "Get The Prism",
       "advancements.cr_32.title": "武器のかけら",
-      "advancements.snowy_beach_crafter.title": "輝く砂浜",
-      "item.destinycraft.general_shovel": "General Shovel",
+      "advancements.gacha_godgamehades_300_g.title": "ﾓ\"ｰｰ",
       "advancements.cr_22.title": "余裕が見える",
-      "advancements.public_event_3.title": "公開処刑",
       "advancements.cr_43.descr": "いずれかの手配犯を倒せ。赤色ネームの敵はボスだ。",
-      "entity.destinycraft2.gorez_sand_eater": "[英雄]ゴレス・サンドイーター",
-      "advancements.genei_50.title": "幻影への登壇者",
+      "advancements.gacha_uchyper.title": "このわからずや！",
       "item.destinycraft2.enhanced_core": "Enhanced Core",
       "advancements.public_event_1.descr": "公開イベントを完了しろ。",
+      "advancements.gacha_hades_road_premium_hades_bonus.title": "神道へ",
       "advancements.get_the_sponge.title": "海賊王",
       "block.destinycraft2.crafter_rank_manager": "Crafter Rank Manager 1",
       "advancements.mushroom_fields.descr": "キノコ島へ行け。",
+      "advancements.gacha_minecraft_rush_25000.descr": "1度のマイクラッシュで合計25000expを獲得しろ。",
       "item.destinycraft2.enhanced_prism": "Enhanced Prism",
+      "advancements.gacha_minecraft_rush.descr": "確変「マイクラッシュ」に突入しろ。",
+      "advancements.gacha_godgame_100_g.title": "CHANCE",
       "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
       "advancements.ocean_crafter.title": "海洋のクラフター",
       "item.destinycraft2.general_axe": "General Axe",
-      "item.destinycraft.general_axe": "General Axe",
-      "advancements.cr_14.title": "効率を求めて",
-      "advancements.cr_34.title": "マスターアップ",
-      "advancements.ez_masterwork.title": "EZ Masterwork",
+      "advancements.gacha_godgamehadescombo.title": "冥王の一撃",
       "item.destinycraft2.general_shovel": "General Shovel",
-      "item.destinycraft.ascendant_shard": "Ascendant Shard",
-      "item.destinycraft.enhanced_prism": "Enhanced Prism",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus.descr": "マイクラッシュ中にスーパーマイクラボーナスに当選しろ。",
       "advancements.public_event_2.descr": "英雄公開イベントを完了しろ",
-      "advancements.cr_31.descr": "全ての進捗を終えたら、クラフターランクマネージャー3を叩け。",
-      "advancements.shardofpower.title": "Shard of Power",
-      "advancements.crafter_rank_4.descr": "クラフターランク4の全ての進捗を完了しろ。",
+      "item.destinycraft.enhanced_prism": "Enhanced Prism",
+      "advancements.gacha_godgamegod.title": "1/8192の奇跡",
       "advancements.cr_41.descr": "全ての進捗を終えたら、クラフターランクマネージャー4を叩け。",
-      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.gacha_godgamepersephone.title": "ZONE OF PERSEPHONE",
+      "advancements.gacha_godgamekerberos.title": "RUSH OF KERBEROS",
       "advancements.packed_ice_crafter.descr": "氷塊を手に入れろ。",
       "advancements.deep_dark_crafter.descr": "古代都市へ行け。",
       "advancements.crafter_rank_3.title": "クラフターランク3 偵察員",
-      "advancements.raid_deep_stone_crypt_no_damage.descr": "ファイアチームのメンバーが1人も死なずに研究所へ到達しろ。",
       "advancements.mwis.title": "初心マスター",
-      "item.destinycraft2.weapon_core": "WeaponCore",
+      "advancements.gacha_oni_big_bonus.descr": "鬼がかりRUSH中にBIG BONUSに当選しろ。",
       "advancements.cr_15.descr": "焼き豚を手に入れろ。",
-      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
+      "advancements.gacha_godgame_zeus_bonus.descr": "ZEUS BONUSに当選しろ。",
       "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
+      "advancements.gacha_godgameanotherlegend_510_g.title": "神",
       "item.destinycraft2.general_pickaxe": "General Pickaxe",
-      "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
       "advancements.legends.descr": "栄光あれ。",
-      "advancements.crafter_rank_3.descr": "クラフターランク3の全ての進捗を完了しろ。",
+      "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
       "item.destinycraft.general_hoe": "General Hoe",
-      "advancements.mwis.descr": "鉄のソードをマスターワークしろ。アイテムをマスターワークすると、その性能が強化される。",
-      "advancements.cr_12.title": "これならできる",
-      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
       "advancements.get_the_allium.descr": "アリウムを入手しろ。",
       "advancements.cr_42.descr": "強化プリズムを入手しろ。強化プリズムは防具のマスターワーク素材となる。",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
       "block.destinycraft.weapon_core_block": "Block of WeaponCore",
-      "advancements.public_event_2.title": "公開行事",
+      "advancements.gacha_oni_50000.title": "鬼がかった覇者",
+      "advancements.gacha_godgameanotherlegend.title": "三神降臨",
+      "advancements.gacha_minecraft_rush_minecraft_bonus.title": "報酬ドロップ",
+      "advancements.gacha_uc_3000.descr": "初回ボーナスでUNICORN FEVER3000に当選しろ。",
       "advancements.cr_14.descr": "木の斧をクラフトしろ。",
-      "advancements.cr_41.title": "クラフターランク4の道",
-      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
+      "advancements.gacha_oni_onigakattemasune.descr": "REGULAR BONUS中に鬼がかり3000BONUSに昇格しろ。",
+      "advancements.gachabonus.title": "恵まれた運命"
     },
     "ja_jp": {
       "advancements.ocean_crafter.descr": "海洋へ行け。",
-      "advancements.crafter_rank_2.descr": "クラフターランク2の全ての進捗を完了しろ。",
+      "advancements.gacha_minecraft_rush_minecraft_bonus.descr": "マイクラッシュ中にマイクラボーナスに当選しろ。",
       "block.destinycraft.weapon_core_ore": "武器のコアの原石",
+      "advancements.gacha_godgamehades_300_g.descr": "HADES BONUSで300G以上獲得しろ。",
       "block.destinycraft2.weapon_core_ore": "武器のコアの原石",
       "item.destinycraft2.ascendant_shard": "アセンダントの破片",
-      "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
-      "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
       "advancements.cr_13.title": "これは武器ではない",
-      "advancements.cr_23.title": "公開イベント",
+      "advancements.gacha_minecraft_rush_25000.title": "マイクラッシュの覇者",
       "item.destinycraft.general_pickaxe": "汎用的なピッケル",
       "advancements.flower_forest_crafter.title": "久遠の花園",
-      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.gacha_godgame_100_g.descr": "GOD GAME中に100G以上上乗せしろ。",
       "advancements.genei_40.descr": "幻影の間第30層を完了しろ。",
-      "advancements.genei_50.descr": "幻影の間第50層を完了しろ。",
-      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
-      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
       "advancements.raid_deep_stone_crypt_securitydown.title": "資源競争",
+      "advancements.gacha_godgamepersephonecombo.title": "女神の一撃",
       "block.destinycraft2.weapon_core_block": "武器のコアのブロック",
       "advancements.genei_20.descr": "幻影の間第20層を完了しろ。",
       "advancements.raid_deep_stone_crypt_ready.title": "用意、始め！",
-      "advancements.genei_30.descr": "幻影の間第30層を完了しろ。",
-      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
-      "advancements.packed_ice_crafter.title": "永久凍土",
+      "advancements.gacha_oni_50000.descr": "1度の鬼がかりRUSHで合計50000expを獲得しろ。",
+      "advancements.gacha_u_crestart.title": "それでも！！",
       "advancements.snowy_taiga_crafter.title": "大河のクラフター",
       "advancements.welcome_to_destiny_craft_2.descr": "ようこそ",
+      "advancements.gacha_oni_onigakattemasune.title": "鬼がかってますね",
+      "advancements.gacha_hades_road_restart.title": "神の引き止め",
+      "advancements.crafter_rank_1.title": "クラフターランク1 探検者",
+      "advancements.cr_12.descr": "土を手に入れろ。",
+      "advancements.cr_32.descr": "武器の欠片を手に入れろ。",
+      "advancements.crafter_rank_5.descr": "クラフターランク5の全ての進捗を完了しろ。",
+      "advancements.raid_deep_stone_crypt_clear.descr": "レイド「ディープストーン・クリプト」を完了しろ。",
+      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
+      "advancements.gacha_godgamehades.title": "PREMIUM OF HADES",
+      "item.destinycraft2.general_multi_tool": "汎用マルチツール",
+      "advancements.cr_44.descr": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
+      "advancements.gacha_oni.title": "ゼロから始め...いや、当たったの",
+      "advancements.cr_51.descr": "全ての進捗を終えたら、クラフターランクマネージャー5を叩け。",
+      "advancements.frozen_river_crafter.title": "川も凍り付く",
+      "item.destinycraft2.gorez_sand_eater_spawn_egg": "[英雄]ゴレス・サンドイーター Spawn Egg",
+      "advancements.gacha_oni_onigakari_bonus.descr": "鬼がかりRUSH中に鬼がかり3000BONUSに当選しろ。",
+      "advancements.cr_11.descr": "ようこそDestinyCraft2へ。ここから君の新たな冒険が始まる。全ての進捗を終えたら、クラフターランクマネージャーをクラフトして叩け。",
+      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
+      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
+      "advancements.gacha_godgamegod.descr": "PREMIUM GOD GAMEに当選しろ。",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus_g.descr": "GOLDEN TIME中にスーパーマイクラボーナスに当選しろ。",
+      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
+      "advancements.gacha_godgamekerberos_100_g.title": "できるいぬ",
+      "effect.destinycraft2.syoumou": "消耗",
+      "item.destinycraft.weapon_core": "武器のコア",
+      "item.destinycraft.enhanced_core": "強化のコア",
+      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
+      "advancements.gacha_godgamehades.descr": "JUDGEMENTでHADES BONUSに当選しろ。",
+      "entity.destinycraft2.skexis": "スケクシス",
+      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
+      "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
+      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
+      "advancements.cr_33.title": "強化のコア",
+      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
+      "item.destinycraft2.mw_iron_sword": "鉄のソード[マスターワーク]",
+      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus_g.title": "金メッキされたスティーブ像",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus.title": "収穫アリ",
+      "item.destinycraft2.general_sword": "汎用的なソード",
+      "advancements.cr_21.title": "クラフターランク2の道",
+      "advancements.gacha_godgamecrash.title": "1/65536の奇跡",
+      "block.destinycraft2.crafter_rank_manager_3": "Crafter Rank Manager 3",
+      "block.destinycraft2.crafter_rank_manager_2": "Crafter Rank Manager 2",
+      "advancements.raid_deep_stone_crypt_ready.descr": "それぞれの起動スイッチを5秒以内の間隔で起動させながら、深遠のバニラ・アボミネーションを倒せ。",
+      "advancements.genei_40.title": "幻影の習慣者",
+      "advancements.genei_20.title": "幻影の投影者",
+      "advancements.cr_23.descr": "公開イベントを完了しろ。公開イベントは各プレイヤーランダムで周囲のどこかに発生する。",
+      "advancements.cr_33.descr": "武器の欠片から強化のコアをクラフトしろ。",
+      "block.destinycraft2.crafter_rank_manager_4": "Crafter Rank Manager 4",
+      "advancements.cr_42.title": "強化用材料",
+      "advancements.snowy_beach_crafter.title": "輝く砂浜",
+      "item.destinycraft.general_shovel": "汎用的なシャベル",
+      "advancements.public_event_3.title": "公開処刑",
+      "advancements.gacha_u_crestart.descr": "復活しろ",
+      "advancements.gacha_godgamepersephonecombo.descr": "PERSEPHONE BONUS中にコンボフリーズ発生",
+      "advancements.gacha_hades_road.descr": "確変「HADES ROAD」に突入しろ。",
+      "entity.destinycraft2.gorez_sand_eater": "[英雄]ゴレス・サンドイーター",
+      "advancements.genei_50.title": "幻影への登壇者",
+      "advancements.gacha_uc.title": "ユニコーンガンダム、行きます！",
+      "advancements.gacha_godgameanotherlegend.descr": "JUDGEMENTでANOTHER LEGEND BONUSに当選しろ。",
+      "advancements.gachabonus.descr": "5%のボーナスに当選しろ。",
+      "item.destinycraft.general_axe": "汎用的なアックス",
+      "advancements.cr_14.title": "効率を求めて",
+      "advancements.gacha_uc_3000.title": "可能性の獣",
+      "advancements.cr_34.title": "マスターアップ",
+      "advancements.gacha_godgamepersephone.descr": "JUDGEMENTでPERSEPHONE BONUSに当選しろ。",
+      "advancements.ez_masterwork.title": "マスターワークの近道",
+      "advancements.gacha_godgamepersephone_150_g.descr": "PERSEPHONE BONUSで150G以上獲得しろ。",
+      "item.destinycraft.ascendant_shard": "アセンダントの破片",
+      "advancements.cr_31.descr": "全ての進捗を終えたら、クラフターランクマネージャー3を叩け。",
+      "advancements.crafter_rank_4.descr": "クラフターランク4の全ての進捗を完了しろ。",
+      "advancements.shardofpower.title": "力のかけら",
+      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.raid_deep_stone_crypt_no_damage.descr": "ファイアチームのメンバーが1人も死なずに研究所へ到達しろ。",
+      "advancements.gacha_hades_road_restart.descr": "JUDGEMENTで再びPREMIUM HADES BONUSに当選しろ。",
+      "item.destinycraft2.weapon_core": "武器のコア",
+      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
+      "advancements.gacha_godgameanotherlegend_510_g.descr": "ANOTHER LEGEND BONUSで510G以上獲得しろ。",
+      "advancements.crafter_rank_3.descr": "クラフターランク3の全ての進捗を完了しろ。",
+      "advancements.mwis.descr": "鉄のソードをマスターワークしろ",
+      "advancements.cr_12.title": "これならできる",
+      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
+      "advancements.gacha_oni_big_bonus.title": "アナタ...強欲デスね",
+      "advancements.gacha_godgamehadescombo.descr": "HADES BONUS中にコンボフリーズ発生",
+      "advancements.gacha_minecraft_rush.title": "マイクラッシュ",
+      "advancements.public_event_2.title": "公開行事",
+      "advancements.cr_41.title": "クラフターランク4の道",
+      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors",
+      "advancements.gacha.title": "運命を勝ち取れ",
+      "advancements.gacha_hades_road.title": "HADES ROAD",
+      "advancements.crafter_rank_2.descr": "クラフターランク2の全ての進捗を完了しろ。",
+      "item.destinycraft2.skexis_spawn_egg": "スケクシス Spawn Egg",
+      "advancements.genei_10.descr": "幻影の間第10層を完了しろ。",
+      "advancements.cr_23.title": "公開イベント",
+      "advancements.gacha_uc.descr": "デストロイRUSHに突入しろ。",
+      "itemGroup.destinycraft.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.genei_50.descr": "幻影の間第50層を完了しろ。",
+      "itemGroup.destinycraft.destiny_craft_misc": "Destiny Craft Misc",
+      "itemGroup.destinycraft2.destiny_craft_tools": "Destiny Craft Tools",
+      "advancements.gacha_hades_road_premium_hades_bonus.descr": "PREMIUM HADES BONUSに当選しろ。",
+      "advancements.gacha_godgame_zeus_bonus.title": "ゼウス降臨",
+      "advancements.genei_30.descr": "幻影の間第30層を完了しろ。",
+      "advancements.gacha_uchyper.descr": "覚醒HYPERに突入しろ。",
+      "itemGroup.destinycraft2.destiny_craft_materials": "Destiny Craft Materials",
+      "advancements.gacha_godgame.descr": "確変「GOD GAME」に突入しろ。",
+      "advancements.packed_ice_crafter.title": "永久凍土",
       "advancements.public_event_1.title": "公開事業",
       "itemGroup.destinycraft.destiny_craft_server_side": "Destiny Craft Server Side",
       "itemGroup.destinycraft2.destiny_craft_machines": "Destiny Craft Machines",
       "itemGroup.destinycraft2.destiny_craft_misc": "Destiny Craft Misc",
       "advancements.cr_43.title": "手配犯 オープンワールド",
-      "advancements.crafter_rank_1.title": "クラフターランク1 探検者",
-      "advancements.cr_12.descr": "土を手に入れろ。",
-      "advancements.cr_32.descr": "武器の欠片を手に入れろ。",
-      "advancements.crafter_rank_5.descr": "クラフターランク5の全ての進捗を完了しろ。",
-      "itemGroup.destinycraft2.destiny_craft_server_side": "Destiny Craft Server Side",
-      "advancements.crafter_rank_4.title": "クラフターランク4 冒険家",
+      "advancements.gacha_godgamekerberos.descr": "JUDGEMENTからKERBEROS BONUSに当選しろ。",
       "advancements.cr_51.title": "クラフターランク5の道",
-      "advancements.raid_deep_stone_crypt_clear.descr": "レイド「ディープストーン・クリプト」を完了しろ。",
-      "item.destinycraft2.general_multi_tool": "汎用マルチツール",
+      "advancements.crafter_rank_4.title": "クラフターランク4 冒険家",
       "advancements.cr_31.title": "クラフターランク3の道",
+      "advancements.gacha_godgamecrash.descr": "フリーズしろ",
       "advancements.cr_11.title": "クラフターランク1の道",
       "itemGroup.destinycraft.destiny_craft_weapons": "Destiny Craft Weapons",
       "item.destinycraft.general_sword": "汎用的なソード",
-      "advancements.cr_44.descr": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
-      "advancements.cr_51.descr": "全ての進捗を終えたら、クラフターランクマネージャー5を叩け。",
       "advancements.raid_deep_stone_crypt_no_damage.title": "無傷",
-      "advancements.frozen_river_crafter.title": "川も凍り付く",
-      "item.destinycraft2.gorez_sand_eater_spawn_egg": "[英雄]ゴレス・サンドイーター Spawn Egg",
+      "advancements.gacha_hades_road_50000.descr": "1度のHADES ROADで合計50000expを獲得しろ。",
       "advancements.cr_21.descr": "全ての進捗を終えたら、クラフターランクマネージャー2を叩け。",
       "advancements.cr_44.title": "英雄イベント",
-      "advancements.cr_11.descr": "ようこそDestinyCraft2へ。ここから君の新たな冒険が始まる。全ての進捗を終えたら、クラフターランクマネージャーをクラフトして叩け。",
-      "itemGroup.destinycraft.destiny_craft_foods": "Destiny Craft Foods",
-      "advancements.frozen_river_crafter.descr": "凍った川に行け。",
-      "advancements.shardofpower.descr": "武器のコアを入手しろ。",
-      "effect.destinycraft2.syoumou": "消耗",
       "advancements.ice_spikes_crafter.descr": "氷樹へ行け。",
       "advancements.legends.title": "伝説",
-      "item.destinycraft.weapon_core": "武器のコア",
-      "item.destinycraft.enhanced_core": "強化のコア",
+      "advancements.gacha_godgamekerberos_100_g.descr": "KERBEROS BONUSで100G以上獲得しろ。",
+      "advancements.gacha_oni_onigakari_bonus.title": "流石あなた様ですね",
       "advancements.cr_15.title": "食事は疎かにできない",
       "item.destinycraft2.general_hoe": "汎用的なクワ",
-      "advancements.snowy_beach_crafter.descr": "雪の砂浜へ行け。",
       "advancements.raid_deep_stone_crypt_clear.title": "ディープストーン・クリプト",
       "advancements.flower_forest_crafter.descr": "花の森へ行け。",
       "advancements.ez_masterwork.descr": "アセンダントの破片を手に入れろ",
-      "entity.destinycraft2.skexis": "スケクシス",
       "item.destinycraft.general_multi_tool": "汎用マルチツール",
-      "advancements.deep_dark_crafter.title": "ディープダークファンタジー",
-      "advancements.welcome_to_destiny_craft_2.title": "Destiny Craft 2",
       "advancements.crafter_rank_1.descr": "クラフターランク1の全ての進捗を完了しろ。",
       "itemGroup.destinycraft.destiny_craft_materials": "Destiny Craft Materials",
-      "itemGroup.destinycraft2.destiny_craft_weapons": "Destiny Craft Weapons",
-      "advancements.cr_33.title": "強化のコア",
+      "advancements.gacha_godgame.title": "神々の遊び",
       "advancements.cr_22.descr": "鉄ブロックをクラフトしろ。",
       "advancements.jagged_peaks_crafter.descr": "尖った山頂へ行け。",
-      "advancements.get_the_sponge.descr": "スポンジを入手しろ。",
-      "item.destinycraft2.mw_iron_sword": "鉄のソード[マスターワーク]",
-      "advancements.snowy_plains_crafter.descr": "雪原に行け。",
+      "advancements.gacha_godgamepersephone_150_g.title": "受け取りなさい",
+      "advancements.gacha_hades_road_50000.title": "HADES ROADの覇者",
       "advancements.snowy_taiga_crafter.descr": "雪のタイガに行け。",
-      "item.destinycraft2.general_sword": "汎用的なソード",
-      "advancements.cr_21.title": "クラフターランク2の道",
+      "advancements.gacha_oni.descr": "確変「鬼がかりRUSH」に突入しろ。",
       "advancements.mushroom_fields.title": "キノコの楽園",
       "advancements.cr_34.descr": "鉄のソードをマスターワークしろ。",
-      "block.destinycraft2.crafter_rank_manager_3": "Crafter Rank Manager 3",
-      "block.destinycraft2.crafter_rank_manager_2": "Crafter Rank Manager 2",
-      "advancements.raid_deep_stone_crypt_ready.descr": "それぞれの起動スイッチを5秒以内の間隔で起動させながら、深遠のバニラ・アボミネーションを倒せ。",
-      "advancements.genei_10.title": "幻影の入門者",
-      "advancements.genei_20.title": "幻影の投影者",
       "advancements.genei_30.title": "幻影の関係者",
-      "advancements.genei_40.title": "幻影の習慣者",
+      "advancements.genei_10.title": "幻影の入門者",
       "advancements.jagged_peaks_crafter.title": "山の頂",
-      "advancements.cr_23.descr": "公開イベントを完了しろ。公開イベントは各プレイヤーランダムで周囲のどこかに発生する。",
       "advancements.snowy_plains_crafter.title": "雪原のクラフター",
       "advancements.cr_13.descr": "木の棒をクラフトしろ。",
-      "advancements.cr_33.descr": "武器の欠片から強化のコアをクラフトしろ。",
-      "block.destinycraft2.crafter_rank_manager_4": "Crafter Rank Manager 4",
       "advancements.crafter_rank_2.title": "クラフターランク2 イニシエイト",
       "advancements.crafter_rank_5.title": "クラフターランク5 ベテラン",
-      "advancements.cr_42.title": "強化用材料",
+      "advancements.gacha.descr": "ガチャを1回行え。オーダーから行うことができる。",
       "advancements.raid_deep_stone_crypt_securitydown.descr": "1度のコアアクセスで、クリプト・セキュリティをシャットダウンしろ。",
       "advancements.get_the_prism.title": "プリズムストーン",
       "advancements.cr_32.title": "武器のかけら",
-      "advancements.snowy_beach_crafter.title": "輝く砂浜",
-      "item.destinycraft.general_shovel": "汎用的なシャベル",
+      "advancements.gacha_godgamehades_300_g.title": "ﾓ\"ｰｰ",
       "advancements.cr_22.title": "余裕が見える",
-      "advancements.public_event_3.title": "公開処刑",
       "advancements.cr_43.descr": "いずれかの手配犯を倒せ。赤色ネームの敵はボスだ。",
-      "entity.destinycraft2.gorez_sand_eater": "[英雄]ゴレス・サンドイーター",
-      "advancements.genei_50.title": "幻影への登壇者",
+      "advancements.gacha_uchyper.title": "このわからずや！",
       "item.destinycraft2.enhanced_core": "強化のコア",
       "advancements.public_event_1.descr": "公開イベントを完了しろ。",
+      "advancements.gacha_hades_road_premium_hades_bonus.title": "神道へ",
       "advancements.get_the_sponge.title": "海賊王",
       "block.destinycraft2.crafter_rank_manager": "Crafter Rank Manager",
       "advancements.mushroom_fields.descr": "キノコ島へ行け。",
+      "advancements.gacha_minecraft_rush_25000.descr": "1度のマイクラッシュで合計25000expを獲得しろ。",
       "item.destinycraft2.enhanced_prism": "強化プリズム",
+      "advancements.gacha_minecraft_rush.descr": "確変「マイクラッシュ」に突入しろ。",
+      "advancements.gacha_godgame_100_g.title": "CHANCE",
       "itemGroup.destinycraft2.destiny_craft_foods": "Destiny Craft Foods",
       "advancements.ocean_crafter.title": "海洋のクラフター",
       "item.destinycraft2.general_axe": "汎用的なアックス",
-      "item.destinycraft.general_axe": "汎用的なアックス",
-      "advancements.cr_14.title": "効率を求めて",
-      "advancements.cr_34.title": "マスターアップ",
-      "advancements.ez_masterwork.title": "マスターワークの近道",
+      "advancements.gacha_godgamehadescombo.title": "冥王の一撃",
       "item.destinycraft2.general_shovel": "汎用的なシャベル",
-      "item.destinycraft.ascendant_shard": "アセンダントの破片",
-      "item.destinycraft.enhanced_prism": "強化プリズム",
+      "advancements.gacha_minecraft_rush_super_minecraft_bonus.descr": "マイクラッシュ中にスーパーマイクラボーナスに当選しろ。",
       "advancements.public_event_2.descr": "英雄公開イベントを完了しろ",
-      "advancements.cr_31.descr": "全ての進捗を終えたら、クラフターランクマネージャー3を叩け。",
-      "advancements.shardofpower.title": "力のかけら",
-      "advancements.crafter_rank_4.descr": "クラフターランク4の全ての進捗を完了しろ。",
+      "item.destinycraft.enhanced_prism": "強化プリズム",
+      "advancements.gacha_godgamegod.title": "1/8192の奇跡",
       "advancements.cr_41.descr": "全ての進捗を終えたら、クラフターランクマネージャー4を叩け。",
-      "advancements.get_the_allium.title": "世界にここだけの花",
+      "advancements.gacha_godgamepersephone.title": "ZONE OF PERSEPHONE",
+      "advancements.gacha_godgamekerberos.title": "RUSH OF KERBEROS",
       "advancements.packed_ice_crafter.descr": "氷塊を手に入れろ。",
       "advancements.deep_dark_crafter.descr": "古代都市へ行け。",
       "advancements.crafter_rank_3.title": "クラフターランク3 偵察員",
-      "advancements.raid_deep_stone_crypt_no_damage.descr": "ファイアチームのメンバーが1人も死なずに研究所へ到達しろ。",
       "advancements.mwis.title": "初心マスター",
-      "item.destinycraft2.weapon_core": "武器のコア",
+      "advancements.gacha_oni_big_bonus.descr": "鬼がかりRUSH中にBIG BONUSに当選しろ。",
       "advancements.cr_15.descr": "焼き豚を手に入れろ。",
-      "advancements.ice_spikes_crafter.title": "氷樹のクラフター",
+      "advancements.gacha_godgame_zeus_bonus.descr": "ZEUS BONUSに当選しろ。",
       "itemGroup.destinycraft2.destiny_craft_armors": "Destiny Craft Armors",
+      "advancements.gacha_godgameanotherlegend_510_g.title": "神",
       "item.destinycraft2.general_pickaxe": "汎用的なピッケル",
-      "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
       "advancements.legends.descr": "栄光あれ。",
-      "advancements.crafter_rank_3.descr": "クラフターランク3の全ての進捗を完了しろ。",
+      "advancements.public_event_3.descr": "達人公開イベントを完了しろ",
       "item.destinycraft.general_hoe": "汎用的なクワ",
-      "advancements.mwis.descr": "鉄のソードをマスターワークしろ",
-      "advancements.cr_12.title": "これならできる",
-      "advancements.get_the_prism.descr": "強化プリズムを手に入れろ",
       "advancements.get_the_allium.descr": "アリウムを入手しろ。",
       "advancements.cr_42.descr": "強化プリズムを入手しろ。強化プリズムは防具のマスターワーク素材となる。",
       "itemGroup.destinycraft.destiny_craft_machines": "Destiny Craft Machines",
       "block.destinycraft.weapon_core_block": "武器のコアのブロック",
-      "advancements.public_event_2.title": "公開行事",
+      "advancements.gacha_oni_50000.title": "鬼がかった覇者",
+      "advancements.gacha_godgameanotherlegend.title": "三神降臨",
+      "advancements.gacha_minecraft_rush_minecraft_bonus.title": "報酬ドロップ",
+      "advancements.gacha_uc_3000.descr": "初回ボーナスでUNICORN FEVER3000に当選しろ。",
       "advancements.cr_14.descr": "木の斧をクラフトしろ。",
-      "advancements.cr_41.title": "クラフターランク4の道",
-      "itemGroup.destinycraft.destiny_craft_armors": "Destiny Craft Armors"
+      "advancements.gacha_oni_onigakattemasune.descr": "REGULAR BONUS中に鬼がかり3000BONUSに昇格しろ。",
+      "advancements.gachabonus.title": "恵まれた運命"
     }
   },
   "foldersRoot": {
@@ -1896,7 +2526,7 @@
   "workspaceSettings": {
     "modid": "destinycraft2",
     "modName": "DestinyCraft2",
-    "version": "0.1_beta83",
+    "version": "0.1_beta118",
     "author": "AI_Vanilla",
     "websiteURL": "https://twitter.com/Vanilla_JP",
     "license": "MIT License",
