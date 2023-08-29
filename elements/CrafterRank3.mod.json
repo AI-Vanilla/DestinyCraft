@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク3 偵察員",
+    "achievementName": "クラフターランク3 イニシエイト",
     "achievementDescription": "クラフターランク3の全ての進捗を完了しろ。",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"

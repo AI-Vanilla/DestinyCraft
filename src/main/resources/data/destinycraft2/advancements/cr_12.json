@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:stone_pickaxe"
     },
     "title": {
       "translate": "advancements.cr_12.title"
@@ -16,16 +16,16 @@
   },
   "criteria": {
     "cr_12": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:location",
       "conditions": {
-        "items": [
+        "player": [
           {
-            "items": [
-              "minecraft:dirt"
-            ],
-            "count": {
-              "min": 1,
-              "max": 9
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "plains"
+              }
             }
           }
         ]

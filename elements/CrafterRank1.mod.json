@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク1 探検者",
+    "achievementName": "クラフターランク1 新たな光",
     "achievementDescription": "クラフターランク1の全ての進捗を完了しろ。",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"

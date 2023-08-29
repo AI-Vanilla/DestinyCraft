@@ -11,6 +11,7 @@ import net.minecraft.core.Registry;
 import net.destinycraft.block.WeaponCoreOreBlock;
 import net.destinycraft.block.WeaponCoreBlockBlock;
 import net.destinycraft.block.CrafterRankManagerBlock;
+import net.destinycraft.block.CrafterRankManager5Block;
 import net.destinycraft.block.CrafterRankManager4Block;
 import net.destinycraft.block.CrafterRankManager3Block;
 import net.destinycraft.block.CrafterRankManager2Block;
@@ -23,6 +24,7 @@ public class Destinycraft2ModBlocks {
 	public static Block CRAFTER_RANK_MANAGER_2;
 	public static Block CRAFTER_RANK_MANAGER_3;
 	public static Block CRAFTER_RANK_MANAGER_4;
+	public static Block CRAFTER_RANK_MANAGER_5;
 
 	public static void load() {
 		WEAPON_CORE_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(Destinycraft2Mod.MODID, "weapon_core_block"), new WeaponCoreBlockBlock());
@@ -31,6 +33,7 @@ public class Destinycraft2ModBlocks {
 		CRAFTER_RANK_MANAGER_2 = Registry.register(Registry.BLOCK, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_2"), new CrafterRankManager2Block());
 		CRAFTER_RANK_MANAGER_3 = Registry.register(Registry.BLOCK, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_3"), new CrafterRankManager3Block());
 		CRAFTER_RANK_MANAGER_4 = Registry.register(Registry.BLOCK, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_4"), new CrafterRankManager4Block());
+		CRAFTER_RANK_MANAGER_5 = Registry.register(Registry.BLOCK, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_5"), new CrafterRankManager5Block());
 	}
 
 	public static void clientLoad() {
@@ -40,5 +43,6 @@ public class Destinycraft2ModBlocks {
 		CrafterRankManager2Block.clientInit();
 		CrafterRankManager3Block.clientInit();
 		CrafterRankManager4Block.clientInit();
+		CrafterRankManager5Block.clientInit();
 	}
 }

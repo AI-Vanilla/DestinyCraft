@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "destinycraft2:crafter_rank_manager"
+    },
+    "title": {
+      "translate": "advancements.crafter_rank_6.title"
+    },
+    "description": {
+      "translate": "advancements.crafter_rank_6.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafter_rank_6": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 300,
+    "loot": [
+      "destinycraft2:blocks/nether_star_root_table"
+    ]
+  },
+  "parent": "destinycraft2:crafter_rank_5"
+}

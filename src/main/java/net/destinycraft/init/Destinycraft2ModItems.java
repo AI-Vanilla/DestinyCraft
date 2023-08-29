@@ -44,6 +44,7 @@ public class Destinycraft2ModItems {
 	public static Item CRAFTER_RANK_MANAGER_4;
 	public static Item SKEXIS_SPAWN_EGG;
 	public static Item GOREZ_SAND_EATER_SPAWN_EGG;
+	public static Item CRAFTER_RANK_MANAGER_5;
 
 	public static void load() {
 		WEAPON_CORE_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "weapon_core_block"),
@@ -72,5 +73,7 @@ public class Destinycraft2ModItems {
 		SKEXIS_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "skexis_spawn_egg"), new SpawnEggItem(Destinycraft2ModEntities.SKEXIS, -16724788, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 		GOREZ_SAND_EATER_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "gorez_sand_eater_spawn_egg"),
 				new SpawnEggItem(Destinycraft2ModEntities.GOREZ_SAND_EATER, -65434, -3407872, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+		CRAFTER_RANK_MANAGER_5 = Registry.register(Registry.ITEM, new ResourceLocation(Destinycraft2Mod.MODID, "crafter_rank_manager_5"),
+				new BlockItem(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_5, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_MACHINES)));
 	}
 }

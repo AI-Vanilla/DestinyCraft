@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク5 ベテラン",
+    "achievementName": "クラフターランク5 冒険家",
     "achievementDescription": "クラフターランク5の全ての進捗を完了しろ。",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"

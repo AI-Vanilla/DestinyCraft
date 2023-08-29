@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク4 冒険家",
+    "achievementName": "クラフターランク4 偵察員",
     "achievementDescription": "クラフターランク4の全ての進捗を完了しろ。",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"

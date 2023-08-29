@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "クラフターランク1の道",
-    "achievementDescription": "全ての進捗を終えたら、クラフターランクマネージャーを叩け。",
+    "achievementDescription": "クラフターランクへようこそ。クラフターランクはあなたのこの世界での習熟度と知識を示す指標となる。全ての進捗を終えたら、クラフターランクマネージャーを叩け。",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"
     },

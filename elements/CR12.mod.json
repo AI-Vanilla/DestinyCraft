@@ -2,10 +2,10 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "これならできる",
-    "achievementDescription": "土を手に入れろ。",
+    "achievementName": "新たな光",
+    "achievementDescription": "クラフターランクマネージャーのレシピは、JEIで確認できる。早速ランク１を完了しよう！",
     "achievementIcon": {
-      "value": "Blocks.DIRT#0"
+      "value": "Items.STONE_PICKAXE"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:CR11"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"56\" y=\"134\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">9</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Blocks.DIRT#0</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"32\" y=\"39\"><field name=\"biome\">plains</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }
