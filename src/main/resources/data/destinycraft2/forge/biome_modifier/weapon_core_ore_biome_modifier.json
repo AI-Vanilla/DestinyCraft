@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "destinycraft2:weapon_core_ore",
+  "step": "underground_ores"
+}

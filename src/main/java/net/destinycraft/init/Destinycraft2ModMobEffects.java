@@ -4,17 +4,16 @@
  */
 package net.destinycraft.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
 import net.minecraft.world.effect.MobEffect;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.Registry;
 
 import net.destinycraft.potion.SyoumouMobEffect;
 import net.destinycraft.Destinycraft2Mod;
 
 public class Destinycraft2ModMobEffects {
-	public static MobEffect SYOUMOU;
-
-	public static void load() {
-		SYOUMOU = Registry.register(Registry.MOB_EFFECT, new ResourceLocation(Destinycraft2Mod.MODID, "syoumou"), new SyoumouMobEffect());
-	}
+	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, Destinycraft2Mod.MODID);
+	public static final RegistryObject<MobEffect> SYOUMOU = REGISTRY.register("syoumou", () -> new SyoumouMobEffect());
 }

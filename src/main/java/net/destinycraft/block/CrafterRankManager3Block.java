@@ -16,24 +16,15 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
 
 import net.destinycraft.procedures.CR3Procedure;
-import net.destinycraft.init.Destinycraft2ModBlocks;
 
 import java.util.List;
 import java.util.Collections;
 
 public class CrafterRankManager3Block extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).sound(SoundType.METAL).strength(3f, 10f);
-
 	public CrafterRankManager3Block() {
-		super(PROPERTIES);
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(3f, 10f));
 	}
 
 	@Override
@@ -59,12 +50,7 @@ public class CrafterRankManager3Block extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		CR3Procedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		CR3Procedure.execute(entity);
 		return InteractionResult.SUCCESS;
-	}
-
-	@Environment(EnvType.CLIENT)
-	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_3, RenderType.solid());
 	}
 }

@@ -8,25 +8,17 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
-
-import net.destinycraft.init.Destinycraft2ModBlocks;
 
 import java.util.List;
 import java.util.Collections;
 
 public class WeaponCoreBlockBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).requiresCorrectToolForDrops().sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops();
-
 	public WeaponCoreBlockBlock() {
-		super(PROPERTIES);
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -35,15 +27,17 @@ public class WeaponCoreBlockBlock extends Block {
 	}
 
 	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 1;
+		return false;
+	}
+
+	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
-	}
-
-	@Environment(EnvType.CLIENT)
-	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(Destinycraft2ModBlocks.WEAPON_CORE_BLOCK, RenderType.solid());
 	}
 }

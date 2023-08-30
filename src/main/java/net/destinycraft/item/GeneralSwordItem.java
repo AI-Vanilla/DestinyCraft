@@ -10,10 +10,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
-
-import net.destinycraft.init.Destinycraft2ModTabs;
 import net.destinycraft.init.Destinycraft2ModItems;
 
 import java.util.List;
@@ -42,13 +38,12 @@ public class GeneralSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Destinycraft2ModItems.WEAPON_CORE));
+				return Ingredient.of(new ItemStack(Destinycraft2ModItems.WEAPON_CORE.get()));
 			}
-		}, 3, -2.6f, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_WEAPONS));
+		}, 3, -2.6f, new Item.Properties());
 	}
 
 	@Override
-	@Environment(EnvType.CLIENT)
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u3053\u308C\u306F\u5192\u967A\u738B\u306B\u306A\u308B\u305F\u3081\u306E\u4E00\u6B69\u3060\u3002"));

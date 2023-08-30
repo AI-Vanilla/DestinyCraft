@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "destinycraft2:blocks/enchanting_table_top",
-    "up": "destinycraft2:blocks/enchanting_table_top",
-    "north": "destinycraft2:blocks/enchanting_table_top",
-    "east": "destinycraft2:blocks/enchanting_table_top",
-    "south": "destinycraft2:blocks/enchanting_table_top",
-    "west": "destinycraft2:blocks/enchanting_table_top",
-    "particle": "destinycraft2:blocks/enchanting_table_top"
-  }
+    "down": "destinycraft2:block/enchanting_table_top",
+    "up": "destinycraft2:block/enchanting_table_top",
+    "north": "destinycraft2:block/enchanting_table_top",
+    "east": "destinycraft2:block/enchanting_table_top",
+    "south": "destinycraft2:block/enchanting_table_top",
+    "west": "destinycraft2:block/enchanting_table_top",
+    "particle": "destinycraft2:block/enchanting_table_top"
+  },
+  "render_type": "solid"
 }

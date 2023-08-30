@@ -1,6 +1,9 @@
 
 package net.destinycraft.item;
 
+import net.minecraftforge.common.ToolActions;
+import net.minecraftforge.common.ToolAction;
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -17,11 +20,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
-
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
-
-import net.destinycraft.init.Destinycraft2ModTabs;
 
 import java.util.List;
 
@@ -52,9 +50,9 @@ public class GeneralMultiToolItem extends TieredItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
-		}, new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_TOOLS));
+		}, new Item.Properties());
 	}
 
 	@Override
@@ -69,6 +67,12 @@ public class GeneralMultiToolItem extends TieredItem {
 					? false
 					: (blockstate.is(BlockTags.MINEABLE_WITH_AXE) || blockstate.is(BlockTags.MINEABLE_WITH_HOE) || blockstate.is(BlockTags.MINEABLE_WITH_PICKAXE) || blockstate.is(BlockTags.MINEABLE_WITH_SHOVEL));
 		}
+	}
+
+	@Override
+	public boolean canPerformAction(ItemStack stack, ToolAction toolAction) {
+		return ToolActions.DEFAULT_AXE_ACTIONS.contains(toolAction) || ToolActions.DEFAULT_HOE_ACTIONS.contains(toolAction) || ToolActions.DEFAULT_SHOVEL_ACTIONS.contains(toolAction) || ToolActions.DEFAULT_PICKAXE_ACTIONS.contains(toolAction)
+				|| ToolActions.DEFAULT_SWORD_ACTIONS.contains(toolAction);
 	}
 
 	@Override
@@ -89,19 +93,18 @@ public class GeneralMultiToolItem extends TieredItem {
 	}
 
 	@Override
-	public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity sourceentity) {
-		stack.hurtAndBreak(2, sourceentity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
+		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
 		return true;
 	}
 
 	@Override
-	public boolean mineBlock(ItemStack stack, Level world, BlockState state, BlockPos pos, LivingEntity entity) {
-		stack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
 		return true;
 	}
 
 	@Override
-	@Environment(EnvType.CLIENT)
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u7D44\u307F\u5408\u308F\u305B\u305F\u3089\u7121\u6575\u306B\u306A\u308C\u308B\u306E\u304B\uFF1F"));

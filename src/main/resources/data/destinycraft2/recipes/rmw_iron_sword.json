@@ -1,6 +1,7 @@
 {
-  "group": "mw",
   "type": "minecraft:crafting_shaped",
+  "group": "mw",
+  "category": "misc",
   "pattern": [
     "012",
     "345",

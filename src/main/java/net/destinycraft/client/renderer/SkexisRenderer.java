@@ -1,3 +1,4 @@
+
 package net.destinycraft.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
@@ -12,7 +13,7 @@ import net.destinycraft.entity.SkexisEntity;
 public class SkexisRenderer extends HumanoidMobRenderer<SkexisEntity, HumanoidModel<SkexisEntity>> {
 	public SkexisRenderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.7f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR))));
+		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
 	}
 
 	@Override

@@ -8,18 +8,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.destinycraft.init.Destinycraft2ModTabs;
-
 import java.util.List;
 
 public class EnhancedPrismItem extends Item {
 	public EnhancedPrismItem() {
-		super(new Item.Properties().tab(Destinycraft2ModTabs.TAB_DESTINY_CRAFT_MATERIALS).stacksTo(64).rarity(Rarity.UNCOMMON));
-	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 0;
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

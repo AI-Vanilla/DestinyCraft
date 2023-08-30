@@ -1,4 +1,9 @@
+
 package net.destinycraft.entity;
+
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
@@ -21,15 +26,23 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.destinycraft.init.Destinycraft2ModEntities;
+
 public class GorezSandEaterEntity extends Monster {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.NOTCHED_10);
+
+	public GorezSandEaterEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(Destinycraft2ModEntities.GOREZ_SAND_EATER.get(), world);
+	}
 
 	public GorezSandEaterEntity(EntityType<GorezSandEaterEntity> type, Level world) {
 		super(type, world);
@@ -44,6 +57,11 @@ public class GorezSandEaterEntity extends Monster {
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(Items.CHAINMAIL_CHESTPLATE));
 		this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(Items.CHAINMAIL_LEGGINGS));
 		this.setItemSlot(EquipmentSlot.FEET, new ItemStack(Items.CHAINMAIL_BOOTS));
+	}
+
+	@Override
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
 	@Override
@@ -81,22 +99,22 @@ public class GorezSandEaterEntity extends Monster {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return SoundEvents.WITHER_AMBIENT;
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.ambient"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(SoundEvents.ZOMBIE_STEP, 0.15f, 1);
+		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.zombie.step")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return SoundEvents.ZOMBIE_HURT;
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.zombie.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return SoundEvents.WITHER_DEATH;
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.death"));
 	}
 
 	@Override
