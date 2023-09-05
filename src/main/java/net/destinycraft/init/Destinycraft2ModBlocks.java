@@ -17,6 +17,7 @@ import net.destinycraft.block.CrafterRankManager5Block;
 import net.destinycraft.block.CrafterRankManager4Block;
 import net.destinycraft.block.CrafterRankManager3Block;
 import net.destinycraft.block.CrafterRankManager2Block;
+import net.destinycraft.block.ConglomerateBlock;
 import net.destinycraft.Destinycraft2Mod;
 
 public class Destinycraft2ModBlocks {
@@ -28,4 +29,5 @@ public class Destinycraft2ModBlocks {
 	public static final RegistryObject<Block> CRAFTER_RANK_MANAGER_3 = REGISTRY.register("crafter_rank_manager_3", () -> new CrafterRankManager3Block());
 	public static final RegistryObject<Block> CRAFTER_RANK_MANAGER_4 = REGISTRY.register("crafter_rank_manager_4", () -> new CrafterRankManager4Block());
 	public static final RegistryObject<Block> CRAFTER_RANK_MANAGER_5 = REGISTRY.register("crafter_rank_manager_5", () -> new CrafterRankManager5Block());
+	public static final RegistryObject<Block> CONGLOMERATE = REGISTRY.register("conglomerate", () -> new ConglomerateBlock());
 }

@@ -1,7 +1,8 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "tool",
   "definition": {
+    "toolType": "Pickaxe",
     "renderType": 0,
     "texture": "general_pickaxe",
     "customModelName": "Normal",
@@ -15,7 +16,6 @@
     "creativeTab": {
       "value": "CUSTOM:DestinyCraftTools"
     },
-    "toolType": "Pickaxe",
     "harvestLevel": 2,
     "efficiency": 7.0,
     "attackSpeed": 1.0,

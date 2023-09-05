@@ -1,7 +1,8 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "tool",
   "definition": {
+    "toolType": "MultiTool",
     "renderType": 0,
     "texture": "general_multitool",
     "customModelName": "Normal",
@@ -15,7 +16,6 @@
     "creativeTab": {
       "value": "CUSTOM:DestinyCraftTools"
     },
-    "toolType": "MultiTool",
     "harvestLevel": 2,
     "efficiency": 4.0,
     "attackSpeed": 1.1,

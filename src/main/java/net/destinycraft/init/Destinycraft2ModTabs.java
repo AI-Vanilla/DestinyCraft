@@ -66,5 +66,11 @@ public class Destinycraft2ModTabs {
 				})
 
 		);
+		event.registerCreativeModeTab(new ResourceLocation("destinycraft2", "destiny_craft_misc"),
+				builder -> builder.title(Component.translatable("item_group.destinycraft2.destiny_craft_misc")).icon(() -> new ItemStack(Items.GOAT_HORN)).displayItems((parameters, tabData) -> {
+					tabData.accept(Destinycraft2ModBlocks.CONGLOMERATE.get().asItem());
+				})
+
+		);
 	}
 }

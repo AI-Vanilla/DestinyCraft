@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[45,)"
-license="MIT License"
+license="All Rights Reserved"
 
 [[mods]]
 modId="destinycraft2"
-version="0.1131"
+version="0.1134"
 displayName="DestinyCraft2"
 credits="https://github.com/AI-Vanilla/DestinyCraft"
 displayURL="https://twitter.com/Vanilla_JP"
@@ -19,10 +19,4 @@ authors="AI_Vanilla"
 
 
 
-[[dependencies.destinycraft2]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

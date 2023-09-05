@@ -34,7 +34,7 @@ public class MWIronSwordItem extends Item {
 
 	@Override
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-		return 1.5F;
+		return 1.5f;
 	}
 
 	@Override

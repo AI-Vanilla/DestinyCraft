@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "destinycraft2:weapon_core_block",
-    "destinycraft2:weapon_core_ore"
+    "destinycraft2:weapon_core_ore",
+    "destinycraft2:conglomerate"
   ]
 }

@@ -13,8 +13,6 @@
  */
 package net.destinycraft;
 
-import software.bernie.geckolib.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -59,11 +57,10 @@ public class Destinycraft2Mod {
 		Destinycraft2ModItems.REGISTRY.register(bus);
 		Destinycraft2ModEntities.REGISTRY.register(bus);
 
-		Destinycraft2ModFeatures.REGISTRY.register(bus);
-
 		Destinycraft2ModMobEffects.REGISTRY.register(bus);
 
-		GeckoLib.initialize();
+		Destinycraft2ModFeatures.REGISTRY.register(bus);
+
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
