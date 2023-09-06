@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Regolith"
+      },
+      {
+        "value": "CUSTOM:MareImbrium"
       }
     ],
     "worldGenType": "Normal world gen",

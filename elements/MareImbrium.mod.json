@@ -2,12 +2,12 @@
   "_fv": 47,
   "_type": "biome",
   "definition": {
-    "name": "Regolith",
+    "name": "Mare Imbrium",
     "groundBlock": {
-      "value": "CUSTOM:Conglomerate"
+      "value": "Blocks.BASALT"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Conglomerate"
+      "value": "Blocks.SMOOTH_BASALT"
     },
     "underwaterBlock": {
       "value": "Blocks.BLUE_ICE"
@@ -48,8 +48,8 @@
       "max": 0.5
     },
     "genContinentalness": {
-      "min": 0.3,
-      "max": 0.55
+      "min": -0.11,
+      "max": 0.03
     },
     "genErosion": {
       "min": -0.5,
@@ -76,10 +76,12 @@
       "value": ""
     },
     "defaultFeatures": [
-      "Caves"
+      "Caves",
+      "Fossils",
+      "Ores"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": true,
+    "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
@@ -91,13 +93,13 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": true,
+    "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,
-    "spawnBastionRemnant": false,
+    "spawnBastionRemnant": true,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "MOUNTAIN",
+    "spawnRuinedPortal": "NONE",
     "spawnEntries": []
   }
 }

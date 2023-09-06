@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "destinycraft2:conglomerate"
+    "destinycraft2:conglomerate",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt"
   ]
 }

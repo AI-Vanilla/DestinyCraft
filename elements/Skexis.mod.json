@@ -111,11 +111,27 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 25,
+    "spawningProbability": 5,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "plains"
+      }
+    ],
     "spawnInDungeons": false
   }
 }
