@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.destinycraft.client.renderer.SkexisRenderer;
 import net.destinycraft.client.renderer.GorezSandEaterRenderer;
+import net.destinycraft.client.renderer.GorezSandEaterMASTERRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class Destinycraft2ModEntityRenderers {
@@ -18,5 +19,6 @@ public class Destinycraft2ModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(Destinycraft2ModEntities.SKEXIS.get(), SkexisRenderer::new);
 		event.registerEntityRenderer(Destinycraft2ModEntities.GOREZ_SAND_EATER.get(), GorezSandEaterRenderer::new);
+		event.registerEntityRenderer(Destinycraft2ModEntities.GOREZ_SAND_EATER_MASTER.get(), GorezSandEaterMASTERRenderer::new);
 	}
 }

@@ -23,7 +23,7 @@ import net.destinycraft.procedures.CInDimensionEndProcedure;
 public class InDimensionCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("in_dimension").requires(s -> s.hasPermission(4)).then(Commands.literal("Overworld").then(Commands.argument("name", EntityArgument.players()).executes(arguments -> {
+		event.getDispatcher().register(Commands.literal("in_dimension").requires(s -> s.hasPermission(4)).then(Commands.argument("name", EntityArgument.player()).then(Commands.literal("Overworld").executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -35,7 +35,7 @@ public class InDimensionCommand {
 
 			CInDimensionOverworldProcedure.execute(entity);
 			return 0;
-		}))).then(Commands.literal("Nether").then(Commands.argument("name", EntityArgument.players()).executes(arguments -> {
+		})).then(Commands.literal("Nether").executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -47,7 +47,7 @@ public class InDimensionCommand {
 
 			CInDimensionNetherProcedure.execute(entity);
 			return 0;
-		}))).then(Commands.literal("TheEnd").then(Commands.argument("name", EntityArgument.players()).executes(arguments -> {
+		})).then(Commands.literal("TheEnd").executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -59,7 +59,151 @@ public class InDimensionCommand {
 
 			CInDimensionEndProcedure.execute(entity);
 			return 0;
-		}))).then(Commands.literal("Moon").then(Commands.argument("name", EntityArgument.players()).executes(arguments -> {
+		})).then(Commands.literal("Moon").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionProcedure.execute(entity);
+			return 0;
+		}))).then(Commands.argument("name", EntityArgument.players()).then(Commands.literal("Overworld").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionOverworldProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("Nether").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionNetherProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("TheEnd").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionEndProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("Moon").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionProcedure.execute(entity);
+			return 0;
+		}))).then(Commands.argument("name", EntityArgument.entity()).then(Commands.literal("Overworld").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionOverworldProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("Nether").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionNetherProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("TheEnd").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionEndProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("Moon").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionProcedure.execute(entity);
+			return 0;
+		}))).then(Commands.argument("name", EntityArgument.entities()).then(Commands.literal("Overworld").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionOverworldProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("Nether").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionNetherProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("TheEnd").executes(arguments -> {
+			ServerLevel world = arguments.getSource().getLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null)
+				entity = FakePlayerFactory.getMinecraft(world);
+			Direction direction = entity.getDirection();
+
+			CInDimensionEndProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("Moon").executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();

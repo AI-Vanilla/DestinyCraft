@@ -1,5 +1,6 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "destinycraft2:crafter_rank_manager"
     },
@@ -21,6 +22,5 @@
   },
   "rewards": {
     "experience": 10
-  },
-  "parent": "destinycraft2:shardofpower"
+  }
 }

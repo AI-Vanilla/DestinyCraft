@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "destinycraft2:gorez_sand_eater",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

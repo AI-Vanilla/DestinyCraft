@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.destinycraft.entity.SkexisEntity;
+import net.destinycraft.entity.GorezSandEaterMASTEREntity;
 import net.destinycraft.entity.GorezSandEaterEntity;
 import net.destinycraft.Destinycraft2Mod;
 
@@ -31,6 +32,11 @@ public class Destinycraft2ModEntities {
 			EntityType.Builder.<GorezSandEaterEntity>of(GorezSandEaterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GorezSandEaterEntity::new)
 
 					.sized(1.2f, 2.4f));
+	public static final RegistryObject<EntityType<GorezSandEaterMASTEREntity>> GOREZ_SAND_EATER_MASTER = register("gorez_sand_eater_master",
+			EntityType.Builder.<GorezSandEaterMASTEREntity>of(GorezSandEaterMASTEREntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(GorezSandEaterMASTEREntity::new)
+
+					.sized(1.5f, 3.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -41,6 +47,7 @@ public class Destinycraft2ModEntities {
 		event.enqueueWork(() -> {
 			SkexisEntity.init();
 			GorezSandEaterEntity.init();
+			GorezSandEaterMASTEREntity.init();
 		});
 	}
 
@@ -48,5 +55,6 @@ public class Destinycraft2ModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SKEXIS.get(), SkexisEntity.createAttributes().build());
 		event.put(GOREZ_SAND_EATER.get(), GorezSandEaterEntity.createAttributes().build());
+		event.put(GOREZ_SAND_EATER_MASTER.get(), GorezSandEaterMASTEREntity.createAttributes().build());
 	}
 }
