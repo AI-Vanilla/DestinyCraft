@@ -7,7 +7,7 @@ public class WasteProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (0 < (entity instanceof Player _plr ? _plr.getFoodData().getSaturationLevel() : 0)) {
+		while (0 < (entity instanceof Player _plr ? _plr.getFoodData().getSaturationLevel() : 0)) {
 			if (entity instanceof Player _player)
 				_player.getFoodData().setSaturation(0);
 		}

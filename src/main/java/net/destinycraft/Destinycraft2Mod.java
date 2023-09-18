@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.destinycraft.init.Destinycraft2ModMobEffects;
+import net.destinycraft.init.Destinycraft2ModMenus;
 import net.destinycraft.init.Destinycraft2ModItems;
 import net.destinycraft.init.Destinycraft2ModFeatures;
 import net.destinycraft.init.Destinycraft2ModEntities;
@@ -59,6 +60,7 @@ public class Destinycraft2Mod {
 
 		Destinycraft2ModMobEffects.REGISTRY.register(bus);
 
+		Destinycraft2ModMenus.REGISTRY.register(bus);
 		Destinycraft2ModFeatures.REGISTRY.register(bus);
 
 	}

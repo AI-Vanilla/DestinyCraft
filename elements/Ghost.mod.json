@@ -1,0 +1,81 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 422,
+    "height": 232,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_location",
+          "text": {
+            "fixedValue": "Location"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 16
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_earth",
+          "text": "EARTH",
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_moon",
+          "text": "MOON",
+          "width": 46,
+          "height": 20,
+          "x": 240,
+          "y": 120
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_nether",
+          "text": "NETHER",
+          "width": 56,
+          "height": 20,
+          "x": 96,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_the_end",
+          "text": "THE END",
+          "width": 61,
+          "height": 20,
+          "x": 276,
+          "y": 168
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

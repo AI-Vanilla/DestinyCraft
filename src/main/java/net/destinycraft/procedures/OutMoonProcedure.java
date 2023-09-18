@@ -23,10 +23,6 @@ public class OutMoonProcedure {
 		}.checkGamemode(entity)) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeAllEffects();
-			if (entity instanceof Player _player)
-				_player.getFoodData().setSaturation(0);
-			if (entity instanceof Player _player)
-				_player.getFoodData().setFoodLevel(8);
 		}
 	}
 }
