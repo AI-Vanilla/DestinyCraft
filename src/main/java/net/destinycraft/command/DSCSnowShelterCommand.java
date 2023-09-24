@@ -14,15 +14,13 @@ import net.minecraft.core.Direction;
 import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.commands.Commands;
 
-import net.destinycraft.procedures.CDcFlyProcedure;
-
-import com.mojang.brigadier.arguments.BoolArgumentType;
+import net.destinycraft.procedures.SnowShelterProcedureProcedure;
 
 @Mod.EventBusSubscriber
-public class DcFlyCommand {
+public class DSCSnowShelterCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("dcfly").requires(s -> s.hasPermission(4)).then(Commands.argument("name", EntityArgument.entities()).then(Commands.argument("true", BoolArgumentType.bool()).executes(arguments -> {
+		event.getDispatcher().register(Commands.literal("dscsnowshelter").requires(s -> s.hasPermission(4)).then(Commands.argument("name", EntityArgument.entities()).executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -32,20 +30,8 @@ public class DcFlyCommand {
 				entity = FakePlayerFactory.getMinecraft(world);
 			Direction direction = entity.getDirection();
 
-			CDcFlyProcedure.execute(arguments, entity);
+			SnowShelterProcedureProcedure.execute(world, x, y, z, entity);
 			return 0;
-		})).then(Commands.argument("false", BoolArgumentType.bool()).executes(arguments -> {
-			ServerLevel world = arguments.getSource().getLevel();
-			double x = arguments.getSource().getPosition().x();
-			double y = arguments.getSource().getPosition().y();
-			double z = arguments.getSource().getPosition().z();
-			Entity entity = arguments.getSource().getEntity();
-			if (entity == null)
-				entity = FakePlayerFactory.getMinecraft(world);
-			Direction direction = entity.getDirection();
-
-			CDcFlyProcedure.execute(arguments, entity);
-			return 0;
-		}))));
+		})));
 	}
 }
