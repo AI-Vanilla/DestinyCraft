@@ -51,6 +51,8 @@ public class Destinycraft2ModItems {
 	public static final RegistryObject<Item> CONGLOMERATE = block(Destinycraft2ModBlocks.CONGLOMERATE);
 	public static final RegistryObject<Item> GOREZ_SAND_EATER_MASTER_SPAWN_EGG = REGISTRY.register("gorez_sand_eater_master_spawn_egg",
 			() -> new ForgeSpawnEggItem(Destinycraft2ModEntities.GOREZ_SAND_EATER_MASTER, -65434, -3407872, new Item.Properties()));
+	public static final RegistryObject<Item> CRYPT_SECURITY_SPAWN_EGG = REGISTRY.register("crypt_security_spawn_egg", () -> new ForgeSpawnEggItem(Destinycraft2ModEntities.CRYPT_SECURITY, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> CRYPT_SECURITY_MASTER_SPAWN_EGG = REGISTRY.register("crypt_security_master_spawn_egg", () -> new ForgeSpawnEggItem(Destinycraft2ModEntities.CRYPT_SECURITY_MASTER, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

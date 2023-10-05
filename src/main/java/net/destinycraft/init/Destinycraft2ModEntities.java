@@ -19,6 +19,8 @@ import net.minecraft.world.entity.Entity;
 import net.destinycraft.entity.SkexisEntity;
 import net.destinycraft.entity.GorezSandEaterMASTEREntity;
 import net.destinycraft.entity.GorezSandEaterEntity;
+import net.destinycraft.entity.CryptSecurityMasterEntity;
+import net.destinycraft.entity.CryptSecurityEntity;
 import net.destinycraft.Destinycraft2Mod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -37,6 +39,14 @@ public class Destinycraft2ModEntities {
 					.setCustomClientFactory(GorezSandEaterMASTEREntity::new)
 
 					.sized(1.5f, 3.5f));
+	public static final RegistryObject<EntityType<CryptSecurityEntity>> CRYPT_SECURITY = register("crypt_security",
+			EntityType.Builder.<CryptSecurityEntity>of(CryptSecurityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CryptSecurityEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<CryptSecurityMasterEntity>> CRYPT_SECURITY_MASTER = register("crypt_security_master",
+			EntityType.Builder.<CryptSecurityMasterEntity>of(CryptSecurityMasterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CryptSecurityMasterEntity::new)
+
+					.sized(0.6f, 1.95f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -48,6 +58,8 @@ public class Destinycraft2ModEntities {
 			SkexisEntity.init();
 			GorezSandEaterEntity.init();
 			GorezSandEaterMASTEREntity.init();
+			CryptSecurityEntity.init();
+			CryptSecurityMasterEntity.init();
 		});
 	}
 
@@ -56,5 +68,7 @@ public class Destinycraft2ModEntities {
 		event.put(SKEXIS.get(), SkexisEntity.createAttributes().build());
 		event.put(GOREZ_SAND_EATER.get(), GorezSandEaterEntity.createAttributes().build());
 		event.put(GOREZ_SAND_EATER_MASTER.get(), GorezSandEaterMASTEREntity.createAttributes().build());
+		event.put(CRYPT_SECURITY.get(), CryptSecurityEntity.createAttributes().build());
+		event.put(CRYPT_SECURITY_MASTER.get(), CryptSecurityMasterEntity.createAttributes().build());
 	}
 }

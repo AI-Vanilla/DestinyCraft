@@ -14,12 +14,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.OpenDoorGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
@@ -79,19 +78,17 @@ public class GorezSandEaterEntity extends Monster {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.getNavigation().getNodeEvaluator().setCanOpenDoors(true);
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1, true) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, (float) 1.1));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, true, false));
-		this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(6, new FloatGoal(this));
-		this.goalSelector.addGoal(7, new OpenDoorGoal(this, true));
-		this.goalSelector.addGoal(8, new OpenDoorGoal(this, false));
+		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(4, new OpenDoorGoal(this, true));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Player.class, false, false));
 	}
 
 	@Override

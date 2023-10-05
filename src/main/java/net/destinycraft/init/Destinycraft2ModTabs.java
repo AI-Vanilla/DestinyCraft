@@ -24,6 +24,8 @@ public class Destinycraft2ModTabs {
 			tabData.accept(Destinycraft2ModItems.SKEXIS_SPAWN_EGG.get());
 			tabData.accept(Destinycraft2ModItems.GOREZ_SAND_EATER_SPAWN_EGG.get());
 			tabData.accept(Destinycraft2ModItems.GOREZ_SAND_EATER_MASTER_SPAWN_EGG.get());
+			tabData.accept(Destinycraft2ModItems.CRYPT_SECURITY_SPAWN_EGG.get());
+			tabData.accept(Destinycraft2ModItems.CRYPT_SECURITY_MASTER_SPAWN_EGG.get());
 		}
 	}
 
