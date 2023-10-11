@@ -20,10 +20,6 @@
     "fluidBlock": {
       "value": "Blocks.ICE"
     },
-    "airColor": {
-      "value": -16777216,
-      "falpha": 0.0
-    },
     "canRespawnHere": true,
     "hasFog": false,
     "isDark": false,

@@ -12,10 +12,6 @@
     "underwaterBlock": {
       "value": "Blocks.BLUE_ICE"
     },
-    "airColor": {
-      "value": -3355444,
-      "falpha": 0.0
-    },
     "ambientSound": {
       "value": ""
     },
