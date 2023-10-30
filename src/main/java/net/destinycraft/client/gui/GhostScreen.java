@@ -9,6 +9,8 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 
 import net.destinycraft.world.inventory.GhostMenu;
+import net.destinycraft.network.GhostButtonMessage;
+import net.destinycraft.Destinycraft2Mod;
 
 import java.util.HashMap;
 
@@ -83,19 +85,35 @@ public class GhostScreen extends AbstractContainerScreen<GhostMenu> {
 	public void init() {
 		super.init();
 		button_earth = Button.builder(Component.translatable("gui.destinycraft2.ghost.button_earth"), e -> {
-		}).bounds(this.leftPos + 183, this.topPos + 92, 51, 20).build();
+			if (true) {
+				Destinycraft2Mod.PACKET_HANDLER.sendToServer(new GhostButtonMessage(0, x, y, z));
+				GhostButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 183, this.topPos + 36, 51, 20).build();
 		guistate.put("button:button_earth", button_earth);
 		this.addRenderableWidget(button_earth);
 		button_moon = Button.builder(Component.translatable("gui.destinycraft2.ghost.button_moon"), e -> {
-		}).bounds(this.leftPos + 237, this.topPos + 116, 46, 20).build();
+			if (true) {
+				Destinycraft2Mod.PACKET_HANDLER.sendToServer(new GhostButtonMessage(1, x, y, z));
+				GhostButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}).bounds(this.leftPos + 183, this.topPos + 60, 46, 20).build();
 		guistate.put("button:button_moon", button_moon);
 		this.addRenderableWidget(button_moon);
 		button_nether = Button.builder(Component.translatable("gui.destinycraft2.ghost.button_nether"), e -> {
-		}).bounds(this.leftPos + 93, this.topPos + 164, 56, 20).build();
+			if (true) {
+				Destinycraft2Mod.PACKET_HANDLER.sendToServer(new GhostButtonMessage(2, x, y, z));
+				GhostButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 111, this.topPos + 36, 56, 20).build();
 		guistate.put("button:button_nether", button_nether);
 		this.addRenderableWidget(button_nether);
 		button_the_end = Button.builder(Component.translatable("gui.destinycraft2.ghost.button_the_end"), e -> {
-		}).bounds(this.leftPos + 273, this.topPos + 164, 61, 20).build();
+			if (true) {
+				Destinycraft2Mod.PACKET_HANDLER.sendToServer(new GhostButtonMessage(3, x, y, z));
+				GhostButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 246, this.topPos + 36, 61, 20).build();
 		guistate.put("button:button_the_end", button_the_end);
 		this.addRenderableWidget(button_the_end);
 	}

@@ -76,14 +76,6 @@ public class EuropaSkyProcedure {
 			RenderSystem.clear(16640, Minecraft.ON_OSX);
 			RenderSystem.enableBlend();
 			RenderSystem.blendFunc(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE);
-			{
-				int _color = (int) (255 << 24 | 255 << 16 | 255 << 8 | 255);
-				float _red = (_color >> 16 & 255) / 255.0F;
-				float _green = (_color >> 8 & 255) / 255.0F;
-				float _blue = (_color & 255) / 255.0F;
-				float _alpha = (_color >>> 24) / 255.0F;
-				RenderSystem.setShaderColor(_red, _green, _blue, _alpha);
-			}
 			if (world instanceof ClientLevel _clientLevel) {
 				Minecraft _minecraft = Minecraft.getInstance();
 				BufferBuilder _bufferBuilder = Tesselator.getInstance().getBuilder();
@@ -163,6 +155,14 @@ public class EuropaSkyProcedure {
 				RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
 				RenderSystem.setShaderTexture(0, new ResourceLocation("minecraft", "textures/block/grass_block_side.png"));
 				RenderSystem.defaultBlendFunc();
+			}
+			{
+				int _color = (int) (255 << 24 | 255 << 16 | 255 << 8 | 255);
+				float _red = (_color >> 16 & 255) / 255.0F;
+				float _green = (_color >> 8 & 255) / 255.0F;
+				float _blue = (_color & 255) / 255.0F;
+				float _alpha = (_color >>> 24) / 255.0F;
+				RenderSystem.setShaderColor(_red, _green, _blue, _alpha);
 			}
 			if (world instanceof ClientLevel _clientLevel) {
 				RenderSystem.setShader(GameRenderer::getPositionColorShader);

@@ -76,14 +76,6 @@ public class MoonSkyProcedure {
 			RenderSystem.clear(16640, Minecraft.ON_OSX);
 			RenderSystem.enableBlend();
 			RenderSystem.blendFunc(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE);
-			{
-				int _color = (int) (255 << 24 | 255 << 16 | 255 << 8 | 255);
-				float _red = (_color >> 16 & 255) / 255.0F;
-				float _green = (_color >> 8 & 255) / 255.0F;
-				float _blue = (_color & 255) / 255.0F;
-				float _alpha = (_color >>> 24) / 255.0F;
-				RenderSystem.setShaderColor(_red, _green, _blue, _alpha);
-			}
 			if (world instanceof ClientLevel _clientLevel) {
 				Minecraft _minecraft = Minecraft.getInstance();
 				BufferBuilder _bufferBuilder = Tesselator.getInstance().getBuilder();
@@ -164,6 +156,14 @@ public class MoonSkyProcedure {
 				RenderSystem.setShaderTexture(0, new ResourceLocation("minecraft", "textures/block/grass_block_side.png"));
 				RenderSystem.defaultBlendFunc();
 			}
+			{
+				int _color = (int) (255 << 24 | 255 << 16 | 255 << 8 | 255);
+				float _red = (_color >> 16 & 255) / 255.0F;
+				float _green = (_color >> 8 & 255) / 255.0F;
+				float _blue = (_color & 255) / 255.0F;
+				float _alpha = (_color >>> 24) / 255.0F;
+				RenderSystem.setShaderColor(_red, _green, _blue, _alpha);
+			}
 			if (world instanceof ClientLevel _clientLevel) {
 				RenderSystem.setShader(GameRenderer::getPositionColorShader);
 				BufferBuilder _bufferBuilder = Tesselator.getInstance().getBuilder();
@@ -228,7 +228,7 @@ public class MoonSkyProcedure {
 				BufferBuilder _bufferBuilder = Tesselator.getInstance().getBuilder();
 				_bufferBuilder.begin(VertexFormat.Mode.QUADS, DefaultVertexFormat.POSITION_TEX_COLOR);
 				Matrix4f _matrix4f = pose.last().pose();
-				float _size = 200;
+				float _size = 90;
 				int _alpha = 255;
 				_bufferBuilder.vertex(_matrix4f, _size, _size, 100.0F).uv(0.0F, 0.0F).color(255, 255, 255, _alpha).endVertex();
 				_bufferBuilder.vertex(_matrix4f, _size, -_size, 100.0F).uv(0.0F, 1.0F).color(255, 255, 255, _alpha).endVertex();

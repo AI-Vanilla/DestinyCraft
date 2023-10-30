@@ -30,10 +30,13 @@
         "data": {
           "name": "button_earth",
           "text": "EARTH",
+          "onClick": {
+            "name": "GhostLocationEarth"
+          },
           "width": 51,
           "height": 20,
           "x": 186,
-          "y": 96
+          "y": 40
         }
       },
       {
@@ -41,10 +44,13 @@
         "data": {
           "name": "button_moon",
           "text": "MOON",
+          "onClick": {
+            "name": "GhostLocationMoon"
+          },
           "width": 46,
           "height": 20,
-          "x": 240,
-          "y": 120
+          "x": 186,
+          "y": 64
         }
       },
       {
@@ -52,10 +58,13 @@
         "data": {
           "name": "button_nether",
           "text": "NETHER",
+          "onClick": {
+            "name": "GhostLocationNether"
+          },
           "width": 56,
           "height": 20,
-          "x": 96,
-          "y": 168
+          "x": 114,
+          "y": 40
         }
       },
       {
@@ -63,10 +72,13 @@
         "data": {
           "name": "button_the_end",
           "text": "THE END",
+          "onClick": {
+            "name": "GhostLocationEnd"
+          },
           "width": 61,
           "height": 20,
-          "x": 276,
-          "y": 168
+          "x": 249,
+          "y": 40
         }
       }
     ],

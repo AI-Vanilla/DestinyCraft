@@ -20,7 +20,7 @@ import net.destinycraft.Destinycraft2Mod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class Destinycraft2ModKeyMappings {
-	public static final KeyMapping KEY_GHOST = new KeyMapping("key.destinycraft2.key_ghost", GLFW.GLFW_KEY_TAB, "key.categories.ui") {
+	public static final KeyMapping KEY_GHOST = new KeyMapping("key.destinycraft2.key_ghost", GLFW.GLFW_KEY_G, "key.categories.ui") {
 		private boolean isDownOld = false;
 
 		@Override

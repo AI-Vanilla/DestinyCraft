@@ -12,7 +12,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
 import net.destinycraft.init.Destinycraft2ModMobEffects;
-import net.destinycraft.Destinycraft2Mod;
 
 public class SnowDamageProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -32,8 +31,6 @@ public class SnowDamageProcedure {
 				if (entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(Destinycraft2ModMobEffects.SNOW_SHELTER_P.get())) {
 					if (entity instanceof LivingEntity _entity)
 						_entity.removeEffect(Destinycraft2ModMobEffects.SNOW_SHELTER_P.get());
-				}
-				Destinycraft2Mod.queueServerWork(20, () -> {
 					if (entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(Destinycraft2ModMobEffects.FROSTBITE.get())) {
 						if (entity instanceof LivingEntity _entity)
 							_entity.removeEffect(Destinycraft2ModMobEffects.FROSTBITE.get());
@@ -106,7 +103,7 @@ public class SnowDamageProcedure {
 							}
 						}
 					}
-				});
+				}
 			}
 		}
 	}
