@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク1の道",
-    "achievementDescription": "クラフターランクへようこそ。クラフターランクはあなたのこの世界での習熟度と知識を示す指標となる。全ての進捗を終えたら、クラフターランクマネージャーを叩け。",
+    "achievementName": "Crafter Rank 1 Path",
+    "achievementDescription": "Welcome to the Crafter Rank. The Crafter Rank is an indicator of your skills and knowledge in this world. Once you've made all your progress, visit the Crafter Rank Manager.",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"
     },

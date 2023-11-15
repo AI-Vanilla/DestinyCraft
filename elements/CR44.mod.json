@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "英雄イベント",
-    "achievementDescription": "公開イベントを英雄で完了しろ。公開イベント中に特定の行動をすると英雄モードに入る。報酬のグレードがアップするが、敵が強力になる。",
+    "achievementName": "Heroic Events",
+    "achievementDescription": "Complete Heroic Public Event. If you perform certain actions during the Heroic Public Event, you will enter Heroic Mode. The rewards will be upgraded, but the enemies will become more powerful.",
     "achievementIcon": {
       "value": "Items.IRON_SWORD"
     },

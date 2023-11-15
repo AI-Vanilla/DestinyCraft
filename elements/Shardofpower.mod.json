@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Shard of Power",
-    "achievementDescription": "武器のコアを入手しろ。",
+    "achievementDescription": "Get the weapon core.",
     "achievementIcon": {
       "value": "CUSTOM:WeaponCore"
     },

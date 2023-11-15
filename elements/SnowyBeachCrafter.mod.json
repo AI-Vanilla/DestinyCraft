@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "輝く砂浜",
-    "achievementDescription": "雪の砂浜へ行け。",
+    "achievementName": "Snowy Beach Crafter",
+    "achievementDescription": "Go to the Snowy beach.",
     "achievementIcon": {
       "value": "Blocks.SNOW"
     },

@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "氷樹のクラフター",
-    "achievementDescription": "氷樹へ行け。",
+    "achievementName": "Ice Tree Crafter",
+    "achievementDescription": "Go to the Ice spikes.",
     "achievementIcon": {
       "value": "Blocks.BLUE_ICE"
     },

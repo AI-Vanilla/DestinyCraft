@@ -8,10 +8,10 @@
     "customModelName": "Normal",
     "name": "General Hoe",
     "specialInfo": [
-      "これは農業王になるための一歩だ。",
+      "This is one step toward becoming an Agricultural King.",
       "-----",
-      "+汎用フレーム",
-      "程よい握り心地。安定した性能。"
+      "+General Frame",
+      "Moderate grip comfort. Stable performance."
     ],
     "creativeTab": {
       "value": "CUSTOM:DestinyCraftTools"

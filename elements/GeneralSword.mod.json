@@ -8,10 +8,10 @@
     "customModelName": "Normal",
     "name": "General Sword",
     "specialInfo": [
-      "これは冒険王になるための一歩だ。",
+      "This is one step toward becoming an adventure king.",
       "-----",
-      "+汎用フレーム",
-      "程よい握り心地。安定した威力。"
+      "+General Frame",
+      "Moderate grip comfort. Stable performance."
     ],
     "creativeTab": {
       "value": "CUSTOM:DestinyCraftWeapons"

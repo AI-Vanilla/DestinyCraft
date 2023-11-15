@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "久遠の花園",
-    "achievementDescription": "花の森へ行け。",
+    "achievementName": "The Garden of Long Ago",
+    "achievementDescription": "Go to the Flower forest.",
     "achievementIcon": {
       "value": "Blocks.YELLOW_FLOWER"
     },

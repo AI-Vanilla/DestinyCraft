@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "公開イベント",
-    "achievementDescription": "公開イベントを完了しろ。公開イベントは各プレイヤーランダムで周囲のどこかに発生する。公開イベントを完了すると、報酬の入ったクレートが出現する。",
+    "achievementName": "Public Event",
+    "achievementDescription": "Complete a public event. Public events are randomly generated for each player somewhere in the environment. Upon completion of the public event, a reward crate will appear.",
     "achievementIcon": {
       "value": "Items.IRON_SWORD"
     },

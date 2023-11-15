@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "硬いコレクションB",
-    "achievementDescription": "ネザライト胴防具を作成しろ。",
+    "achievementName": "Nether Collection B",
+    "achievementDescription": "Create a Netherite Chestplate.",
     "achievementIcon": {
       "value": "Items.NETHERITE_CHESTPLATE"
     },

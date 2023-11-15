@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク1 新たな光",
-    "achievementDescription": "クラフターランク1の全ての進捗を完了しろ。",
+    "achievementName": "Crafter Rank 1: New Light",
+    "achievementDescription": "Complete all progress on Crafter Rank 1.",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"
     },

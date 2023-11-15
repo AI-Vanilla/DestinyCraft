@@ -27,7 +27,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "武器強化素材の元になる素材。"
+      "A material that is the source of weapon",
+      "reinforcement materials."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

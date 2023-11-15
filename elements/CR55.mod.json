@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "硬いコレクションD",
-    "achievementDescription": "ネザライト足防具を作成しろ。",
+    "achievementName": "Nether Collection D",
+    "achievementDescription": "Create a Netherite Boots.",
     "achievementIcon": {
       "value": "Items.NETHERITE_BOOTS"
     },

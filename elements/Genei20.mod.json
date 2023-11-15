@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "幻影の投影者",
-    "achievementDescription": "幻影の間第20層を完了しろ。",
+    "achievementName": "Projectors of Illusion",
+    "achievementDescription": "Complete the 20 level of the Illusion Realm.",
     "achievementIcon": {
       "value": "Blocks.PURPLE_GLAZED_TERRACOTTA"
     },

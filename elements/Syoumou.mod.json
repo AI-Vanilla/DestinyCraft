@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "potioneffect",
   "definition": {
-    "effectName": "消耗",
+    "effectName": "Waste",
     "icon": "debuff.png",
     "color": {
       "value": -1,

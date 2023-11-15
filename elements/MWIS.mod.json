@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "初心マスター",
-    "achievementDescription": "鉄のソードをマスターワークしろ。アイテムをマスターワークすると、その性能が強化される。",
+    "achievementName": "Beginning Master",
+    "achievementDescription": "Masterwork the iron sword. Masterworking an item enhances its performance.",
     "achievementIcon": {
       "value": "CUSTOM:MWIronSword"
     },

@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "livingentity",
   "definition": {
-    "mobName": "[英雄]ゴレス・サンドイーター",
-    "mobLabel": "[英雄]ゴレス・サンドイーター",
+    "mobName": "[HEROIC] GOREZ SAND EATER",
+    "mobLabel": "[HEROIC] GOREZ SAND EATER",
     "mobModelName": "Biped",
     "mobModelTexture": "husk.png",
     "mobModelGlowTexture": "",

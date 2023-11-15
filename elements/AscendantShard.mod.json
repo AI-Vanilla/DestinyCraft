@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "武器や防具のマスターワーク素材になる。"
+      "It is a masterwork material for weapons and armor."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "新たな光",
-    "achievementDescription": "クラフターランクマネージャーのレシピは、JEIで確認できる。早速ランク１を完了しよう！",
+    "achievementName": "New Light",
+    "achievementDescription": "Recipes for Crafter Rank Managers can be found at JEI. Complete Rank 1 as soon as possible!",
     "achievementIcon": {
       "value": "Items.STONE_PICKAXE"
     },

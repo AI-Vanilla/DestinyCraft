@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク2 探検家",
-    "achievementDescription": "クラフターランク2の全ての進捗を完了しろ。",
+    "achievementName": "Crafter Rank 2: Explorer",
+    "achievementDescription": "Complete all progress on Crafter Rank 2.",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"
     },

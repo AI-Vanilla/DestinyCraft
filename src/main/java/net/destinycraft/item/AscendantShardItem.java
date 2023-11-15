@@ -18,6 +18,6 @@ public class AscendantShardItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u6B66\u5668\u3084\u9632\u5177\u306E\u30DE\u30B9\u30BF\u30FC\u30EF\u30FC\u30AF\u7D20\u6750\u306B\u306A\u308B\u3002"));
+		list.add(Component.literal("It is a masterwork material for weapons and armor."));
 	}
 }

@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "地獄の入り口",
-    "achievementDescription": "ネザーに向かえ。",
+    "achievementName": "Entrance to Hell",
+    "achievementDescription": "Go to the Nether.",
     "achievementIcon": {
       "value": "Blocks.MAGMA"
     },

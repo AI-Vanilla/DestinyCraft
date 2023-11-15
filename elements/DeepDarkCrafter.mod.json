@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "ディープダークファンタジー",
-    "achievementDescription": "古代都市へ行け。",
+    "achievementName": "Deep Dark Crafter",
+    "achievementDescription": "Go to the ancient city.",
     "achievementIcon": {
       "value": "Blocks.SCULK"
     },

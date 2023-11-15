@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "川も凍り付く",
-    "achievementDescription": "凍った川に行け。",
+    "achievementName": "Frozen River Crafter",
+    "achievementDescription": "Go to the Frozen river.",
     "achievementIcon": {
       "value": "Blocks.ICE"
     },

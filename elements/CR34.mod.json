@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "マスターアップ",
-    "achievementDescription": "鉄のソードをマスターワークしろ。一部の装備はマスターワークすることで潜在能力を開放したり、装備そのものが強化される。",
+    "achievementName": "Master Up",
+    "achievementDescription": "Masterwork the Iron Sword. Mastering certain equipment unlocks its potential or improves the equipment itself.",
     "achievementIcon": {
       "value": "CUSTOM:MWIronSword"
     },

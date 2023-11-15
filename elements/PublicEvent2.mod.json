@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "公開行事",
-    "achievementDescription": "英雄公開イベントを完了しろ",
+    "achievementName": "Public Function",
+    "achievementDescription": "Complete the Heroic Public Event.",
     "achievementIcon": {
       "value": "Blocks.CONCRETE#13"
     },

@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "クラフターランク4 偵察員",
-    "achievementDescription": "クラフターランク4の全ての進捗を完了しろ。",
+    "achievementName": "Crafter Rank 4: Observer",
+    "achievementDescription": "Complete all progress on Crafter Rank 4.",
     "achievementIcon": {
       "value": "CUSTOM:CrafterRankManager"
     },

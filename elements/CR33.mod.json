@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "強化のコア",
-    "achievementDescription": "武器の欠片から強化のコアをクラフトしろ。",
+    "achievementName": "Enhanced Core",
+    "achievementDescription": "Craft a enhanced core from a weapon core.",
     "achievementIcon": {
       "value": "CUSTOM:EnhancedCore"
     },

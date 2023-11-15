@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "EZ Masterwork",
-    "achievementDescription": "アセンダントの破片を手に入れろ",
+    "achievementDescription": "Get the ascendant shard.",
     "achievementIcon": {
       "value": "CUSTOM:AscendantShard"
     },

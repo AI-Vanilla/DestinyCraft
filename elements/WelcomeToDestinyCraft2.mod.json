@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Destiny Craft 2",
-    "achievementDescription": "ようこそ",
+    "achievementDescription": "Welcome (back) crafter.",
     "achievementIcon": {
       "value": "Blocks.BEACON"
     },

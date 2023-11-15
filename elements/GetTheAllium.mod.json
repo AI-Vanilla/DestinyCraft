@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "世界にここだけの花",
-    "achievementDescription": "アリウムを入手しろ。",
+    "achievementName": "The only flower in the world",
+    "achievementDescription": "Get an allium.",
     "achievementIcon": {
       "value": "Blocks.RED_FLOWER#2"
     },

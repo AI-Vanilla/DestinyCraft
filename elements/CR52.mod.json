@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "硬いコレクションA",
-    "achievementDescription": "ネザライト防具一式を作成しろ。",
+    "achievementName": "Nether Collection A",
+    "achievementDescription": "Create a Netherite helmet.",
     "achievementIcon": {
       "value": "Blocks.NETHERITE_BLOCK"
     },

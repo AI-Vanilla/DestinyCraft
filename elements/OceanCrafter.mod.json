@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "海洋のクラフター",
-    "achievementDescription": "海洋へ行け。",
+    "achievementName": "Ocean Crafter",
+    "achievementDescription": "Go to the Ocean.",
     "achievementIcon": {
       "value": "Blocks.FLOWING_WATER"
     },

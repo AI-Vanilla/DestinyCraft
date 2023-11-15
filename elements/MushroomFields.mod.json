@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "キノコの楽園",
-    "achievementDescription": "キノコ島へ行け。",
+    "achievementName": "Mushroom Paradise",
+    "achievementDescription": "Go to the Mushroom fields.",
     "achievementIcon": {
       "value": "Blocks.RED_MUSHROOM_BLOCK"
     },

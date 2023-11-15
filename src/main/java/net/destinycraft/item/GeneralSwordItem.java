@@ -46,9 +46,9 @@ public class GeneralSwordItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u3053\u308C\u306F\u5192\u967A\u738B\u306B\u306A\u308B\u305F\u3081\u306E\u4E00\u6B69\u3060\u3002"));
+		list.add(Component.literal("This is one step toward becoming an adventure king."));
 		list.add(Component.literal("-----"));
-		list.add(Component.literal("+\u6C4E\u7528\u30D5\u30EC\u30FC\u30E0"));
-		list.add(Component.literal("\u7A0B\u3088\u3044\u63E1\u308A\u5FC3\u5730\u3002\u5B89\u5B9A\u3057\u305F\u5A01\u529B\u3002"));
+		list.add(Component.literal("+General Frame"));
+		list.add(Component.literal("Moderate grip comfort. Stable performance."));
 	}
 }

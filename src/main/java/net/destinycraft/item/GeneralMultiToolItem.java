@@ -107,9 +107,11 @@ public class GeneralMultiToolItem extends TieredItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u7D44\u307F\u5408\u308F\u305B\u305F\u3089\u7121\u6575\u306B\u306A\u308C\u308B\u306E\u304B\uFF1F"));
+		list.add(Component.literal("If we combine them"));
+		list.add(Component.literal("can we be invincible?"));
 		list.add(Component.literal("-----"));
-		list.add(Component.literal("+\u4E0D\u5B89\u5B9A\u306A\u8907\u5408\u30D5\u30EC\u30FC\u30E0"));
-		list.add(Component.literal("\u6027\u80FD\u306F\u826F\u3044\u304C\u3001\u63E1\u308A\u304C\u60AA\u3044\u3002"));
+		list.add(Component.literal("+Unstable composite frame"));
+		list.add(Component.literal("Good performance"));
+		list.add(Component.literal("but bad grip."));
 	}
 }

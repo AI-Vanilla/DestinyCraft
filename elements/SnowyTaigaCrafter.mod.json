@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "大河のクラフター",
-    "achievementDescription": "雪のタイガに行け。",
+    "achievementName": "Great River Crafter",
+    "achievementDescription": "Go to the Snowy taiga.",
     "achievementIcon": {
       "value": "Blocks.SNOW"
     },

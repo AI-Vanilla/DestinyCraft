@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "永久凍土",
-    "achievementDescription": "氷塊を手に入れろ。",
+    "achievementName": "Permafrost",
+    "achievementDescription": "Get the packed ice.",
     "achievementIcon": {
       "value": "Blocks.PACKED_ICE"
     },

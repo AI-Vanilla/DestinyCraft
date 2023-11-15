@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "武器のかけら",
-    "achievementDescription": "武器の欠片を手に入れろ。",
+    "achievementName": "Weapon Core",
+    "achievementDescription": "Get the weapon core.",
     "achievementIcon": {
       "value": "CUSTOM:WeaponCore"
     },

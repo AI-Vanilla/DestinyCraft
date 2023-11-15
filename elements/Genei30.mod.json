@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "幻影の関係者",
-    "achievementDescription": "幻影の間第30層を完了しろ。",
+    "achievementName": "Related to illusion",
+    "achievementDescription": "Complete the 30 level of the Illusion Realm.",
     "achievementIcon": {
       "value": "Blocks.PURPLE_GLAZED_TERRACOTTA"
     },

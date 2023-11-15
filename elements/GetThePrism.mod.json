@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Get The Prism",
-    "achievementDescription": "強化プリズムを手に入れろ",
+    "achievementDescription": "Get the enhanced prism.",
     "achievementIcon": {
       "value": "CUSTOM:EnhancedPrism"
     },

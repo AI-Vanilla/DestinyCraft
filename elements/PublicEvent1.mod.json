@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "公開事業",
-    "achievementDescription": "公開イベントを完了しろ。",
+    "achievementName": "Public Works",
+    "achievementDescription": "Complete the public event.",
     "achievementIcon": {
       "value": "Blocks.CONCRETE#13"
     },

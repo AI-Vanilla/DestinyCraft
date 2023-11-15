@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "幻影への登壇者",
-    "achievementDescription": "幻影の間第50層を完了しろ。",
+    "achievementName": "Speaker to illusion",
+    "achievementDescription": "Complete the 50 level of the Illusion Realm.",
     "achievementIcon": {
       "value": "Blocks.PURPLE_GLAZED_TERRACOTTA"
     },

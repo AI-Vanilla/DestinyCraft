@@ -75,5 +75,65 @@ public class Destinycraft2ModTabs {
 				})
 
 		);
+		event.registerCreativeModeTab(new ResourceLocation("destinycraft2", "periodic"),
+				builder -> builder.title(Component.translatable("item_group.destinycraft2.periodic")).icon(() -> new ItemStack(Items.POTION)).displayItems((parameters, tabData) -> {
+					tabData.accept(Destinycraft2ModItems.HYDROGEN.get());
+					tabData.accept(Destinycraft2ModItems.HEAVY_HYDROGEN.get());
+					tabData.accept(Destinycraft2ModItems.TRITIUM.get());
+					tabData.accept(Destinycraft2ModItems.HELIUM_3.get());
+					tabData.accept(Destinycraft2ModItems.HELIUM_4.get());
+					tabData.accept(Destinycraft2ModItems.LITHIUM_3.get());
+					tabData.accept(Destinycraft2ModItems.LITHIUM_4.get());
+					tabData.accept(Destinycraft2ModItems.LITHIUM_6.get());
+					tabData.accept(Destinycraft2ModItems.LITHIUM_7.get());
+					tabData.accept(Destinycraft2ModItems.BERYLLIUM.get());
+					tabData.accept(Destinycraft2ModItems.BORON_10.get());
+					tabData.accept(Destinycraft2ModItems.BORON_11.get());
+					tabData.accept(Destinycraft2ModItems.CARBON_11.get());
+					tabData.accept(Destinycraft2ModItems.CARBON_12.get());
+					tabData.accept(Destinycraft2ModItems.CARBON_13.get());
+					tabData.accept(Destinycraft2ModItems.CARBON_14.get());
+					tabData.accept(Destinycraft2ModItems.NITROGEN_13.get());
+					tabData.accept(Destinycraft2ModItems.NITROGEN_14.get());
+					tabData.accept(Destinycraft2ModItems.NITROGEN_15.get());
+					tabData.accept(Destinycraft2ModItems.OXYGEN_16.get());
+					tabData.accept(Destinycraft2ModItems.OXYGEN_17.get());
+					tabData.accept(Destinycraft2ModItems.OXYGEN_18.get());
+					tabData.accept(Destinycraft2ModItems.FLUORINE_18.get());
+					tabData.accept(Destinycraft2ModItems.NEON_20.get());
+					tabData.accept(Destinycraft2ModItems.NEON_21.get());
+					tabData.accept(Destinycraft2ModItems.NEON_22.get());
+					tabData.accept(Destinycraft2ModItems.NATRIUM.get());
+					tabData.accept(Destinycraft2ModItems.MAGNESIUM_24.get());
+					tabData.accept(Destinycraft2ModItems.MAGNESIUM_25.get());
+					tabData.accept(Destinycraft2ModItems.MAGNESIUM_26.get());
+					tabData.accept(Destinycraft2ModItems.ALUMINIUM.get());
+					tabData.accept(Destinycraft2ModItems.SILICON_28.get());
+					tabData.accept(Destinycraft2ModItems.SILICON_29.get());
+					tabData.accept(Destinycraft2ModItems.SILICON_30.get());
+					tabData.accept(Destinycraft2ModItems.PHOSPHORUS.get());
+					tabData.accept(Destinycraft2ModItems.SULFUR_32.get());
+					tabData.accept(Destinycraft2ModItems.SULFUR_33.get());
+					tabData.accept(Destinycraft2ModItems.SULFUR_34.get());
+					tabData.accept(Destinycraft2ModItems.SULFUR_36.get());
+					tabData.accept(Destinycraft2ModItems.CHLORINE_35.get());
+					tabData.accept(Destinycraft2ModItems.CHLORINE_36.get());
+					tabData.accept(Destinycraft2ModItems.CHLORINE_37.get());
+					tabData.accept(Destinycraft2ModItems.ARGON_36.get());
+					tabData.accept(Destinycraft2ModItems.ARGON_38.get());
+					tabData.accept(Destinycraft2ModItems.ARGON_40.get());
+					tabData.accept(Destinycraft2ModItems.KALIUM_39.get());
+					tabData.accept(Destinycraft2ModItems.KALIUM_40.get());
+					tabData.accept(Destinycraft2ModItems.KALIUM_41.get());
+					tabData.accept(Destinycraft2ModItems.CALCIUM_40.get());
+					tabData.accept(Destinycraft2ModItems.CALCIUM_42.get());
+					tabData.accept(Destinycraft2ModItems.CALCIUM_43.get());
+					tabData.accept(Destinycraft2ModItems.CALCIUM_44.get());
+					tabData.accept(Destinycraft2ModItems.CALCIUM_46.get());
+					tabData.accept(Destinycraft2ModItems.CALCIUM_48.get());
+					tabData.accept(Destinycraft2ModItems.SCANDIUM.get());
+				})
+
+		);
 	}
 }

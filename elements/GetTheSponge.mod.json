@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "海賊王",
-    "achievementDescription": "スポンジを入手しろ。",
+    "achievementName": "King of Pirates",
+    "achievementDescription": "Get the Sponge.",
     "achievementIcon": {
       "value": "Blocks.SPONGE#0"
     },

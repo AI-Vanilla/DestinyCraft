@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "手配犯 オープンワールド",
-    "achievementDescription": "いずれかの手配犯を倒せ。赤色ネームの敵はボスだ。",
+    "achievementName": "Darkness",
+    "achievementDescription": "Defeat the powerful dark forces. The enemy with the red name is the boss.",
     "achievementIcon": {
       "value": "Items.IRON_SWORD"
     },

@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "伝説",
-    "achievementDescription": "栄光あれ。",
+    "achievementName": "LEGEND",
+    "achievementDescription": "Be glorious.",
     "achievementIcon": {
       "value": "Items.NETHER_STAR"
     },

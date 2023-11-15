@@ -8,10 +8,12 @@
     "customModelName": "Normal",
     "name": "General Multi Tool",
     "specialInfo": [
-      "組み合わせたら無敵になれるのか？",
+      "If we combine them",
+      "can we be invincible?",
       "-----",
-      "+不安定な複合フレーム",
-      "性能は良いが、握りが悪い。"
+      "+Unstable composite frame",
+      "Good performance",
+      "but bad grip."
     ],
     "creativeTab": {
       "value": "CUSTOM:DestinyCraftTools"

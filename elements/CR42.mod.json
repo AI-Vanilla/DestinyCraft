@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "強化用材料",
-    "achievementDescription": "強化プリズムを入手しろ。強化プリズムは防具のマスターワーク素材となる。",
+    "achievementName": "Enhancement Materials",
+    "achievementDescription": "Obtain an Enchanted Prism. Enhanced prism are used as masterwork materials for armor.",
     "achievementIcon": {
       "value": "CUSTOM:EnhancedPrism"
     },

@@ -18,6 +18,7 @@ public class WeaponCoreItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u6B66\u5668\u5F37\u5316\u7D20\u6750\u306E\u5143\u306B\u306A\u308B\u7D20\u6750\u3002"));
+		list.add(Component.literal("A material that is the source of weapon"));
+		list.add(Component.literal("reinforcement materials."));
 	}
 }

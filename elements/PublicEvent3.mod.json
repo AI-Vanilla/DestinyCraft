@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "公開処刑",
-    "achievementDescription": "達人公開イベントを完了しろ",
+    "achievementName": "Public Execution",
+    "achievementDescription": "Complete the master public event.",
     "achievementIcon": {
       "value": "Blocks.CONCRETE#13"
     },

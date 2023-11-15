@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "別の暗黒",
-    "achievementDescription": "ジ・エンドに向かえ。",
+    "achievementName": "Another Darkness",
+    "achievementDescription": "Go to the end.",
     "achievementIcon": {
       "value": "Blocks.END_PORTAL_FRAME"
     },

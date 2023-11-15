@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "用意、始め！",
-    "achievementDescription": "それぞれの起動スイッチを5秒以内の間隔で起動させながら、深遠のバニラ・アボミネーションを倒せ。",
+    "achievementName": "SET READY, BEGIN!",
+    "achievementDescription": "Defeat the PROFOUND OF VANILLA ABOMINATION while activating each activation switch at intervals of no more than 5 seconds.",
     "achievementIcon": {
       "value": "Items.NETHER_STAR"
     },

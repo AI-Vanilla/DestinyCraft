@@ -60,7 +60,7 @@ public class GorezSandEaterEntity extends Monster {
 		maxUpStep = 0.6f;
 		xpReward = 1395;
 		setNoAi(false);
-		setCustomName(Component.literal("[英雄]ゴレス・サンドイーター"));
+		setCustomName(Component.literal("[HEROIC] GOREZ SAND EATER"));
 		setCustomNameVisible(true);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Items.GOLDEN_SWORD));
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Items.CHAINMAIL_HELMET));
