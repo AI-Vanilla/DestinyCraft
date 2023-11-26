@@ -39,6 +39,7 @@ public class Destinycraft2ModTabs {
 					tabData.accept(Destinycraft2ModItems.WEAPON_CORE.get());
 					tabData.accept(Destinycraft2ModItems.ENHANCED_PRISM.get());
 					tabData.accept(Destinycraft2ModItems.ASCENDANT_SHARD.get());
+					tabData.accept(Destinycraft2ModItems.VANADIUM_50.get());
 				})
 
 		);
@@ -132,6 +133,18 @@ public class Destinycraft2ModTabs {
 					tabData.accept(Destinycraft2ModItems.CALCIUM_46.get());
 					tabData.accept(Destinycraft2ModItems.CALCIUM_48.get());
 					tabData.accept(Destinycraft2ModItems.SCANDIUM.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_44.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_45.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_46.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_47.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_48.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_49.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_50.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_51.get());
+					tabData.accept(Destinycraft2ModItems.TITANIUM_52.get());
+					tabData.accept(Destinycraft2ModItems.VANADIUM_48.get());
+					tabData.accept(Destinycraft2ModItems.VANADIUM_49.get());
+					tabData.accept(Destinycraft2ModItems.VANADIUM_51.get());
 				})
 
 		);

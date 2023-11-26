@@ -14,7 +14,20 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.destinycraft.item.WeaponCoreItem;
+import net.destinycraft.item.Vanadium51Item;
+import net.destinycraft.item.Vanadium50Item;
+import net.destinycraft.item.Vanadium49Item;
+import net.destinycraft.item.Vanadium48Item;
 import net.destinycraft.item.TritiumItem;
+import net.destinycraft.item.Titanium52Item;
+import net.destinycraft.item.Titanium51Item;
+import net.destinycraft.item.Titanium50Item;
+import net.destinycraft.item.Titanium49Item;
+import net.destinycraft.item.Titanium48Item;
+import net.destinycraft.item.Titanium47Item;
+import net.destinycraft.item.Titanium46Item;
+import net.destinycraft.item.Titanium45Item;
+import net.destinycraft.item.Titanium44Item;
 import net.destinycraft.item.Sulfur36Item;
 import net.destinycraft.item.Sulfur34Item;
 import net.destinycraft.item.Sulfur33Item;
@@ -163,6 +176,19 @@ public class Destinycraft2ModItems {
 	public static final RegistryObject<Item> CALCIUM_46 = REGISTRY.register("calcium_46", () -> new Calcium46Item());
 	public static final RegistryObject<Item> CALCIUM_48 = REGISTRY.register("calcium_48", () -> new Calcium48Item());
 	public static final RegistryObject<Item> SCANDIUM = REGISTRY.register("scandium", () -> new ScandiumItem());
+	public static final RegistryObject<Item> TITANIUM_44 = REGISTRY.register("titanium_44", () -> new Titanium44Item());
+	public static final RegistryObject<Item> TITANIUM_45 = REGISTRY.register("titanium_45", () -> new Titanium45Item());
+	public static final RegistryObject<Item> TITANIUM_46 = REGISTRY.register("titanium_46", () -> new Titanium46Item());
+	public static final RegistryObject<Item> TITANIUM_47 = REGISTRY.register("titanium_47", () -> new Titanium47Item());
+	public static final RegistryObject<Item> TITANIUM_48 = REGISTRY.register("titanium_48", () -> new Titanium48Item());
+	public static final RegistryObject<Item> TITANIUM_49 = REGISTRY.register("titanium_49", () -> new Titanium49Item());
+	public static final RegistryObject<Item> TITANIUM_50 = REGISTRY.register("titanium_50", () -> new Titanium50Item());
+	public static final RegistryObject<Item> TITANIUM_51 = REGISTRY.register("titanium_51", () -> new Titanium51Item());
+	public static final RegistryObject<Item> TITANIUM_52 = REGISTRY.register("titanium_52", () -> new Titanium52Item());
+	public static final RegistryObject<Item> VANADIUM_48 = REGISTRY.register("vanadium_48", () -> new Vanadium48Item());
+	public static final RegistryObject<Item> VANADIUM_49 = REGISTRY.register("vanadium_49", () -> new Vanadium49Item());
+	public static final RegistryObject<Item> VANADIUM_50 = REGISTRY.register("vanadium_50", () -> new Vanadium50Item());
+	public static final RegistryObject<Item> VANADIUM_51 = REGISTRY.register("vanadium_51", () -> new Vanadium51Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

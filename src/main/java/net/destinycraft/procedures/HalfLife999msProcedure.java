@@ -27,22 +27,72 @@ public class HalfLife999msProcedure {
 		}.checkGamemode(entity)) {
 			if (itemstack.getItem() == Destinycraft2ModItems.HELIUM_4.get()) {
 				Destinycraft2Mod.queueServerWork(1, () -> {
-					itemstack.shrink(1);
+					if (itemstack.getItem() == Destinycraft2ModItems.HELIUM_4.get()) {
+						itemstack.shrink(1);
+					}
 				});
 			}
 			if (itemstack.getItem() == Destinycraft2ModItems.CARBON_11.get()) {
 				Destinycraft2Mod.queueServerWork(24000, () -> {
-					itemstack.shrink(1);
+					if (itemstack.getItem() == Destinycraft2ModItems.CARBON_11.get()) {
+						itemstack.shrink(1);
+					}
 				});
 			}
 			if (itemstack.getItem() == Destinycraft2ModItems.NITROGEN_13.get()) {
 				Destinycraft2Mod.queueServerWork(12000, () -> {
-					itemstack.shrink(1);
+					if (itemstack.getItem() == Destinycraft2ModItems.NITROGEN_13.get()) {
+						itemstack.shrink(1);
+					}
 				});
 			}
 			if (itemstack.getItem() == Destinycraft2ModItems.FLUORINE_18.get()) {
 				Destinycraft2Mod.queueServerWork(24000, () -> {
-					itemstack.shrink(1);
+					if (itemstack.getItem() == Destinycraft2ModItems.FLUORINE_18.get()) {
+						itemstack.shrink(1);
+					}
+				});
+			}
+			if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_44.get()) {
+				Destinycraft2Mod.queueServerWork(5184000, () -> {
+					if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_44.get()) {
+						itemstack.shrink(1);
+					}
+				});
+			}
+			if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_45.get()) {
+				Destinycraft2Mod.queueServerWork(220800, () -> {
+					if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_45.get()) {
+						itemstack.shrink(1);
+					}
+				});
+			}
+			if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_51.get()) {
+				Destinycraft2Mod.queueServerWork(6000, () -> {
+					if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_51.get()) {
+						itemstack.shrink(1);
+					}
+				});
+			}
+			if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_52.get()) {
+				Destinycraft2Mod.queueServerWork(1200, () -> {
+					if (itemstack.getItem() == Destinycraft2ModItems.TITANIUM_52.get()) {
+						itemstack.shrink(1);
+					}
+				});
+			}
+			if (itemstack.getItem() == Destinycraft2ModItems.VANADIUM_49.get()) {
+				Destinycraft2Mod.queueServerWork(5184000, () -> {
+					if (itemstack.getItem() == Destinycraft2ModItems.VANADIUM_49.get()) {
+						itemstack.shrink(1);
+					}
+				});
+			}
+			if (itemstack.getItem() == Destinycraft2ModItems.VANADIUM_48.get()) {
+				Destinycraft2Mod.queueServerWork(6000, () -> {
+					if (itemstack.getItem() == Destinycraft2ModItems.VANADIUM_48.get()) {
+						itemstack.shrink(1);
+					}
 				});
 			}
 		}
