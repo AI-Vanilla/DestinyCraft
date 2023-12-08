@@ -16,7 +16,9 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.destinycraft.entity.TakenSilverFishEntity;
 import net.destinycraft.entity.SkexisEntity;
+import net.destinycraft.entity.KnightEchoEntity;
 import net.destinycraft.entity.GorezSandEaterMASTEREntity;
 import net.destinycraft.entity.GorezSandEaterEntity;
 import net.destinycraft.entity.CryptSecurityMasterEntity;
@@ -47,6 +49,14 @@ public class Destinycraft2ModEntities {
 			EntityType.Builder.<CryptSecurityMasterEntity>of(CryptSecurityMasterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CryptSecurityMasterEntity::new)
 
 					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<KnightEchoEntity>> KNIGHT_ECHO = register("knight_echo",
+			EntityType.Builder.<KnightEchoEntity>of(KnightEchoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(KnightEchoEntity::new)
+
+					.sized(1.1f, 2.5f));
+	public static final RegistryObject<EntityType<TakenSilverFishEntity>> TAKEN_SILVER_FISH = register("taken_silver_fish",
+			EntityType.Builder.<TakenSilverFishEntity>of(TakenSilverFishEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TakenSilverFishEntity::new)
+
+					.sized(0.4f, 0.3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -60,6 +70,8 @@ public class Destinycraft2ModEntities {
 			GorezSandEaterMASTEREntity.init();
 			CryptSecurityEntity.init();
 			CryptSecurityMasterEntity.init();
+			KnightEchoEntity.init();
+			TakenSilverFishEntity.init();
 		});
 	}
 
@@ -70,5 +82,7 @@ public class Destinycraft2ModEntities {
 		event.put(GOREZ_SAND_EATER_MASTER.get(), GorezSandEaterMASTEREntity.createAttributes().build());
 		event.put(CRYPT_SECURITY.get(), CryptSecurityEntity.createAttributes().build());
 		event.put(CRYPT_SECURITY_MASTER.get(), CryptSecurityMasterEntity.createAttributes().build());
+		event.put(KNIGHT_ECHO.get(), KnightEchoEntity.createAttributes().build());
+		event.put(TAKEN_SILVER_FISH.get(), TakenSilverFishEntity.createAttributes().build());
 	}
 }

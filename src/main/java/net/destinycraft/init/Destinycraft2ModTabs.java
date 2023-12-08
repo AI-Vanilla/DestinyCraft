@@ -26,6 +26,8 @@ public class Destinycraft2ModTabs {
 			tabData.accept(Destinycraft2ModItems.GOREZ_SAND_EATER_MASTER_SPAWN_EGG.get());
 			tabData.accept(Destinycraft2ModItems.CRYPT_SECURITY_SPAWN_EGG.get());
 			tabData.accept(Destinycraft2ModItems.CRYPT_SECURITY_MASTER_SPAWN_EGG.get());
+			tabData.accept(Destinycraft2ModItems.KNIGHT_ECHO_SPAWN_EGG.get());
+			tabData.accept(Destinycraft2ModItems.TAKEN_SILVER_FISH_SPAWN_EGG.get());
 		}
 	}
 
@@ -73,6 +75,8 @@ public class Destinycraft2ModTabs {
 		event.registerCreativeModeTab(new ResourceLocation("destinycraft2", "destiny_craft_misc"),
 				builder -> builder.title(Component.translatable("item_group.destinycraft2.destiny_craft_misc")).icon(() -> new ItemStack(Items.GOAT_HORN)).displayItems((parameters, tabData) -> {
 					tabData.accept(Destinycraft2ModBlocks.CONGLOMERATE.get().asItem());
+					tabData.accept(Destinycraft2ModItems.LIGHT_MOTE.get());
+					tabData.accept(Destinycraft2ModItems.DARK_MOTE.get());
 				})
 
 		);

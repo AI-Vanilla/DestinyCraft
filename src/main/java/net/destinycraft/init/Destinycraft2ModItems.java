@@ -55,6 +55,7 @@ import net.destinycraft.item.Lithium7Item;
 import net.destinycraft.item.Lithium6Item;
 import net.destinycraft.item.Lithium4Item;
 import net.destinycraft.item.Lithium3Item;
+import net.destinycraft.item.LightMoteItem;
 import net.destinycraft.item.Kalium41Item;
 import net.destinycraft.item.Kalium40Item;
 import net.destinycraft.item.Kalium39Item;
@@ -71,6 +72,7 @@ import net.destinycraft.item.GeneralAxeItem;
 import net.destinycraft.item.Fluorine18Item;
 import net.destinycraft.item.EnhancedPrismItem;
 import net.destinycraft.item.EnhancedCoreItem;
+import net.destinycraft.item.DarkMoteItem;
 import net.destinycraft.item.Chlorine37Item;
 import net.destinycraft.item.Chlorine36Item;
 import net.destinycraft.item.Chlorine35Item;
@@ -189,6 +191,10 @@ public class Destinycraft2ModItems {
 	public static final RegistryObject<Item> VANADIUM_49 = REGISTRY.register("vanadium_49", () -> new Vanadium49Item());
 	public static final RegistryObject<Item> VANADIUM_50 = REGISTRY.register("vanadium_50", () -> new Vanadium50Item());
 	public static final RegistryObject<Item> VANADIUM_51 = REGISTRY.register("vanadium_51", () -> new Vanadium51Item());
+	public static final RegistryObject<Item> KNIGHT_ECHO_SPAWN_EGG = REGISTRY.register("knight_echo_spawn_egg", () -> new ForgeSpawnEggItem(Destinycraft2ModEntities.KNIGHT_ECHO, -16777216, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> LIGHT_MOTE = REGISTRY.register("light_mote", () -> new LightMoteItem());
+	public static final RegistryObject<Item> DARK_MOTE = REGISTRY.register("dark_mote", () -> new DarkMoteItem());
+	public static final RegistryObject<Item> TAKEN_SILVER_FISH_SPAWN_EGG = REGISTRY.register("taken_silver_fish_spawn_egg", () -> new ForgeSpawnEggItem(Destinycraft2ModEntities.TAKEN_SILVER_FISH, -16777216, -16777216, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
