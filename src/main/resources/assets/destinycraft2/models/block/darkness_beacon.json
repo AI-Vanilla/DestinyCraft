@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "destinycraft2:block/darkness_beacon",
+    "up": "destinycraft2:block/darkness_beacon",
+    "north": "destinycraft2:block/darkness_beacon",
+    "east": "destinycraft2:block/darkness_beacon",
+    "south": "destinycraft2:block/darkness_beacon",
+    "west": "destinycraft2:block/darkness_beacon",
+    "particle": "destinycraft2:block/darkness_beacon"
+  },
+  "render_type": "solid"
+}

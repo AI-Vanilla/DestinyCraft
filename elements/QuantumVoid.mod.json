@@ -1,0 +1,145 @@
+{
+  "_fv": 57,
+  "_type": "biome",
+  "definition": {
+    "name": "Quantum Void",
+    "groundBlock": {
+      "value": "Blocks.VOID_AIR"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.VOID_AIR"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.VOID_AIR"
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.45,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Mega spruce trees",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "Blocks.WARPED_STEM"
+    },
+    "treeBranch": {
+      "value": "Blocks.SCULK"
+    },
+    "treeVines": {
+      "value": "Blocks.TWISTING_VINES_PLANT"
+    },
+    "treeFruits": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "MonsterRooms",
+      "FrozenTopLayer",
+      "ForestGrass",
+      "ForestFlowers",
+      "AmethystGeodes",
+      "Bamboo",
+      "DeadBushes",
+      "DesertFeatures",
+      "Dripstone",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "Fossils",
+      "Icebergs",
+      "InfestedStone",
+      "JungleGrass",
+      "JungleTreeForest",
+      "LushCavesDecoration",
+      "MeadowVegetation",
+      "PlainsTallGrass",
+      "ReedsAndPumpkins",
+      "SavannaTrees",
+      "SwampVegetation",
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns",
+      "TaigaRocks",
+      "TallSeagrassLush"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnSwampHut": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "WARM",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": true,
+    "spawnRuinedPortal": "NETHER",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:TakenSilverFish"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 3,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityPhantom"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

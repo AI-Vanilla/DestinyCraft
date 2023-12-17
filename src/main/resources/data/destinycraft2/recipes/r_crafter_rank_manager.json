@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:planks"
     },
-    "1": {
+    "b": {
       "tag": "minecraft:dirt"
     },
-    "2": {
-      "tag": "minecraft:planks"
-    },
-    "3": {
-      "tag": "minecraft:dirt"
-    },
-    "4": {
+    "c": {
       "item": "minecraft:raw_iron"
-    },
-    "5": {
-      "tag": "minecraft:dirt"
-    },
-    "6": {
-      "tag": "minecraft:planks"
-    },
-    "7": {
-      "tag": "minecraft:dirt"
-    },
-    "8": {
-      "tag": "minecraft:planks"
     }
   },
   "result": {

@@ -1,15 +1,15 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "livingentity",
   "definition": {
     "mobName": "[HEROIC] GOREZ SAND EATER",
     "mobLabel": "[HEROIC] GOREZ SAND EATER",
     "mobModelName": "Biped",
     "mobModelTexture": "husk.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [],
     "modelWidth": 1.2000000000000002,
     "modelHeight": 2.4,
     "modelShadowSize": 0.7999999999999999,
@@ -60,6 +60,9 @@
     "health": 180,
     "xpAmount": 1395,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -96,6 +99,7 @@
     "stepSound": {
       "value": "entity.zombie.step"
     },
+    "entityDataEntries": [],
     "whenMobDies": {
       "name": "EmergenceofcriticaltargetsDefeat"
     },

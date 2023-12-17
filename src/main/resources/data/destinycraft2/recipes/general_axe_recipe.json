@@ -2,24 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23",
-    " 5"
+    "aa",
+    "ab",
+    " b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "destinycraft2:weapon_core"
     },
-    "1": {
-      "item": "destinycraft2:weapon_core"
-    },
-    "2": {
-      "item": "destinycraft2:weapon_core"
-    },
-    "3": {
-      "item": "minecraft:stick"
-    },
-    "5": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

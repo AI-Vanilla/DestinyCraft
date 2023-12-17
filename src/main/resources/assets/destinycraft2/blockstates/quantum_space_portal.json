@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "destinycraft2:block/quantum_space_portal_ew"
+    },
+    "axis=x": {
+      "model": "destinycraft2:block/quantum_space_portal_ns"
+    }
+  }
+}

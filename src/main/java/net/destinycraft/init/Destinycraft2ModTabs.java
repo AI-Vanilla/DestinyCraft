@@ -20,6 +20,10 @@ public class Destinycraft2ModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
+		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
+			tabData.accept(Destinycraft2ModItems.TANGLED_SWORD.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(Destinycraft2ModItems.SKEXIS_SPAWN_EGG.get());
 			tabData.accept(Destinycraft2ModItems.GOREZ_SAND_EATER_SPAWN_EGG.get());
@@ -28,6 +32,13 @@ public class Destinycraft2ModTabs {
 			tabData.accept(Destinycraft2ModItems.CRYPT_SECURITY_MASTER_SPAWN_EGG.get());
 			tabData.accept(Destinycraft2ModItems.KNIGHT_ECHO_SPAWN_EGG.get());
 			tabData.accept(Destinycraft2ModItems.TAKEN_SILVER_FISH_SPAWN_EGG.get());
+		}
+
+		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(Destinycraft2ModItems.TANGLED_PICKAXE.get());
+			tabData.accept(Destinycraft2ModItems.TANGLED_AXE.get());
+			tabData.accept(Destinycraft2ModItems.TANGLED_SHOVEL.get());
+			tabData.accept(Destinycraft2ModItems.TANGLED_HOE.get());
 		}
 	}
 
@@ -42,6 +53,10 @@ public class Destinycraft2ModTabs {
 					tabData.accept(Destinycraft2ModItems.ENHANCED_PRISM.get());
 					tabData.accept(Destinycraft2ModItems.ASCENDANT_SHARD.get());
 					tabData.accept(Destinycraft2ModItems.VANADIUM_50.get());
+					tabData.accept(Destinycraft2ModBlocks.TANGLED_STEEL.get().asItem());
+					tabData.accept(Destinycraft2ModBlocks.LIGHTING_BEACON.get().asItem());
+					tabData.accept(Destinycraft2ModBlocks.DARKNESS_BEACON.get().asItem());
+					tabData.accept(Destinycraft2ModBlocks.ENABLED_BEACON.get().asItem());
 				})
 
 		);
@@ -52,6 +67,7 @@ public class Destinycraft2ModTabs {
 					tabData.accept(Destinycraft2ModItems.GENERAL_SHOVEL.get());
 					tabData.accept(Destinycraft2ModItems.GENERAL_HOE.get());
 					tabData.accept(Destinycraft2ModItems.GENERAL_MULTI_TOOL.get());
+					tabData.accept(Destinycraft2ModItems.QUANTUM_SPACE.get());
 				})
 
 		);
@@ -69,6 +85,15 @@ public class Destinycraft2ModTabs {
 					tabData.accept(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_3.get().asItem());
 					tabData.accept(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_4.get().asItem());
 					tabData.accept(Destinycraft2ModBlocks.CRAFTER_RANK_MANAGER_5.get().asItem());
+				})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("destinycraft2", "destiny_craft_armors"),
+				builder -> builder.title(Component.translatable("item_group.destinycraft2.destiny_craft_armors")).icon(() -> new ItemStack(Items.IRON_CHESTPLATE)).displayItems((parameters, tabData) -> {
+					tabData.accept(Destinycraft2ModItems.TANGLED_ARMORS_ARMOR_HELMET.get());
+					tabData.accept(Destinycraft2ModItems.TANGLED_ARMORS_ARMOR_CHESTPLATE.get());
+					tabData.accept(Destinycraft2ModItems.TANGLED_ARMORS_ARMOR_LEGGINGS.get());
+					tabData.accept(Destinycraft2ModItems.TANGLED_ARMORS_ARMOR_BOOTS.get());
 				})
 
 		);

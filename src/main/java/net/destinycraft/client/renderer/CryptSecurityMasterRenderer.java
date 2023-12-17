@@ -17,7 +17,7 @@ public class CryptSecurityMasterRenderer extends MobRenderer<CryptSecurityMaster
 	}
 
 	@Override
-	protected void scale(CryptSecurityMasterEntity villager, PoseStack poseStack, float f) {
+	protected void scale(CryptSecurityMasterEntity entity, PoseStack poseStack, float f) {
 		poseStack.scale(0.9375f, 0.9375f, 0.9375f);
 	}
 

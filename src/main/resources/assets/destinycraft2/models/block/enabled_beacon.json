@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "destinycraft2:block/enabled_beacon",
+    "up": "destinycraft2:block/enabled_beacon",
+    "north": "destinycraft2:block/enabled_beacon",
+    "east": "destinycraft2:block/enabled_beacon",
+    "south": "destinycraft2:block/enabled_beacon",
+    "west": "destinycraft2:block/enabled_beacon",
+    "particle": "destinycraft2:block/enabled_beacon"
+  },
+  "render_type": "solid"
+}

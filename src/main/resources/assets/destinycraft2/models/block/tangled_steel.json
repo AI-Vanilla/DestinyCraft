@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "destinycraft2:block/tangled_steel",
+    "up": "destinycraft2:block/tangled_steel",
+    "north": "destinycraft2:block/tangled_steel",
+    "east": "destinycraft2:block/tangled_steel",
+    "south": "destinycraft2:block/tangled_steel",
+    "west": "destinycraft2:block/tangled_steel",
+    "particle": "destinycraft2:block/tangled_steel"
+  },
+  "render_type": "solid"
+}

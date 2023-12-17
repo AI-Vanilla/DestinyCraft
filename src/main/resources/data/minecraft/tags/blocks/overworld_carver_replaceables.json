@@ -10,6 +10,7 @@
     "minecraft:void_air",
     "minecraft:air",
     "minecraft:grass_block",
-    "minecraft:dirt"
+    "minecraft:dirt",
+    "destinycraft2:tangled_steel"
   ]
 }

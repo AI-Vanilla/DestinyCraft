@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -30,6 +30,7 @@
         "data": {
           "name": "button_earth",
           "text": "EARTH",
+          "isUndecorated": false,
           "onClick": {
             "name": "GhostLocationEarth"
           },
@@ -44,6 +45,7 @@
         "data": {
           "name": "button_moon",
           "text": "MOON",
+          "isUndecorated": false,
           "onClick": {
             "name": "GhostLocationMoon"
           },
@@ -58,6 +60,7 @@
         "data": {
           "name": "button_nether",
           "text": "NETHER",
+          "isUndecorated": false,
           "onClick": {
             "name": "GhostLocationNether"
           },
@@ -72,6 +75,7 @@
         "data": {
           "name": "button_the_end",
           "text": "THE END",
+          "isUndecorated": false,
           "onClick": {
             "name": "GhostLocationEnd"
           },

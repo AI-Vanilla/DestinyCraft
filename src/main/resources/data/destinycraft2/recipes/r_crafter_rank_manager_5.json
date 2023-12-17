@@ -2,36 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cdc",
+    "eee"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:end_rod"
     },
-    "1": {
+    "b": {
       "item": "minecraft:sculk"
     },
-    "2": {
-      "item": "minecraft:end_rod"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:netherite_ingot"
     },
-    "4": {
+    "d": {
       "item": "destinycraft2:crafter_rank_manager_4"
     },
-    "5": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "6": {
-      "item": "minecraft:chiseled_polished_blackstone"
-    },
-    "7": {
-      "item": "minecraft:chiseled_polished_blackstone"
-    },
-    "8": {
+    "e": {
       "item": "minecraft:chiseled_polished_blackstone"
     }
   },

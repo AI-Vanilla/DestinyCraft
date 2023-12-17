@@ -1,20 +1,24 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "MultiTool",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "general_multitool",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "General Multi Tool",
-    "specialInfo": [
-      "If we combine them",
-      "can we be invincible?",
-      "-----",
-      "+Unstable composite frame",
-      "Good performance",
-      "but bad grip."
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "If we combine them",
+        "can we be invincible?",
+        "-----",
+        "+Unstable composite frame",
+        "Good performance",
+        "but bad grip."
+      ]
+    },
     "creativeTab": {
       "value": "CUSTOM:DestinyCraftTools"
     },
@@ -25,7 +29,6 @@
     "damageVsEntity": 14.0,
     "usageCount": 100,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "enchanting_table_top",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Crafter Rank Manager 5",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 4.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -120,7 +122,7 @@
     "onRightClicked": {
       "name": "CR5"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
