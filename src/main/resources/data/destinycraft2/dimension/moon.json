@@ -65,9 +65,9 @@
       "name": "destinycraft2:moon",
       "sea_level": 63,
       "legacy_random_source": false,
-      "disable_mob_generation": true,
-      "aquifers_enabled": false,
-      "ore_veins_enabled": false,
+      "disable_mob_generation": false,
+      "aquifers_enabled": true,
+      "ore_veins_enabled": true,
       "default_block": {
         "Name": "destinycraft2:conglomerate"
       },

@@ -49,11 +49,9 @@ public class MoonDimension {
 		double y = entity.getY();
 		double z = entity.getZ();
 		if (event.getFrom() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("destinycraft2:moon"))) {
-
 			OutMoonProcedure.execute(entity);
 		}
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("destinycraft2:moon"))) {
-
 			InMoonProcedure.execute(entity);
 		}
 	}

@@ -9,8 +9,8 @@
           "biome": "destinycraft2:light_field",
           "parameters": {
             "temperature": [
-              -1,
-              -0.45
+              -0.0625,
+              0.25
             ],
             "humidity": [
               -0.5,
@@ -36,12 +36,12 @@
           "biome": "destinycraft2:dark_field",
           "parameters": {
             "temperature": [
-              -0.15,
-              0.2
+              -1,
+              -0.21875
             ],
             "humidity": [
-              -0.5,
-              0.5
+              -0.35,
+              -0.1
             ],
             "continentalness": [
               0.3,
@@ -63,8 +63,8 @@
           "biome": "destinycraft2:wasteland",
           "parameters": {
             "temperature": [
-              0.2,
-              0.55
+              -0.21875,
+              -0.0625
             ],
             "humidity": [
               -0.5,
@@ -146,7 +146,7 @@
       "name": "destinycraft2:prophecy",
       "sea_level": 0,
       "legacy_random_source": true,
-      "disable_mob_generation": true,
+      "disable_mob_generation": false,
       "aquifers_enabled": false,
       "ore_veins_enabled": false,
       "default_block": {

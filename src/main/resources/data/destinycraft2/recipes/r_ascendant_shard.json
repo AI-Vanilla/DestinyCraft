@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_star"
+    },
+    "b": {
+      "item": "destinycraft2:enhanced_prism"
+    },
+    "c": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:ascendant_shard",
+    "count": 1
+  }
+}

@@ -11,14 +11,17 @@
       },
       {
         "value": "CUSTOM:Wasteland"
+      },
+      {
+        "value": "CUSTOM:QuantumVoid"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "CUSTOM:TangledSteel"
     },
     "fluidBlock": {
-      "value": "Blocks.AMETHYST_BLOCK"
+      "value": "Blocks.CRYING_OBSIDIAN"
     },
     "airColor": {
       "value": -3355444,

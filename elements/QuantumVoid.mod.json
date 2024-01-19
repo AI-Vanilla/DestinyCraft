@@ -12,6 +12,10 @@
     "underwaterBlock": {
       "value": "Blocks.VOID_AIR"
     },
+    "airColor": {
+      "value": -10092289,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },
@@ -36,8 +40,8 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.45,
-      "max": 0.5
+      "min": 0.25,
+      "max": 1.0
     },
     "genHumidity": {
       "min": -0.5,
@@ -72,34 +76,11 @@
       "value": "Blocks.DIAMOND_BLOCK"
     },
     "defaultFeatures": [
-      "Caves",
       "Ores",
       "MonsterRooms",
-      "FrozenTopLayer",
-      "ForestGrass",
-      "ForestFlowers",
-      "AmethystGeodes",
-      "Bamboo",
-      "DeadBushes",
-      "DesertFeatures",
-      "Dripstone",
       "ExtraEmeraldOre",
       "ExtraGoldOre",
-      "Fossils",
-      "Icebergs",
-      "InfestedStone",
-      "JungleGrass",
-      "JungleTreeForest",
-      "LushCavesDecoration",
-      "MeadowVegetation",
-      "PlainsTallGrass",
-      "ReedsAndPumpkins",
-      "SavannaTrees",
-      "SwampVegetation",
-      "TaigaGrassAndMushrooms",
-      "TaigaLargeFerns",
-      "TaigaRocks",
-      "TallSeagrassLush"
+      "LushCavesDecoration"
     ],
     "spawnStronghold": true,
     "spawnMineshaft": true,
@@ -122,15 +103,6 @@
     "spawnEndCity": true,
     "spawnRuinedPortal": "NETHER",
     "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:TakenSilverFish"
-        },
-        "minGroup": 1,
-        "maxGroup": 4,
-        "weight": 3,
-        "spawnType": "ambient"
-      },
       {
         "entity": {
           "value": "EntityPhantom"

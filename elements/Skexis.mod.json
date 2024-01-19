@@ -6,8 +6,20 @@
     "mobLabel": "SKEXIS",
     "mobModelName": "Biped",
     "mobModelTexture": "husk.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
     "solidBoundingBox": {
       "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.15
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.15
     },
     "modelLayers": [],
     "modelWidth": 0.7999999999999999,
@@ -60,6 +72,9 @@
     "health": 30,
     "xpAmount": 0,
     "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
     "pushedByFluids": {
       "fixedValue": true
     },

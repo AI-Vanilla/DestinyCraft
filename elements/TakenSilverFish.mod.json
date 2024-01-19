@@ -16,10 +16,10 @@
       "fixedValue": false
     },
     "visualScale": {
-      "fixedValue": 1.0
+      "fixedValue": 1.5
     },
     "boundingBoxScale": {
-      "fixedValue": 1.0
+      "fixedValue": 1.5
     },
     "modelLayers": [],
     "modelWidth": 0.4,
@@ -64,7 +64,7 @@
     "attackStrength": 6,
     "attackKnockback": 0.0,
     "knockbackResistance": 1.0,
-    "movementSpeed": 0.7,
+    "movementSpeed": 0.3,
     "stepHeight": 0.6,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
@@ -76,7 +76,7 @@
       "fixedValue": false
     },
     "pushedByFluids": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -155,6 +155,9 @@
       },
       {
         "value": "roofed_forest"
+      },
+      {
+        "value": "CUSTOM:QuantumVoid"
       }
     ],
     "spawnInDungeons": false
