@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "dark_forest",
+    "deep_dark",
+    "savanna",
+    "plains",
+    "jungle"
+  ],
+  "spawners": {
+    "type": "destinycraft2:skexis",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

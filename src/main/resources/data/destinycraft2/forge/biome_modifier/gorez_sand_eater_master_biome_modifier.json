@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "deep_dark",
+    "dark_forest"
+  ],
+  "spawners": {
+    "type": "destinycraft2:gorez_sand_eater_master",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

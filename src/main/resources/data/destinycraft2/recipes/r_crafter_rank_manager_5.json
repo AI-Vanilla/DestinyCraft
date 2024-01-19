@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:end_rod"
+    },
+    "b": {
+      "item": "minecraft:sculk"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "d": {
+      "item": "destinycraft2:crafter_rank_manager_4"
+    },
+    "e": {
+      "item": "minecraft:chiseled_polished_blackstone"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:crafter_rank_manager_5",
+    "count": 1
+  }
+}

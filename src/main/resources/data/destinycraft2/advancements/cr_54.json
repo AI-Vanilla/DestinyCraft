@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "title": {
+      "translate": "advancements.cr_54.title"
+    },
+    "description": {
+      "translate": "advancements.cr_54.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cr_54": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_leggings"
+            ],
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "destinycraft2:cr_53"
+}

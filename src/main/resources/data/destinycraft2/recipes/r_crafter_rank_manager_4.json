@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_block"
+    },
+    "b": {
+      "item": "minecraft:gold_block"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    },
+    "d": {
+      "item": "destinycraft2:crafter_rank_manager_3"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:crafter_rank_manager_4",
+    "count": 1
+  }
+}

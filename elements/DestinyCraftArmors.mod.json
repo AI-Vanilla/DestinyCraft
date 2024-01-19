@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Destiny Craft Armors",
+    "icon": {
+      "value": "Items.IRON_CHESTPLATE"
+    },
+    "showSearch": false
+  }
+}

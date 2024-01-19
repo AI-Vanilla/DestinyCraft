@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "destinycraft2:enhanced_prism"
+    },
+    "title": {
+      "translate": "advancements.get_the_prism.title"
+    },
+    "description": {
+      "translate": "advancements.get_the_prism.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_the_prism": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "destinycraft2:enhanced_prism"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "destinycraft2:shardofpower"
+}

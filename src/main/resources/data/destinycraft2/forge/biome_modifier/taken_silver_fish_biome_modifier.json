@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "destinycraft2:light_field",
+    "dark_forest",
+    "destinycraft2:dark_field",
+    "destinycraft2:wasteland",
+    "destinycraft2:quantum_void"
+  ],
+  "spawners": {
+    "type": "destinycraft2:taken_silver_fish",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 5
+  }
+}

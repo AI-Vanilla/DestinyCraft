@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "destinycraft2:enhanced_core"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:enhanced_prism",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "general_pickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "General Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "This is one step toward becoming a mining king.",
+        "-----",
+        "+General Frame",
+        "Moderate grip comfort. Stable performance."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftTools"
+    },
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 570,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:WeaponCore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "destinycraft2:weapon_core"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:weapon_core_block",
+    "count": 1
+  }
+}

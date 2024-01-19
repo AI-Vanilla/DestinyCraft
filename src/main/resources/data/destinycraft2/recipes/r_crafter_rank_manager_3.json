@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "destinycraft2:crafter_rank_manager_2"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:crafter_rank_manager_3",
+    "count": 1
+  }
+}

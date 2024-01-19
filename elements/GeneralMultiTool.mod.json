@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "general_multitool",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "General Multi Tool",
+    "specialInformation": {
+      "fixedValue": [
+        "If we combine them",
+        "can we be invincible?",
+        "-----",
+        "+Unstable composite frame",
+        "Good performance",
+        "but bad grip."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftTools"
+    },
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.1,
+    "enchantability": 2,
+    "damageVsEntity": 14.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

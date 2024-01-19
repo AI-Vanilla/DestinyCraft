@@ -1,0 +1,153 @@
+{
+  "_fv": 57,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "[MASTER] GOREZ SAND EATER",
+    "mobLabel": "[MASTER] GOREZ SAND EATER",
+    "mobModelName": "Biped",
+    "mobModelTexture": "husk.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.45
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.45
+    },
+    "modelLayers": [],
+    "modelWidth": 1.5,
+    "modelHeight": 3.5,
+    "modelShadowSize": 0.7999999999999999,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -65434,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -3407872,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": true,
+    "bossBarColor": "RED",
+    "bossBarType": "NOTCHED_10",
+    "equipmentMainHand": {
+      "value": "Items.NETHERITE_SWORD"
+    },
+    "equipmentOffHand": {
+      "value": "Items.SHIELD"
+    },
+    "equipmentHelmet": {
+      "value": "Items.CHAINMAIL_HELMET"
+    },
+    "equipmentBody": {
+      "value": "Items.CHAINMAIL_CHESTPLATE"
+    },
+    "equipmentLeggings": {
+      "value": "Items.CHAINMAIL_LEGGINGS"
+    },
+    "equipmentBoots": {
+      "value": "Items.CHAINMAIL_BOOTS"
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEAD",
+    "attackStrength": 28,
+    "attackKnockback": 0.7,
+    "knockbackResistance": 1.0,
+    "movementSpeed": 0.19999999999999998,
+    "stepHeight": 1.0,
+    "armorBaseValue": 0.6,
+    "trackingRange": 64,
+    "followRange": 32,
+    "health": 780,
+    "xpAmount": 2600,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": "CUSTOM:EnhancedPrism"
+    },
+    "livingSound": {
+      "value": "entity.wither.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.zombie.hurt"
+    },
+    "deathSound": {
+      "value": "entity.wither.death"
+    },
+    "stepSound": {
+      "value": "entity.zombie.step"
+    },
+    "entityDataEntries": [],
+    "whenMobDies": {
+      "name": "EmergenceofcriticaltargetsDefeat"
+    },
+    "onInitialSpawn": {
+      "name": "EmergenceofcriticaltargetsSpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"184\" y=\"22\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.5</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"doors_open\"><field name=\"condition\">null,null</field><next><block type=\"doors_close\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 1,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "roofed_forest"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

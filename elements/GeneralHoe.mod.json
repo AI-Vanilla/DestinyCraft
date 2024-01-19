@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "general_hoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "General Hoe",
+    "specialInformation": {
+      "fixedValue": [
+        "This is one step toward becoming an Agricultural King.",
+        "-----",
+        "+General Frame",
+        "Moderate grip comfort. Stable performance."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftTools"
+    },
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 1.0,
+    "usageCount": 2980,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:WeaponCore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

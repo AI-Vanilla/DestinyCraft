@@ -1,0 +1,97 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 422,
+    "height": 232,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_location",
+          "text": {
+            "fixedValue": "Location"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 16
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_earth",
+          "text": "EARTH",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GhostLocationEarth"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_moon",
+          "text": "MOON",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GhostLocationMoon"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 186,
+          "y": 64
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_nether",
+          "text": "NETHER",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GhostLocationNether"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 114,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_the_end",
+          "text": "THE END",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GhostLocationEnd"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 249,
+          "y": 40
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

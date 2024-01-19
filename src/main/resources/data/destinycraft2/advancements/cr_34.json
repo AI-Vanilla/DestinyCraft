@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "destinycraft2:mw_iron_sword"
+    },
+    "title": {
+      "translate": "advancements.cr_34.title"
+    },
+    "description": {
+      "translate": "advancements.cr_34.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cr_34": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "destinycraft2:mw_iron_sword"
+            ],
+            "count": {
+              "min": 1,
+              "max": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "destinycraft2:cr_33"
+}

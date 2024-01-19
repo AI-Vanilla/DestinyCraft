@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "destinycraft2:block/conglomerate",
+    "up": "destinycraft2:block/conglomerate",
+    "north": "destinycraft2:block/conglomerate",
+    "east": "destinycraft2:block/conglomerate",
+    "south": "destinycraft2:block/conglomerate",
+    "west": "destinycraft2:block/conglomerate",
+    "particle": "destinycraft2:block/conglomerate"
+  },
+  "render_type": "solid"
+}

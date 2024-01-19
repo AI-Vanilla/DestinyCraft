@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "general_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "General Axe",
+    "specialInformation": {
+      "fixedValue": [
+        "これは林業王になるための一歩だ。",
+        "-----",
+        "+汎用フレーム",
+        "程よい握り心地。安定した性能。"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DestinyCraftTools"
+    },
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 490,
+    "blocksAffected": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:WeaponCore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

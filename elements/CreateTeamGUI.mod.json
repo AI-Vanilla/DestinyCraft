@@ -1,0 +1,115 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 179,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_create_team",
+          "text": {
+            "fixedValue": "CREATE TEAM"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_join_team_1",
+          "text": "JOIN TEAM 1",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "JoinTeam1"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 168,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_join_team_2",
+          "text": "JOIN TEAM 2",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "JoinTeam2"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 168,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_join_team_3",
+          "text": "JOIN TEAM 3",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "JoinTeam3"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 168,
+          "y": 170
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Member 0/4",
+          "name": "label_member_03",
+          "width": 120,
+          "height": 20,
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Member 0/6",
+          "name": "label_member_06",
+          "width": 120,
+          "height": 20,
+          "x": 168,
+          "y": 107
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Member 0/8",
+          "name": "label_member_08",
+          "width": 120,
+          "height": 20,
+          "x": 168,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

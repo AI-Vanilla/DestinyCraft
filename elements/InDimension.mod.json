@@ -1,0 +1,10 @@
+{
+  "_fv": 57,
+  "_type": "command",
+  "definition": {
+    "commandName": "in_dimension",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"266\" y=\"23\"><next><block type=\"entity\"><field name=\"name\">name</field><field name=\"type\">entities</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">Overworld</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">CInDimensionOverworld</field></block></statement><next><block type=\"literal\"><field name=\"name\">Nether</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">CInDimensionNether</field></block></statement><next><block type=\"literal\"><field name=\"name\">TheEnd</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">CInDimensionEnd</field></block></statement><next><block type=\"literal\"><field name=\"name\">Moon</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">CInDimension</field></block></statement><next><block type=\"literal\"><field name=\"name\">Europa</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">CInEuropa</field></block></statement></block></next></block></next></block></next></block></next></block></statement></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#10"
+      },
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#10"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#10"
+      },
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#10"
+      },
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:QuantumSpace"
+    },
+    "name": "complex_key",
+    "namespace": "mod"
+  }
+}

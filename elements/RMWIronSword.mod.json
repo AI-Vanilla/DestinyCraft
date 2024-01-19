@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "mw",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      },
+      {
+        "value": "CUSTOM:EnhancedCore"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MWIronSword"
+    },
+    "name": "rmw_iron_sword",
+    "namespace": "mod"
+  }
+}

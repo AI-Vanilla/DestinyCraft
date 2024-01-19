@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mw",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "destinycraft2:enhanced_core"
+    },
+    "b": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "destinycraft2:mw_iron_sword",
+    "count": 1
+  }
+}

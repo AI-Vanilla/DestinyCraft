@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "destinycraft",
-  "version": "1.0.0",
-  "name": "DestinyCraft",
+  "id": "destinycraft2",
+  "version": "0.1_beta130",
+  "name": "DestinyCraft2",
   "authors": [
-    "AI_Vanilla, MCreator"
+    "AI_Vanilla"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://twitter.com/Vanilla_JP",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.destinycraft.DestinycraftMod"
+      "net.destinycraft.Destinycraft2Mod"
     ],
     "client": [
       "net.destinycraft.ClientInit"
@@ -25,5 +25,8 @@
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  }
+  },
+  "mixins": [
+    "destinycraft2.mixins.json"
+  ]
 }
