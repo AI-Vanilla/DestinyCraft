@@ -3,9 +3,9 @@
   "biomes": [
     "dark_forest",
     "deep_dark",
+    "jungle",
     "savanna",
-    "plains",
-    "jungle"
+    "plains"
   ],
   "spawners": {
     "type": "destinycraft2:skexis",

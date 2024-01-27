@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.FLINT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.TNT"
+    },
+    "name": "grenade",
+    "namespace": "mod"
+  }
+}

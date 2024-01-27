@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="destinycraft2"
-version="0.1188"
+version="0.1195"
 displayName="DestinyCraft2"
 displayURL="https://twitter.com/Vanilla_JP"
 credits="https://github.com/AI-Vanilla/DestinyCraft"
@@ -19,4 +19,28 @@ authors="AI_Vanilla"
 
 
 
+[[dependencies.destinycraft2]]
+    modId="additionalguns"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.destinycraft2]]
+    modId="stabxmodernguns"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.destinycraft2]]
+    modId="projectarsenal"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.destinycraft2]]
+    modId="cgm"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

@@ -6,15 +6,15 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "destinycraft2:light_field",
+          "biome": "destinycraft2:dark_field",
           "parameters": {
             "temperature": [
-              -0.0625,
-              0.25
+              -1,
+              -0.21875
             ],
             "humidity": [
-              -0.5,
-              0.5
+              -0.35,
+              -0.1
             ],
             "continentalness": [
               0.3,
@@ -33,15 +33,15 @@
           }
         },
         {
-          "biome": "destinycraft2:dark_field",
+          "biome": "destinycraft2:light_field",
           "parameters": {
             "temperature": [
-              -1,
-              -0.21875
+              -0.0625,
+              0.25
             ],
             "humidity": [
-              -0.35,
-              -0.1
+              -0.5,
+              0.5
             ],
             "continentalness": [
               0.3,
@@ -476,7 +476,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "destinycraft2:light_field"
+                "destinycraft2:dark_field"
               ]
             },
             "then_run": {
@@ -548,7 +548,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "destinycraft2:dark_field"
+                "destinycraft2:light_field"
               ]
             },
             "then_run": {

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "destinycraft2:weapon_core_block"
+    },
+    "b": {
+      "item": "destinycraft2:tangled_steel"
+    }
+  },
+  "result": {
+    "item": "cgm:specialised_grip",
+    "count": 1
+  }
+}

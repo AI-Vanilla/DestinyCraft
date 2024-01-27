@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "destinycraft2:tangled_steel"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "cgm:light_stock",
+    "count": 1
+  }
+}

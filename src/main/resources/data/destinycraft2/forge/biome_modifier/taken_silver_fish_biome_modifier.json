@@ -1,10 +1,10 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "destinycraft2:light_field",
-    "dark_forest",
     "destinycraft2:dark_field",
+    "destinycraft2:light_field",
     "destinycraft2:wasteland",
+    "dark_forest",
     "destinycraft2:quantum_void"
   ],
   "spawners": {
